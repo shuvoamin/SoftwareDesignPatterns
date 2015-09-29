@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{286AB976-69BC-45C2-AB21-9CB8CDAD4ABD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ConsoleApp", "DesignPatterns.Console\DesignPatterns.ConsoleApp.csproj", "{FBA22DC1-9CA8-4F8E-B87C-905587DEFC1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ConsoleApp", "DesignPatterns.ConsoleApp\DesignPatterns.ConsoleApp.csproj", "{FBA22DC1-9CA8-4F8E-B87C-905587DEFC1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
