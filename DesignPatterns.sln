@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{286AB976-69BC-45C2-AB21-9CB8CDAD4ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ConsoleApp", "DesignPatterns.Console\DesignPatterns.ConsoleApp.csproj", "{FBA22DC1-9CA8-4F8E-B87C-905587DEFC1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{286AB976-69BC-45C2-AB21-9CB8CDAD4ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286AB976-69BC-45C2-AB21-9CB8CDAD4ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286AB976-69BC-45C2-AB21-9CB8CDAD4ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286AB976-69BC-45C2-AB21-9CB8CDAD4ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA22DC1-9CA8-4F8E-B87C-905587DEFC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA22DC1-9CA8-4F8E-B87C-905587DEFC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA22DC1-9CA8-4F8E-B87C-905587DEFC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA22DC1-9CA8-4F8E-B87C-905587DEFC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

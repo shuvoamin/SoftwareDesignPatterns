@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{286AB976-69BC-45C2-AB21-9CB8CDAD4ABD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DesignPatterns</RootNamespace>
+    <AssemblyName>DesignPatterns</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractFactoryPattern\AbstractFactory.cs" />
+    <Compile Include="AbstractFactoryPattern\AbstractFactoryPatternDemo.cs" />
+    <Compile Include="AbstractFactoryPattern\AbstractShapeFactory.cs" />
+    <Compile Include="AbstractFactoryPattern\Blue.cs" />
+    <Compile Include="AbstractFactoryPattern\ColorFactory.cs" />
+    <Compile Include="AbstractFactoryPattern\FactoryProducer.cs" />
+    <Compile Include="AbstractFactoryPattern\Green.cs" />
+    <Compile Include="AbstractFactoryPattern\Red.cs" />
+    <Compile Include="BuilderPattern\Bottle.cs" />
+    <Compile Include="BuilderPattern\BuilderPatternDemo.cs" />
+    <Compile Include="BuilderPattern\Burger.cs" />
+    <Compile Include="BuilderPattern\ChickenBurger.cs" />
+    <Compile Include="BuilderPattern\Coke.cs" />
+    <Compile Include="BuilderPattern\ColdDrink.cs" />
+    <Compile Include="BuilderPattern\Meal.cs" />
+    <Compile Include="BuilderPattern\MealBuilder.cs" />
+    <Compile Include="BuilderPattern\Pepsi.cs" />
+    <Compile Include="BuilderPattern\VegetarianBurger.cs" />
+    <Compile Include="BuilderPattern\Wrapper.cs" />
+    <Compile Include="FactoryPattern\Circle.cs" />
+    <Compile Include="FactoryPattern\FactoryPatternDemo.cs" />
+    <Compile Include="FactoryPattern\Rectangle.cs" />
+    <Compile Include="Interfaces\IColor.cs" />
+    <Compile Include="Interfaces\IItem.cs" />
+    <Compile Include="Interfaces\IShape.cs" />
+    <Compile Include="FactoryPattern\ShapeFactory.cs" />
+    <Compile Include="FactoryPattern\Square.cs" />
+    <Compile Include="Interfaces\Packing.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingletonPattern\SingleObject.cs" />
+    <Compile Include="SingletonPattern\SingletonPatternDemo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AbstractFactoryPattern\AbstractFactoryPattern.cd" />
+    <None Include="BuilderPattern\BuilderPattern.cd" />
+    <None Include="FactoryPattern\FactoryPattern.cd" />
+    <None Include="SingletonPattern\SingletonPattern.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
