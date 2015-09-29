@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DesignPatterns.SingletonPattern;
 using DesignPatterns.BuilderPattern;
+using DesignPatterns.PrototypePattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -23,10 +24,15 @@ namespace DesignPatterns.ConsoleApp
             Console.WriteLine("========== SINGLETON PATTERN RESULT ===========" + Environment.NewLine);
             SingletonPatternDemo.Output();
 
-            Console.WriteLine("========== Builder PATTERN RESULT ===========" + Environment.NewLine);
+            Console.WriteLine("========== BUILDER PATTERN RESULT ===========" + Environment.NewLine);
             BuilderPatternDemo.Output();
 
-            System.Console.ReadKey();
+            //TODO: need to solve StackOverFlow exception
+            //Console.WriteLine("========== PROTOTYPE PATTERN RESULT ===========" + Environment.NewLine);
+            //PrototypePatternDemo.Output();
+
+            Console.WriteLine("=========== PROGRAM ENDS HERE ============");
+            Console.ReadKey();
         }
     }
 }
