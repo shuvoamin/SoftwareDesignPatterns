@@ -74,6 +74,10 @@
     <Compile Include="FactoryPattern\ShapeFactory.cs" />
     <Compile Include="FactoryPattern\Square.cs" />
     <Compile Include="Interfaces\Packing.cs" />
+    <Compile Include="MvcPattern\MvcPatternDemo.cs" />
+    <Compile Include="MvcPattern\Student.cs" />
+    <Compile Include="MvcPattern\StudentController.cs" />
+    <Compile Include="MvcPattern\StudentView.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PrototypePattern\CircleProtype.cs" />
     <Compile Include="PrototypePattern\PrototypePatternDemo.cs" />
@@ -89,6 +93,7 @@
     <None Include="AdapterPattern\AdapterPattern.cd" />
     <None Include="BuilderPattern\BuilderPattern.cd" />
     <None Include="FactoryPattern\FactoryPattern.cd" />
+    <None Include="MvcPattern\MvcPattern.cd" />
     <None Include="PrototypePattern\PrototypePattern.cd" />
     <None Include="SingletonPattern\SingletonPattern.cd" />
   </ItemGroup>

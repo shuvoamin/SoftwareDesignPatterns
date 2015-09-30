@@ -9,6 +9,7 @@ using DesignPatterns.SingletonPattern;
 using DesignPatterns.BuilderPattern;
 using DesignPatterns.PrototypePattern;
 using DesignPatterns.AdapterPattern;
+using DesignPatterns.MvcPattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -34,6 +35,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== ADAPTER PATTERN RESULT ===========" + Environment.NewLine);
             AdapterPatternDemo.Output();
+
+            Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
+            MvcPatternDemo.Output();
 
             Console.WriteLine("=========== PROGRAM ENDS HERE ============");
             Console.ReadKey();
