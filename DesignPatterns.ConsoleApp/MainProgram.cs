@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using DesignPatterns.SingletonPattern;
 using DesignPatterns.BuilderPattern;
 using DesignPatterns.PrototypePattern;
+using DesignPatterns.AdapterPattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -30,6 +31,9 @@ namespace DesignPatterns.ConsoleApp
             //TODO: need to solve StackOverFlow exception
             //Console.WriteLine("========== PROTOTYPE PATTERN RESULT ===========" + Environment.NewLine);
             //PrototypePatternDemo.Output();
+
+            Console.WriteLine("========== ADAPTER PATTERN RESULT ===========" + Environment.NewLine);
+            AdapterPatternDemo.Output();
 
             Console.WriteLine("=========== PROGRAM ENDS HERE ============");
             Console.ReadKey();

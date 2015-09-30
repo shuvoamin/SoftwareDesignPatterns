@@ -47,6 +47,11 @@
     <Compile Include="AbstractFactoryPattern\FactoryProducer.cs" />
     <Compile Include="AbstractFactoryPattern\Green.cs" />
     <Compile Include="AbstractFactoryPattern\Red.cs" />
+    <Compile Include="AdapterPattern\AdapterPatternDemo.cs" />
+    <Compile Include="AdapterPattern\AudioPlayer.cs" />
+    <Compile Include="AdapterPattern\MediaAdapter.cs" />
+    <Compile Include="AdapterPattern\Mp4Player.cs" />
+    <Compile Include="AdapterPattern\VlcPlayer.cs" />
     <Compile Include="BuilderPattern\Bottle.cs" />
     <Compile Include="BuilderPattern\BuilderPatternDemo.cs" />
     <Compile Include="BuilderPattern\Burger.cs" />
@@ -61,8 +66,10 @@
     <Compile Include="FactoryPattern\Circle.cs" />
     <Compile Include="FactoryPattern\FactoryPatternDemo.cs" />
     <Compile Include="FactoryPattern\Rectangle.cs" />
+    <Compile Include="Interfaces\IAdvancedMediaPlayer.cs" />
     <Compile Include="Interfaces\IColor.cs" />
     <Compile Include="Interfaces\IItem.cs" />
+    <Compile Include="Interfaces\IMediaPlayer.cs" />
     <Compile Include="Interfaces\IShape.cs" />
     <Compile Include="FactoryPattern\ShapeFactory.cs" />
     <Compile Include="FactoryPattern\Square.cs" />
@@ -79,6 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="AbstractFactoryPattern\AbstractFactoryPattern.cd" />
+    <None Include="AdapterPattern\AdapterPattern.cd" />
     <None Include="BuilderPattern\BuilderPattern.cd" />
     <None Include="FactoryPattern\FactoryPattern.cd" />
     <None Include="PrototypePattern\PrototypePattern.cd" />
