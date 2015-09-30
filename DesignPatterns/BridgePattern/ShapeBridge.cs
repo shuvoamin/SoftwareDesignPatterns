@@ -16,6 +16,17 @@ namespace DesignPatterns.BridgePattern
             _drawApi = drawApi;
         }
 
+        public DesignPatterns.Interfaces.IDrawApi IDrawApi
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         public abstract void Draw();
     }
 }

@@ -1,13 +1,79 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="DesignPatterns.BridgePattern.GreenCircle">
-    <Position X="3.75" Y="2.25" Width="1.5" />
+    <Position X="6" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
       <FileName>BridgePattern\GreenCircle.cs</FileName>
       <NewMemberFileName>BridgePattern\RedCircle.cs</NewMemberFileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IDrawApi" />
+    </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
+  <Class Name="DesignPatterns.BridgePattern.RedCircle">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>BridgePattern\RedCircle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IDrawApi" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.BridgePattern.ShapeBridge">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAFAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BridgePattern\ShapeBridge.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IDrawApi" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.BridgePattern.CircleBridge">
+    <Position X="3.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAIAAQAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BridgePattern\CircleBridge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.BridgePattern.BridgePatternDemo">
+    <Position X="0.75" Y="3.75" Width="1.75" />
+    <AssociationLine Name="GreenCircle" Type="DesignPatterns.BridgePattern.GreenCircle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.75" Y="4.853" />
+        <Point X="1.75" Y="5.303" />
+        <Point X="6.75" Y="5.303" />
+        <Point X="6.75" Y="4.853" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="RedCircle" Type="DesignPatterns.BridgePattern.RedCircle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.375" Y="4.853" />
+        <Point X="1.375" Y="5.626" />
+        <Point X="8.75" Y="5.626" />
+        <Point X="8.75" Y="4.853" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAJAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>BridgePattern\BridgePatternDemo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ShapeBridge" />
+      <Property Name="GreenCircle" />
+      <Property Name="RedCircle" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="DesignPatterns.Interfaces.IDrawApi">
+    <Position X="6" Y="0.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IDrawApi.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
