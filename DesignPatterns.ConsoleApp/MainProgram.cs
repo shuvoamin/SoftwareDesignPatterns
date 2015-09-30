@@ -11,6 +11,7 @@ using DesignPatterns.PrototypePattern;
 using DesignPatterns.AdapterPattern;
 using DesignPatterns.MvcPattern;
 using DesignPatterns.BridgePattern;
+using DesignPatterns.FilterPattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -39,6 +40,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== BRIDGE PATTERN RESULT ===========" + Environment.NewLine);
             BridgePatternDemo.Output();
+
+            Console.WriteLine("========== FILTER PATTERN RESULT ===========" + Environment.NewLine);
+            FilterPatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();

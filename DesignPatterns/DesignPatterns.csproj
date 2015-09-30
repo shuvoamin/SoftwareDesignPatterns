@@ -70,8 +70,16 @@
     <Compile Include="FactoryPattern\Circle.cs" />
     <Compile Include="FactoryPattern\FactoryPatternDemo.cs" />
     <Compile Include="FactoryPattern\Rectangle.cs" />
+    <Compile Include="FilterPattern\AndCriteria.cs" />
+    <Compile Include="FilterPattern\CriteriaFemale.cs" />
+    <Compile Include="FilterPattern\CriteriaMale.cs" />
+    <Compile Include="FilterPattern\FilterPatternDemo.cs" />
+    <Compile Include="FilterPattern\CriteriaSingle.cs" />
+    <Compile Include="FilterPattern\OrCriteria.cs" />
+    <Compile Include="FilterPattern\Person.cs" />
     <Compile Include="Interfaces\IAdvancedMediaPlayer.cs" />
     <Compile Include="Interfaces\IColor.cs" />
+    <Compile Include="Interfaces\ICriteria.cs" />
     <Compile Include="Interfaces\IDrawApi.cs" />
     <Compile Include="Interfaces\IItem.cs" />
     <Compile Include="Interfaces\IMediaPlayer.cs" />
@@ -100,6 +108,7 @@
     <None Include="BridgePattern\BridgePattern.cd" />
     <None Include="BuilderPattern\BuilderPattern.cd" />
     <None Include="FactoryPattern\FactoryPattern.cd" />
+    <None Include="FilterPattern\FilterPattern.cd" />
     <None Include="MvcPattern\MvcPattern.cd" />
     <None Include="PrototypePattern\PrototypePattern.cd" />
     <None Include="SingletonPattern\SingletonPattern.cd" />
