@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="DesignPatterns.BuilderPattern.Bottle">
-    <Position X="6" Y="5" Width="1.5" />
+    <Position X="6.75" Y="5" Width="1.5" />
     <AssociationLine Name="IPacking" Type="DesignPatterns.Interfaces.IPacking" FixedToPoint="true">
       <Path>
-        <Point X="6.125" Y="5" />
-        <Point X="6.125" Y="3.853" />
+        <Point X="7.438" Y="5" />
+        <Point X="7.438" Y="3.853" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-0.098" Y="0.123" />
+        <Position X="0.09" Y="0.081" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
@@ -21,7 +21,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.BuilderPatternDemo">
-    <Position X="8.75" Y="2.5" Width="1.5" />
+    <Position X="9.75" Y="2.75" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\BuilderPatternDemo.cs</FileName>
@@ -31,7 +31,13 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.Burger">
-    <Position X="1.5" Y="4.75" Width="1.5" />
+    <Position X="0.5" Y="4.75" Width="3.25" />
+    <AssociationLine Name="IItem" Type="DesignPatterns.Interfaces.IItem" FixedToPoint="true">
+      <Path>
+        <Point X="2.125" Y="4.75" />
+        <Point X="2.125" Y="1.988" />
+      </Path>
+    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAEAgBAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\Burger.cs</FileName>
@@ -43,34 +49,46 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.ChickenBurger">
-    <Position X="2.5" Y="7" Width="1.5" />
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="DesignPatterns.BuilderPattern.Burger" FixedFromPoint="true">
+      <Path>
+        <Point X="3" Y="6.238" />
+        <Point X="3" Y="6.75" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\ChickenBurger.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.Coke">
-    <Position X="9.75" Y="7" Width="1.5" />
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="DesignPatterns.BuilderPattern.ColdDrink" FixedFromPoint="true">
+      <Path>
+        <Point X="12.25" Y="6.238" />
+        <Point X="12.25" Y="6.75" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\Coke.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.ColdDrink">
-    <Position X="8.75" Y="4.75" Width="1.5" />
+    <Position X="9.75" Y="4.75" Width="3.25" />
     <AssociationLine Name="IItem" Type="DesignPatterns.Interfaces.IItem" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="9.5" Y="4.75" />
-        <Point X="9.5" Y="4.375" />
-        <Point X="6.208" Y="4.375" Type="JumpStart" />
-        <Point X="6.042" Y="4.375" Type="JumpEnd" />
-        <Point X="5.333" Y="4.375" Type="JumpStart" />
-        <Point X="5.167" Y="4.375" Type="JumpEnd" />
-        <Point X="3.125" Y="4.375" />
-        <Point X="3.125" Y="1.988" />
+        <Point X="11.375" Y="4.75" />
+        <Point X="11.375" Y="4.375" />
+        <Point X="7.521" Y="4.375" Type="JumpStart" />
+        <Point X="7.354" Y="4.375" Type="JumpEnd" />
+        <Point X="5.833" Y="4.375" Type="JumpStart" />
+        <Point X="5.667" Y="4.375" Type="JumpEnd" />
+        <Point X="2.875" Y="4.375" />
+        <Point X="2.875" Y="1.988" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.027" Y="0.081" />
+        <Position X="0.079" Y="0.081" />
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
@@ -84,7 +102,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.Meal">
-    <Position X="5" Y="0.5" Width="1.5" />
+    <Position X="5.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAACAAAAAAAAAAAgAAAAAhAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\Meal.cs</FileName>
@@ -94,7 +112,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.MealBuilder">
-    <Position X="8.75" Y="0.5" Width="1.5" />
+    <Position X="9.5" Y="0.5" Width="2.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAUAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\MealBuilder.cs</FileName>
@@ -104,21 +122,33 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.Pepsi">
-    <Position X="7.75" Y="7" Width="1.5" />
+    <Position X="9.75" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="DesignPatterns.BuilderPattern.ColdDrink" FixedFromPoint="true">
+      <Path>
+        <Point X="10.5" Y="6.238" />
+        <Point X="10.5" Y="6.75" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\Pepsi.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.VegetarianBurger">
-    <Position X="0.5" Y="7" Width="1.5" />
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="DesignPatterns.BuilderPattern.Burger" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="6.238" />
+        <Point X="1.25" Y="6.75" />
+      </Path>
+    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\VegetarianBurger.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.Wrapper">
-    <Position X="4" Y="5" Width="1.5" />
+    <Position X="5" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\Wrapper.cs</FileName>
@@ -129,14 +159,14 @@
     <Lollipop Position="0.2" />
   </Class>
   <Interface Name="DesignPatterns.Interfaces.IItem">
-    <Position X="1.75" Y="0.5" Width="1.5" />
+    <Position X="0.5" Y="0.5" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAEAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IItem.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="DesignPatterns.Interfaces.IPacking">
-    <Position X="5" Y="2.75" Width="1.5" />
+    <Position X="5" Y="2.75" Width="3.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\Packing.cs</FileName>

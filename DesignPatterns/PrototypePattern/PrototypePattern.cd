@@ -1,2 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.PrototypePattern.CirclePrototype">
+    <Position X="1.25" Y="3.75" Width="1.75" />
+    <InheritanceLine Type="DesignPatterns.PrototypePattern.ShapePrototype" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="2.125" Y="3.017" />
+        <Point X="2.125" Y="3.397" />
+        <Point X="2.125" Y="3.397" />
+        <Point X="2.125" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrototypePattern\CircleProtype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.PrototypePattern.PrototypePatternDemo">
+    <Position X="9.25" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrototypePattern\PrototypePatternDemo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ShapePrototypeCache" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.PrototypePattern.RectanglePrototype">
+    <Position X="3.5" Y="3.75" Width="1.75" />
+    <InheritanceLine Type="DesignPatterns.PrototypePattern.ShapePrototype" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.375" Y="3.017" />
+        <Point X="4.375" Y="3.626" />
+        <Point X="4.375" Y="3.626" />
+        <Point X="4.375" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrototypePattern\RectanglePrototype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.PrototypePattern.SquarePrototype">
+    <Position X="5.75" Y="3.75" Width="1.75" />
+    <InheritanceLine Type="DesignPatterns.PrototypePattern.ShapePrototype" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="6.625" Y="3.017" />
+        <Point X="6.625" Y="3.397" />
+        <Point X="6.625" Y="3.397" />
+        <Point X="6.625" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PrototypePattern\SquarePrototype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.PrototypePattern.ShapePrototype">
+    <Position X="1.25" Y="0.5" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAIAAAAAAAABAAEAAAAAAAIAAhA=</HashCode>
+      <FileName>PrototypePattern\ShapePrototype.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.PrototypePattern.ShapePrototypeCache">
+    <Position X="9.25" Y="3" Width="2" />
+    <AssociationLine Name="RectanglePrototype" Type="DesignPatterns.PrototypePattern.RectanglePrototype" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.167" Y="4.747" />
+        <Point X="10.167" Y="5.55" />
+        <Point X="4.375" Y="5.55" />
+        <Point X="4.375" Y="5.175" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.452" Y="0.091" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="CirclePrototype" Type="DesignPatterns.PrototypePattern.CirclePrototype" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.417" Y="4.747" />
+        <Point X="10.417" Y="5.738" />
+        <Point X="2.125" Y="5.738" />
+        <Point X="2.125" Y="5.175" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.213" Y="0.133" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAgAAIAAAAAAAAAAAAAAAAAAAAAhAAAAAIAAAA=</HashCode>
+      <FileName>PrototypePattern\ShapePrototypeCache.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SquarePrototype" />
+      <Property Name="RectanglePrototype" />
+      <Property Name="CirclePrototype" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

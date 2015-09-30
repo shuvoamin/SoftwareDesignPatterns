@@ -8,6 +8,17 @@ namespace DesignPatterns.PrototypePattern
 {
     public class PrototypePatternDemo
     {
+        public ShapePrototypeCache ShapePrototypeCache
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+    
         public static void Output()
         {
             ShapePrototypeCache.LoadCache();

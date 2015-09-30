@@ -11,6 +11,39 @@ namespace DesignPatterns.PrototypePattern
     {
         private static Dictionary<int, ShapePrototype> shapeMap = new Dictionary<int, ShapePrototype>();
 
+        public SquarePrototype SquarePrototype
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public RectanglePrototype RectanglePrototype
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
+        public CirclePrototype CirclePrototype
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         public static ShapePrototype GetShape(int shapeId)
         {
             if (shapeMap.ContainsKey(shapeId))
