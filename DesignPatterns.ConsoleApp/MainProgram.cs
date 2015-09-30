@@ -10,6 +10,7 @@ using DesignPatterns.BuilderPattern;
 using DesignPatterns.PrototypePattern;
 using DesignPatterns.AdapterPattern;
 using DesignPatterns.MvcPattern;
+using DesignPatterns.BridgePattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -35,6 +36,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== ADAPTER PATTERN RESULT ===========" + Environment.NewLine);
             AdapterPatternDemo.Output();
+
+            Console.WriteLine("========== BRIDGE PATTERN RESULT ===========" + Environment.NewLine);
+            BridgePatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();

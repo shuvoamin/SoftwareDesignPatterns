@@ -52,6 +52,10 @@
     <Compile Include="AdapterPattern\MediaAdapter.cs" />
     <Compile Include="AdapterPattern\Mp4Player.cs" />
     <Compile Include="AdapterPattern\VlcPlayer.cs" />
+    <Compile Include="BridgePattern\BridgePatternDemo.cs" />
+    <Compile Include="BridgePattern\CircleBridge.cs" />
+    <Compile Include="BridgePattern\GreenCircle.cs" />
+    <Compile Include="BridgePattern\ShapeBridge.cs" />
     <Compile Include="BuilderPattern\Bottle.cs" />
     <Compile Include="BuilderPattern\BuilderPatternDemo.cs" />
     <Compile Include="BuilderPattern\Burger.cs" />
@@ -68,6 +72,7 @@
     <Compile Include="FactoryPattern\Rectangle.cs" />
     <Compile Include="Interfaces\IAdvancedMediaPlayer.cs" />
     <Compile Include="Interfaces\IColor.cs" />
+    <Compile Include="Interfaces\IDrawApi.cs" />
     <Compile Include="Interfaces\IItem.cs" />
     <Compile Include="Interfaces\IMediaPlayer.cs" />
     <Compile Include="Interfaces\IShape.cs" />
@@ -85,12 +90,14 @@
     <Compile Include="PrototypePattern\ShapePrototype.cs" />
     <Compile Include="PrototypePattern\ShapePrototypeCache.cs" />
     <Compile Include="PrototypePattern\SquarePrototype.cs" />
+    <Compile Include="BridgePattern\RedCircle.cs" />
     <Compile Include="SingletonPattern\SingleObject.cs" />
     <Compile Include="SingletonPattern\SingletonPatternDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AbstractFactoryPattern\AbstractFactoryPattern.cd" />
     <None Include="AdapterPattern\AdapterPattern.cd" />
+    <None Include="BridgePattern\BridgePattern.cd" />
     <None Include="BuilderPattern\BuilderPattern.cd" />
     <None Include="FactoryPattern\FactoryPattern.cd" />
     <None Include="MvcPattern\MvcPattern.cd" />
