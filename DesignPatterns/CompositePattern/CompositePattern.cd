@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.CompositePattern.CompositePatternDemo">
+    <Position X="4.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompositePattern\CompositePatternDemo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Employee" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.CompositePattern.Employee">
+    <Position X="4.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIIIAAAAAAAAAAEAAAABEAAAAAAAAAAAAAAAAQAAEA=</HashCode>
+      <FileName>CompositePattern\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -67,6 +67,8 @@
     <Compile Include="BuilderPattern\Pepsi.cs" />
     <Compile Include="BuilderPattern\VegetarianBurger.cs" />
     <Compile Include="BuilderPattern\Wrapper.cs" />
+    <Compile Include="CompositePattern\CompositePatternDemo.cs" />
+    <Compile Include="CompositePattern\Employee.cs" />
     <Compile Include="FactoryPattern\Circle.cs" />
     <Compile Include="FactoryPattern\FactoryPatternDemo.cs" />
     <Compile Include="FactoryPattern\Rectangle.cs" />
@@ -107,6 +109,7 @@
     <None Include="AdapterPattern\AdapterPattern.cd" />
     <None Include="BridgePattern\BridgePattern.cd" />
     <None Include="BuilderPattern\BuilderPattern.cd" />
+    <None Include="CompositePattern\CompositePattern.cd" />
     <None Include="FactoryPattern\FactoryPattern.cd" />
     <None Include="FilterPattern\FilterPattern.cd" />
     <None Include="MvcPattern\MvcPattern.cd" />
