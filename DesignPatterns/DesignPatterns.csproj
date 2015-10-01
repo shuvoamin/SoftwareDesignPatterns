@@ -89,6 +89,9 @@
     <Compile Include="FilterPattern\CriteriaSingle.cs" />
     <Compile Include="FilterPattern\OrCriteria.cs" />
     <Compile Include="FilterPattern\Person.cs" />
+    <Compile Include="FlyweightPattern\CircleFlyweight.cs" />
+    <Compile Include="FlyweightPattern\FlyweightPatternDemo.cs" />
+    <Compile Include="FlyweightPattern\ShapeFactoryFlyweight.cs" />
     <Compile Include="Interfaces\IAdvancedMediaPlayer.cs" />
     <Compile Include="Interfaces\IColor.cs" />
     <Compile Include="Interfaces\ICriteria.cs" />
@@ -124,6 +127,7 @@
     <None Include="FacadePatter\FacadePattern.cd" />
     <None Include="FactoryPattern\FactoryPattern.cd" />
     <None Include="FilterPattern\FilterPattern.cd" />
+    <None Include="FlyweightPattern\FlyweightPattern.cd" />
     <None Include="MvcPattern\MvcPattern.cd" />
     <None Include="PrototypePattern\PrototypePattern.cd" />
     <None Include="SingletonPattern\SingletonPattern.cd" />

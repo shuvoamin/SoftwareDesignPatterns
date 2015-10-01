@@ -15,6 +15,7 @@ using DesignPatterns.FilterPattern;
 using DesignPatterns.CompositePattern;
 using DesignPatterns.DecoratorPattern;
 using DesignPatterns.FacadePatter;
+using DesignPatterns.FlyweightPattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -56,6 +57,10 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== FACADE PATTERN RESULT ===========" + Environment.NewLine);
             FacadePatternDemo.Output();
+
+            //TODO: dictionary cannot return null => need to fix
+            //Console.WriteLine("========== FLYWEIGHT PATTERN RESULT ===========" + Environment.NewLine);
+            //FlyweightPatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();
