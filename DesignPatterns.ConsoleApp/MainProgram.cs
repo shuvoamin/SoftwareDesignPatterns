@@ -17,6 +17,7 @@ using DesignPatterns.DecoratorPattern;
 using DesignPatterns.FacadePatter;
 using DesignPatterns.FlyweightPattern;
 using DesignPatterns.ProxyPattern;
+using DesignPatterns.ChainOfResponsibilityPattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -65,6 +66,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== PROXY PATTERN RESULT ===========" + Environment.NewLine);
             ProxyPatternDemo.Output();
+
+            Console.WriteLine("========== PROXY PATTERN RESULT ===========" + Environment.NewLine);
+            ChainPatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();
