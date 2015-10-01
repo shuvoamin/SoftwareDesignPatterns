@@ -74,6 +74,11 @@
     <Compile Include="DecoratorPattern\RectangleDecorator.cs" />
     <Compile Include="DecoratorPattern\RedShapeDecorator.cs" />
     <Compile Include="DecoratorPattern\ShapeDecorator.cs" />
+    <Compile Include="FacadePatter\CircleFacade.cs" />
+    <Compile Include="FacadePatter\FacadePatternDemo.cs" />
+    <Compile Include="FacadePatter\RectangleFacade.cs" />
+    <Compile Include="FacadePatter\ShapeMaker.cs" />
+    <Compile Include="FacadePatter\SquareFacade.cs" />
     <Compile Include="FactoryPattern\Circle.cs" />
     <Compile Include="FactoryPattern\FactoryPatternDemo.cs" />
     <Compile Include="FactoryPattern\Rectangle.cs" />
@@ -116,6 +121,7 @@
     <None Include="BuilderPattern\BuilderPattern.cd" />
     <None Include="CompositePattern\CompositePattern.cd" />
     <None Include="DecoratorPattern\DecoratorPattern.cd" />
+    <None Include="FacadePatter\FacadePattern.cd" />
     <None Include="FactoryPattern\FactoryPattern.cd" />
     <None Include="FilterPattern\FilterPattern.cd" />
     <None Include="MvcPattern\MvcPattern.cd" />

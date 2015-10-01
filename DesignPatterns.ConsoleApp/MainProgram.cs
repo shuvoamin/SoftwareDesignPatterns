@@ -14,6 +14,7 @@ using DesignPatterns.BridgePattern;
 using DesignPatterns.FilterPattern;
 using DesignPatterns.CompositePattern;
 using DesignPatterns.DecoratorPattern;
+using DesignPatterns.FacadePatter;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -52,6 +53,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== DECORATOR PATTERN RESULT ===========" + Environment.NewLine);
             DecoratorPatternDemo.Output();
+
+            Console.WriteLine("========== FACADE PATTERN RESULT ===========" + Environment.NewLine);
+            FacadePatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();
