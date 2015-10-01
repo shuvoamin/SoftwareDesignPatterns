@@ -96,6 +96,7 @@
     <Compile Include="Interfaces\IColor.cs" />
     <Compile Include="Interfaces\ICriteria.cs" />
     <Compile Include="Interfaces\IDrawApi.cs" />
+    <Compile Include="Interfaces\IImage.cs" />
     <Compile Include="Interfaces\IItem.cs" />
     <Compile Include="Interfaces\IMediaPlayer.cs" />
     <Compile Include="Interfaces\IShape.cs" />
@@ -114,6 +115,9 @@
     <Compile Include="PrototypePattern\ShapePrototypeCache.cs" />
     <Compile Include="PrototypePattern\SquarePrototype.cs" />
     <Compile Include="BridgePattern\RedCircle.cs" />
+    <Compile Include="ProxyPattern\ProxyImage.cs" />
+    <Compile Include="ProxyPattern\ProxyPatternDemo.cs" />
+    <Compile Include="ProxyPattern\RealImage.cs" />
     <Compile Include="SingletonPattern\SingleObject.cs" />
     <Compile Include="SingletonPattern\SingletonPatternDemo.cs" />
   </ItemGroup>
@@ -130,6 +134,7 @@
     <None Include="FlyweightPattern\FlyweightPattern.cd" />
     <None Include="MvcPattern\MvcPattern.cd" />
     <None Include="PrototypePattern\PrototypePattern.cd" />
+    <None Include="ProxyPattern\ProxyPattern.cd" />
     <None Include="SingletonPattern\SingletonPattern.cd" />
   </ItemGroup>
   <ItemGroup />

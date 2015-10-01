@@ -16,6 +16,7 @@ using DesignPatterns.CompositePattern;
 using DesignPatterns.DecoratorPattern;
 using DesignPatterns.FacadePatter;
 using DesignPatterns.FlyweightPattern;
+using DesignPatterns.ProxyPattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -61,6 +62,9 @@ namespace DesignPatterns.ConsoleApp
             //TODO: dictionary cannot return null => need to fix
             //Console.WriteLine("========== FLYWEIGHT PATTERN RESULT ===========" + Environment.NewLine);
             //FlyweightPatternDemo.Output();
+
+            Console.WriteLine("========== PROXY PATTERN RESULT ===========" + Environment.NewLine);
+            ProxyPatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();
