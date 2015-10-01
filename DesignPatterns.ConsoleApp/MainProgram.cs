@@ -13,6 +13,7 @@ using DesignPatterns.MvcPattern;
 using DesignPatterns.BridgePattern;
 using DesignPatterns.FilterPattern;
 using DesignPatterns.CompositePattern;
+using DesignPatterns.DecoratorPattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -48,6 +49,9 @@ namespace DesignPatterns.ConsoleApp
             //TODO: Output not working as expected
             //Console.WriteLine("========== COMPOSITE PATTERN RESULT ===========" + Environment.NewLine);
             //CompositePatternDemo.Output();
+
+            Console.WriteLine("========== DECORATOR PATTERN RESULT ===========" + Environment.NewLine);
+            DecoratorPatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();
