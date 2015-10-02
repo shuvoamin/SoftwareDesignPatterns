@@ -181,6 +181,7 @@
     <None Include="PrototypePattern\PrototypePattern.cd" />
     <None Include="ProxyPattern\ProxyPattern.cd" />
     <None Include="SingletonPattern\SingletonPattern.cd" />
+    <None Include="StatePattern\StatePattern.cd" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
