@@ -19,6 +19,7 @@ using DesignPatterns.FlyweightPattern;
 using DesignPatterns.ProxyPattern;
 using DesignPatterns.ChainOfResponsibilityPattern;
 using DesignPatterns.CommandPattern;
+using DesignPatterns.InterpreterPattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -73,6 +74,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== COMMAND PATTERN RESULT ===========" + Environment.NewLine);
             CommandPatternDemo.Output();
+
+            Console.WriteLine("========== INTERPRETER PATTERN RESULT ===========" + Environment.NewLine);
+            InterpreterPatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();

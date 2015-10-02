@@ -106,6 +106,7 @@
     <Compile Include="Interfaces\IColor.cs" />
     <Compile Include="Interfaces\ICriteria.cs" />
     <Compile Include="Interfaces\IDrawApi.cs" />
+    <Compile Include="Interfaces\IExpression.cs" />
     <Compile Include="Interfaces\IImage.cs" />
     <Compile Include="Interfaces\IItem.cs" />
     <Compile Include="Interfaces\IMediaPlayer.cs" />
@@ -114,6 +115,10 @@
     <Compile Include="FactoryPattern\ShapeFactory.cs" />
     <Compile Include="FactoryPattern\Square.cs" />
     <Compile Include="Interfaces\Packing.cs" />
+    <Compile Include="InterpreterPattern\AndExpression.cs" />
+    <Compile Include="InterpreterPattern\InterpreterPatternDemo.cs" />
+    <Compile Include="InterpreterPattern\OrExpression.cs" />
+    <Compile Include="InterpreterPattern\TerminalExpression.cs" />
     <Compile Include="MvcPattern\MvcPatternDemo.cs" />
     <Compile Include="MvcPattern\Student.cs" />
     <Compile Include="MvcPattern\StudentController.cs" />
