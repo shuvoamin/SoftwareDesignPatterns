@@ -126,6 +126,10 @@
     <Compile Include="MediatorPattern\ChatRoom.cs" />
     <Compile Include="MediatorPattern\MediatorPatternDemo.cs" />
     <Compile Include="MediatorPattern\UserMediator.cs" />
+    <Compile Include="MementoPattern\CareTaker.cs" />
+    <Compile Include="MementoPattern\Memento.cs" />
+    <Compile Include="MementoPattern\MementoPatternDemo.cs" />
+    <Compile Include="MementoPattern\Originator.cs" />
     <Compile Include="MvcPattern\MvcPatternDemo.cs" />
     <Compile Include="MvcPattern\Student.cs" />
     <Compile Include="MvcPattern\StudentController.cs" />
@@ -159,13 +163,13 @@
     <None Include="FlyweightPattern\FlyweightPattern.cd" />
     <None Include="InterpreterPattern\InterpreterPattern.cd" />
     <None Include="IteratorPattern\IteratorPattern.cd" />
+    <None Include="MediatorPattern\MediatorPattern.cd" />
     <None Include="MvcPattern\MvcPattern.cd" />
     <None Include="PrototypePattern\PrototypePattern.cd" />
     <None Include="ProxyPattern\ProxyPattern.cd" />
     <None Include="SingletonPattern\SingletonPattern.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="MementoPattern\" />
     <Folder Include="ObserverPattern\" />
     <Folder Include="StatePatter\" />
   </ItemGroup>

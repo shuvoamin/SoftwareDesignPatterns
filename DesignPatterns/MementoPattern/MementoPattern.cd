@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.MementoPattern.CareTaker">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>MementoPattern\CareTaker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Memento" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.MementoPattern.Memento">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAABBAAAAAA=</HashCode>
+      <FileName>MementoPattern\Memento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Originator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.MementoPattern.MementoPatternDemo">
+    <Position X="1.5" Y="4" Width="1.5" />
+    <AssociationLine Name="CareTaker" Type="DesignPatterns.MementoPattern.CareTaker" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.188" Y="5.103" />
+        <Point X="2.188" Y="5.622" />
+        <Point X="7.5" Y="5.622" />
+        <Point X="7.5" Y="5.247" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MementoPattern\MementoPatternDemo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Memento" />
+      <Property Name="CareTaker" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.MementoPattern.Originator">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAEAAAAAAAAAAAACAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>MementoPattern\Originator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
