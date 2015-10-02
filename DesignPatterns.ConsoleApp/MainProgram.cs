@@ -20,6 +20,7 @@ using DesignPatterns.ProxyPattern;
 using DesignPatterns.ChainOfResponsibilityPattern;
 using DesignPatterns.CommandPattern;
 using DesignPatterns.InterpreterPattern;
+using DesignPatterns.IteratorPattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -77,6 +78,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== INTERPRETER PATTERN RESULT ===========" + Environment.NewLine);
             InterpreterPatternDemo.Output();
+
+            Console.WriteLine("========== ITERATOR PATTERN RESULT ===========" + Environment.NewLine);
+            IteratorPatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();

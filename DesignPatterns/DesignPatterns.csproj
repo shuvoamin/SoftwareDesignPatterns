@@ -104,11 +104,13 @@
     <Compile Include="FlyweightPattern\ShapeFactoryFlyweight.cs" />
     <Compile Include="Interfaces\IAdvancedMediaPlayer.cs" />
     <Compile Include="Interfaces\IColor.cs" />
+    <Compile Include="Interfaces\IContainer.cs" />
     <Compile Include="Interfaces\ICriteria.cs" />
     <Compile Include="Interfaces\IDrawApi.cs" />
     <Compile Include="Interfaces\IExpression.cs" />
     <Compile Include="Interfaces\IImage.cs" />
     <Compile Include="Interfaces\IItem.cs" />
+    <Compile Include="Interfaces\IIterator.cs" />
     <Compile Include="Interfaces\IMediaPlayer.cs" />
     <Compile Include="Interfaces\IOrder.cs" />
     <Compile Include="Interfaces\IShape.cs" />
@@ -119,6 +121,8 @@
     <Compile Include="InterpreterPattern\InterpreterPatternDemo.cs" />
     <Compile Include="InterpreterPattern\OrExpression.cs" />
     <Compile Include="InterpreterPattern\TerminalExpression.cs" />
+    <Compile Include="IteratorPattern\IteratorPatternDemo.cs" />
+    <Compile Include="IteratorPattern\NameRepository.cs" />
     <Compile Include="MvcPattern\MvcPatternDemo.cs" />
     <Compile Include="MvcPattern\Student.cs" />
     <Compile Include="MvcPattern\StudentController.cs" />
@@ -150,6 +154,7 @@
     <None Include="FactoryPattern\FactoryPattern.cd" />
     <None Include="FilterPattern\FilterPattern.cd" />
     <None Include="FlyweightPattern\FlyweightPattern.cd" />
+    <None Include="InterpreterPattern\InterpreterPattern.cd" />
     <None Include="MvcPattern\MvcPattern.cd" />
     <None Include="PrototypePattern\PrototypePattern.cd" />
     <None Include="ProxyPattern\ProxyPattern.cd" />
