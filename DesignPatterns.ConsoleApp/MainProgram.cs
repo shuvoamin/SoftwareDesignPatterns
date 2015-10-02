@@ -24,6 +24,7 @@ using DesignPatterns.IteratorPattern;
 using DesignPatterns.MediatorPattern;
 using DesignPatterns.MementoPattern;
 using DesignPatterns.ObserverPattern;
+using DesignPatterns.StatePattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -93,6 +94,10 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== OBSERVER PATTERN RESULT ===========" + Environment.NewLine);
             ObserverPatternDemo.Output();
+
+            //TODO: output not as expected
+            //Console.WriteLine("========== STATE PATTERN RESULT ===========" + Environment.NewLine);
+            //StatePatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();
