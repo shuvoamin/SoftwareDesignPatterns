@@ -23,6 +23,7 @@ using DesignPatterns.InterpreterPattern;
 using DesignPatterns.IteratorPattern;
 using DesignPatterns.MediatorPattern;
 using DesignPatterns.MementoPattern;
+using DesignPatterns.ObserverPattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -89,6 +90,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== MEMENTO PATTERN RESULT ===========" + Environment.NewLine);
             MementoPatternDemo.Output();
+
+            Console.WriteLine("========== OBSERVER PATTERN RESULT ===========" + Environment.NewLine);
+            ObserverPatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();
