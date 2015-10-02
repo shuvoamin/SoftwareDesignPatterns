@@ -123,6 +123,9 @@
     <Compile Include="InterpreterPattern\TerminalExpression.cs" />
     <Compile Include="IteratorPattern\IteratorPatternDemo.cs" />
     <Compile Include="IteratorPattern\NameRepository.cs" />
+    <Compile Include="MediatorPattern\ChatRoom.cs" />
+    <Compile Include="MediatorPattern\MediatorPatternDemo.cs" />
+    <Compile Include="MediatorPattern\UserMediator.cs" />
     <Compile Include="MvcPattern\MvcPatternDemo.cs" />
     <Compile Include="MvcPattern\Student.cs" />
     <Compile Include="MvcPattern\StudentController.cs" />
@@ -155,12 +158,17 @@
     <None Include="FilterPattern\FilterPattern.cd" />
     <None Include="FlyweightPattern\FlyweightPattern.cd" />
     <None Include="InterpreterPattern\InterpreterPattern.cd" />
+    <None Include="IteratorPattern\IteratorPattern.cd" />
     <None Include="MvcPattern\MvcPattern.cd" />
     <None Include="PrototypePattern\PrototypePattern.cd" />
     <None Include="ProxyPattern\ProxyPattern.cd" />
     <None Include="SingletonPattern\SingletonPattern.cd" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="MementoPattern\" />
+    <Folder Include="ObserverPattern\" />
+    <Folder Include="StatePatter\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -21,6 +21,7 @@ using DesignPatterns.ChainOfResponsibilityPattern;
 using DesignPatterns.CommandPattern;
 using DesignPatterns.InterpreterPattern;
 using DesignPatterns.IteratorPattern;
+using DesignPatterns.MediatorPattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -81,6 +82,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== ITERATOR PATTERN RESULT ===========" + Environment.NewLine);
             IteratorPatternDemo.Output();
+
+            Console.WriteLine("========== MEDIATOR PATTERN RESULT ===========" + Environment.NewLine);
+            MediatorPatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();
