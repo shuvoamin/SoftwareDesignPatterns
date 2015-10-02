@@ -72,6 +72,11 @@
     <Compile Include="ChainOfResponsibilityPattern\ConsoleLogger.cs" />
     <Compile Include="ChainOfResponsibilityPattern\ErrorLogger.cs" />
     <Compile Include="ChainOfResponsibilityPattern\FileLogger.cs" />
+    <Compile Include="CommandPattern\Broker.cs" />
+    <Compile Include="CommandPattern\BuyStock.cs" />
+    <Compile Include="CommandPattern\CommandPatternDemo.cs" />
+    <Compile Include="CommandPattern\SellStock.cs" />
+    <Compile Include="CommandPattern\Stock.cs" />
     <Compile Include="CompositePattern\CompositePatternDemo.cs" />
     <Compile Include="CompositePattern\Employee.cs" />
     <Compile Include="DecoratorPattern\CircleDecorator.cs" />
@@ -104,6 +109,7 @@
     <Compile Include="Interfaces\IImage.cs" />
     <Compile Include="Interfaces\IItem.cs" />
     <Compile Include="Interfaces\IMediaPlayer.cs" />
+    <Compile Include="Interfaces\IOrder.cs" />
     <Compile Include="Interfaces\IShape.cs" />
     <Compile Include="FactoryPattern\ShapeFactory.cs" />
     <Compile Include="FactoryPattern\Square.cs" />
@@ -131,6 +137,8 @@
     <None Include="AdapterPattern\AdapterPattern.cd" />
     <None Include="BridgePattern\BridgePattern.cd" />
     <None Include="BuilderPattern\BuilderPattern.cd" />
+    <None Include="ChainOfResponsibilityPattern\ChainPattern.cd" />
+    <None Include="CommandPattern\CommandPattern.cd" />
     <None Include="CompositePattern\CompositePattern.cd" />
     <None Include="DecoratorPattern\DecoratorPattern.cd" />
     <None Include="FacadePatter\FacadePattern.cd" />
