@@ -102,6 +102,7 @@
     <Compile Include="FlyweightPattern\CircleFlyweight.cs" />
     <Compile Include="FlyweightPattern\FlyweightPatternDemo.cs" />
     <Compile Include="FlyweightPattern\ShapeFactoryFlyweight.cs" />
+    <Compile Include="NullObjectPattern\AbstractCustomer.cs" />
     <Compile Include="Interfaces\IAdvancedMediaPlayer.cs" />
     <Compile Include="Interfaces\IColor.cs" />
     <Compile Include="Interfaces\IContainer.cs" />
@@ -127,6 +128,10 @@
     <Compile Include="MediatorPattern\ChatRoom.cs" />
     <Compile Include="MediatorPattern\MediatorPatternDemo.cs" />
     <Compile Include="MediatorPattern\UserMediator.cs" />
+    <Compile Include="NullObjectPattern\CustomerFactory.cs" />
+    <Compile Include="NullObjectPattern\NullCustomer.cs" />
+    <Compile Include="NullObjectPattern\NullPatternDemo.cs" />
+    <Compile Include="NullObjectPattern\RealCustomer.cs" />
     <Compile Include="ObserverPattern\BinaryObserver.cs" />
     <Compile Include="MementoPattern\CareTaker.cs" />
     <Compile Include="MementoPattern\Memento.cs" />

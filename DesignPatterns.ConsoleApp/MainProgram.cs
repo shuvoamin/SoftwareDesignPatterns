@@ -25,6 +25,7 @@ using DesignPatterns.MediatorPattern;
 using DesignPatterns.MementoPattern;
 using DesignPatterns.ObserverPattern;
 using DesignPatterns.StatePattern;
+using DesignPatterns.NullObjectPattern;
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -98,6 +99,9 @@ namespace DesignPatterns.ConsoleApp
             //TODO: output not as expected
             //Console.WriteLine("========== STATE PATTERN RESULT ===========" + Environment.NewLine);
             //StatePatternDemo.Output();
+
+            Console.WriteLine("========== NULL OBJECT PATTERN RESULT ===========" + Environment.NewLine);
+            NullPatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();
