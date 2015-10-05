@@ -8,6 +8,17 @@ namespace DesignPatterns.NullObjectPattern
 {
     public class NullPatternDemo
     {
+        public CustomerFactory CustomerFactory
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+    
         public static void Output()
         {
             AbstractCustomer customer1 = CustomerFactory.GetCustomer("Rob");
