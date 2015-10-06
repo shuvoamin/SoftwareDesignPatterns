@@ -31,7 +31,8 @@ using DesignPatterns.StrategyPattern;
 using DesignPatterns.TemplatePattern;
 using DesignPatterns.VisitorPattern;
 using DesignPatterns.BusinessDelegatePattern;
-using DesignPatterns.CompositeEntityPattern; 
+using DesignPatterns.CompositeEntityPattern;
+using DesignPatterns.DataAccessObjectPattern; 
 #endregion
 
 namespace DesignPatterns.ConsoleApp
@@ -129,6 +130,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== COMPOSITE ENTITY PATTERN RESULT ===========" + Environment.NewLine);
             CompositeEntityPatternDemo.Output();
+
+            Console.WriteLine("========== DATA ACCESS OBJECT PATTERN RESULT ===========" + Environment.NewLine);
+            DaoPatternDemo.Output();
 
             Console.WriteLine("=================== ROGRAM ENDS HERE ===================");
             Console.ReadKey();

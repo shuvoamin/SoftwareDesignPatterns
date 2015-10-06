@@ -79,6 +79,9 @@
     <Compile Include="CompositeEntityPattern\CompositeEntityPatternDemo.cs" />
     <Compile Include="CompositeEntityPattern\DependentObject1.cs" />
     <Compile Include="CompositeEntityPattern\DependentObject2.cs" />
+    <Compile Include="DataAccessObjectPattern\DaoPatternDemo.cs" />
+    <Compile Include="DataAccessObjectPattern\StudentDao.cs" />
+    <Compile Include="DataAccessObjectPattern\StudentDaoImplementation.cs" />
     <Compile Include="Interfaces\IBusinessService.cs" />
     <Compile Include="ChainOfResponsibilityPattern\AbstractLogger.cs" />
     <Compile Include="ChainOfResponsibilityPattern\ChainPatternDemo.cs" />
@@ -118,6 +121,7 @@
     <Compile Include="Interfaces\IComputerPart.cs" />
     <Compile Include="Interfaces\IComputerPartVisitor.cs" />
     <Compile Include="Interfaces\IStrategy.cs" />
+    <Compile Include="Interfaces\IStudentDao.cs" />
     <Compile Include="NullObjectPattern\AbstractCustomer.cs" />
     <Compile Include="Interfaces\IAdvancedMediaPlayer.cs" />
     <Compile Include="Interfaces\IColor.cs" />
@@ -134,7 +138,7 @@
     <Compile Include="FactoryPattern\ShapeFactory.cs" />
     <Compile Include="FactoryPattern\Square.cs" />
     <Compile Include="Interfaces\IState.cs" />
-    <Compile Include="Interfaces\Packing.cs" />
+    <Compile Include="Interfaces\IPacking.cs" />
     <Compile Include="InterpreterPattern\AndExpression.cs" />
     <Compile Include="InterpreterPattern\InterpreterPatternDemo.cs" />
     <Compile Include="InterpreterPattern\OrExpression.cs" />
