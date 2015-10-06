@@ -82,6 +82,11 @@
     <Compile Include="DataAccessObjectPattern\DaoPatternDemo.cs" />
     <Compile Include="DataAccessObjectPattern\StudentDao.cs" />
     <Compile Include="DataAccessObjectPattern\StudentDaoImplementation.cs" />
+    <Compile Include="FrontControllerPattern\Dispatcher.cs" />
+    <Compile Include="FrontControllerPattern\FrontController.cs" />
+    <Compile Include="FrontControllerPattern\FrontControllerPatternDemo.cs" />
+    <Compile Include="FrontControllerPattern\HomeView.cs" />
+    <Compile Include="FrontControllerPattern\StudentView.cs" />
     <Compile Include="Interfaces\IBusinessService.cs" />
     <Compile Include="ChainOfResponsibilityPattern\AbstractLogger.cs" />
     <Compile Include="ChainOfResponsibilityPattern\ChainPatternDemo.cs" />
@@ -215,6 +220,7 @@
     <None Include="FactoryPattern\FactoryPattern.cd" />
     <None Include="FilterPattern\FilterPattern.cd" />
     <None Include="FlyweightPattern\FlyweightPattern.cd" />
+    <None Include="FrontControllerPattern\FrontControllerPattern.cd" />
     <None Include="InterpreterPattern\InterpreterPattern.cd" />
     <None Include="IteratorPattern\IteratorPattern.cd" />
     <None Include="MediatorPattern\MediatorPattern.cd" />
