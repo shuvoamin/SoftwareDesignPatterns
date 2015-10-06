@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.FilterPattern
 {
-    public class CriteriMale : ICriteria
+    public class CriteriaMale : ICriteria
     {
         public DesignPatterns.Interfaces.ICriteria ICriteria
         {

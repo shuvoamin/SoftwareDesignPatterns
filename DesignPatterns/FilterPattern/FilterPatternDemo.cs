@@ -9,7 +9,7 @@ namespace DesignPatterns.FilterPattern
 {
     public class FilterPatternDemo
     {
-        public CriteriMale CriteriMale
+        public CriteriaMale CriteriMale
         {
             get
             {

@@ -22,7 +22,7 @@
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="DesignPatterns.FilterPattern.CriteriMale">
+  <Class Name="DesignPatterns.FilterPattern.CriteriaMale">
     <Position X="7.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
@@ -64,7 +64,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DesignPatterns.FilterPattern.FilterPatternDemo">
-    <Position X="7.5" Y="5" Width="1.5" />
+    <Position X="7.5" Y="5" Width="1.75" />
     <AssociationLine Name="OrCriteria" Type="DesignPatterns.FilterPattern.OrCriteria">
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="-0.275" Y="0.07" />
@@ -72,10 +72,10 @@
     </AssociationLine>
     <AssociationLine Name="AndCriteria" Type="DesignPatterns.FilterPattern.AndCriteria" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="7.5" Y="5.5" />
-        <Point X="6.333" Y="5.5" Type="JumpStart" />
-        <Point X="6.167" Y="5.5" Type="JumpEnd" />
-        <Point X="1.969" Y="5.5" />
+        <Point X="7.5" Y="5.674" />
+        <Point X="6.333" Y="5.674" Type="JumpStart" />
+        <Point X="6.167" Y="5.674" Type="JumpEnd" />
+        <Point X="1.969" Y="5.674" />
         <Point X="1.969" Y="4.44" />
       </Path>
     </AssociationLine>
@@ -84,7 +84,6 @@
       <FileName>FilterPattern\FilterPatternDemo.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="CriteriMale" />
       <Property Name="CriteriaFemale" />
       <Property Name="CriteriaSingle" />
       <Property Name="OrCriteria" />

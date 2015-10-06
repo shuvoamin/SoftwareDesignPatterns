@@ -1,4 +1,5 @@
-﻿using DesignPatterns.AbstractFactoryPattern;
+﻿#region Namespaces
+using DesignPatterns.AbstractFactoryPattern;
 using DesignPatterns.FactoryPattern;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,8 @@ using DesignPatterns.MementoPattern;
 using DesignPatterns.ObserverPattern;
 using DesignPatterns.StatePattern;
 using DesignPatterns.NullObjectPattern;
+using DesignPatterns.StrategyPattern; 
+#endregion
 
 namespace DesignPatterns.ConsoleApp
 {
@@ -102,6 +105,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== NULL OBJECT PATTERN RESULT ===========" + Environment.NewLine);
             NullPatternDemo.Output();
+
+            Console.WriteLine("========== STRATEGY PATTERN RESULT ===========" + Environment.NewLine);
+            StrategyPatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();
