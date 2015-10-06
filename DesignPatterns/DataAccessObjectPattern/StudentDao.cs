@@ -28,5 +28,16 @@ namespace DesignPatterns.DataAccessObjectPattern
             get { return _id; }
             set { _id = value; }
         }
+
+        public DesignPatterns.Interfaces.IStudentDao IStudentDao
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
     }
 }

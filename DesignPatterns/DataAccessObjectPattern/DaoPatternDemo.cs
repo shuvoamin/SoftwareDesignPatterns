@@ -9,6 +9,17 @@ namespace DesignPatterns.DataAccessObjectPattern
 {
     public class DaoPatternDemo
     {
+        public DesignPatterns.Interfaces.IStudentDao IStudentDao
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+    
         public static void Output()
         {
             IStudentDao studentDao = new StudentDaoImplementation();

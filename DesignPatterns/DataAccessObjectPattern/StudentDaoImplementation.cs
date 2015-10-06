@@ -21,6 +21,17 @@ namespace DesignPatterns.DataAccessObjectPattern
             _students.Add(student2);
         }
 
+        public DesignPatterns.Interfaces.IStudentDao IStudentDao
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+
         //Override
         public void DeleteStudent(StudentDao student)
         {

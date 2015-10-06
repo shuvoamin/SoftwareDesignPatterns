@@ -209,6 +209,7 @@
     <None Include="CommandPattern\CommandPattern.cd" />
     <None Include="CompositeEntityPattern\CompositeEntityPattern.cd" />
     <None Include="CompositePattern\CompositePattern.cd" />
+    <None Include="DataAccessObjectPattern\DataAccessObjectPattern.cd" />
     <None Include="DecoratorPattern\DecoratorPattern.cd" />
     <None Include="FacadePatter\FacadePattern.cd" />
     <None Include="FactoryPattern\FactoryPattern.cd" />

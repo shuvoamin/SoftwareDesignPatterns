@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace DesignPatterns.Interfaces
 {
     public interface IStudentDao
-    {
+    {  
         List<StudentDao> GetAllStudents();
         StudentDao GetStudent(int id);
         void UpdateStudent(StudentDao student);
