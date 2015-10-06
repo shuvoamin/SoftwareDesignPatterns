@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.CompositeEntityPattern.ClientComposite">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAFAAAAAAAAAAAAAAAgAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>CompositeEntityPattern\ClientComposite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CompositeEntity" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.CompositeEntityPattern.CoarseGainedObject">
+    <Position X="2.75" Y="0.75" Width="1.75" />
+    <AssociationLine Name="DependentObject1" Type="DesignPatterns.CompositeEntityPattern.DependentObject1" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.75" Y="2.312" />
+        <Point X="1.844" Y="2.312" />
+        <Point X="1.844" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="DependentObject2" Type="DesignPatterns.CompositeEntityPattern.DependentObject2" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="4.5" Y="2.312" />
+        <Point X="5.25" Y="2.312" />
+        <Point X="5.25" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAQAAABAMAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompositeEntityPattern\CoarseGainedObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DependentObject1" />
+      <Property Name="DependentObject2" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.CompositeEntityPattern.CompositeEntity">
+    <Position X="6.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABEAAAAAEAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompositeEntityPattern\CompositeEntity.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CoarseGainedObject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.CompositeEntityPattern.CompositeEntityPatternDemo">
+    <Position X="9.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompositeEntityPattern\CompositeEntityPatternDemo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClientComposite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.CompositeEntityPattern.DependentObject1">
+    <Position X="1" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompositeEntityPattern\DependentObject1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.CompositeEntityPattern.DependentObject2">
+    <Position X="4.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CompositeEntityPattern\DependentObject2.cs</FileName>
+      <NewMemberFileName>CompositeEntityPattern\DependentObject1.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

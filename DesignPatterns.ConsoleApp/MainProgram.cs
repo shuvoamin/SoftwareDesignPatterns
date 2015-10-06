@@ -28,7 +28,10 @@ using DesignPatterns.ObserverPattern;
 using DesignPatterns.StatePattern;
 using DesignPatterns.NullObjectPattern;
 using DesignPatterns.StrategyPattern;
-using DesignPatterns.TemplatePattern; 
+using DesignPatterns.TemplatePattern;
+using DesignPatterns.VisitorPattern;
+using DesignPatterns.BusinessDelegatePattern;
+using DesignPatterns.CompositeEntityPattern; 
 #endregion
 
 namespace DesignPatterns.ConsoleApp
@@ -37,6 +40,8 @@ namespace DesignPatterns.ConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("=================== PROGRAM STARTS HERE ===================" + Environment.NewLine);
+
             Console.WriteLine("========== FACTORY PATTERN RESULT ===========" + Environment.NewLine);
             FactoryPatternDemo.Output();
 
@@ -113,10 +118,19 @@ namespace DesignPatterns.ConsoleApp
             Console.WriteLine("========== TEMPLATE PATTERN RESULT ===========" + Environment.NewLine);
             TemplatePatternDemo.Output();
 
+            Console.WriteLine("========== VISITOR PATTERN RESULT ===========" + Environment.NewLine);
+            VisitorPatternDemo.Output();
+
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();
 
-            Console.WriteLine("=========== PROGRAM ENDS HERE ============");
+            Console.WriteLine("========== BUSINESS DELEGATE PATTERN RESULT ===========" + Environment.NewLine);
+            BusinessDelegatePatternDemo.Output();
+
+            Console.WriteLine("========== COMPOSITE ENTITY PATTERN RESULT ===========" + Environment.NewLine);
+            CompositeEntityPatternDemo.Output();
+
+            Console.WriteLine("=================== ROGRAM ENDS HERE ===================");
             Console.ReadKey();
         }
     }

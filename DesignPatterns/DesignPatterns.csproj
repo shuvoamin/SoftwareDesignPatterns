@@ -67,6 +67,19 @@
     <Compile Include="BuilderPattern\Pepsi.cs" />
     <Compile Include="BuilderPattern\VegetarianBurger.cs" />
     <Compile Include="BuilderPattern\Wrapper.cs" />
+    <Compile Include="BusinessDelegatePattern\BusinessDelegate.cs" />
+    <Compile Include="BusinessDelegatePattern\BusinessDelegatePatternDemo.cs" />
+    <Compile Include="BusinessDelegatePattern\BusinessLookup.cs" />
+    <Compile Include="BusinessDelegatePattern\ClientBusiness.cs" />
+    <Compile Include="BusinessDelegatePattern\EJBService.cs" />
+    <Compile Include="BusinessDelegatePattern\JMSService.cs" />
+    <Compile Include="CompositeEntityPattern\ClientComposite.cs" />
+    <Compile Include="CompositeEntityPattern\CoarseGainedObject.cs" />
+    <Compile Include="CompositeEntityPattern\CompositeEntity.cs" />
+    <Compile Include="CompositeEntityPattern\CompositeEntityPatternDemo.cs" />
+    <Compile Include="CompositeEntityPattern\DependentObject1.cs" />
+    <Compile Include="CompositeEntityPattern\DependentObject2.cs" />
+    <Compile Include="Interfaces\IBusinessService.cs" />
     <Compile Include="ChainOfResponsibilityPattern\AbstractLogger.cs" />
     <Compile Include="ChainOfResponsibilityPattern\ChainPatternDemo.cs" />
     <Compile Include="ChainOfResponsibilityPattern\ConsoleLogger.cs" />
@@ -102,6 +115,8 @@
     <Compile Include="FlyweightPattern\CircleFlyweight.cs" />
     <Compile Include="FlyweightPattern\FlyweightPatternDemo.cs" />
     <Compile Include="FlyweightPattern\ShapeFactoryFlyweight.cs" />
+    <Compile Include="Interfaces\IComputerPart.cs" />
+    <Compile Include="Interfaces\IComputerPartVisitor.cs" />
     <Compile Include="Interfaces\IStrategy.cs" />
     <Compile Include="NullObjectPattern\AbstractCustomer.cs" />
     <Compile Include="Interfaces\IAdvancedMediaPlayer.cs" />
@@ -173,14 +188,22 @@
     <Compile Include="TemplatePattern\Football.cs" />
     <Compile Include="TemplatePattern\Game.cs" />
     <Compile Include="TemplatePattern\TemplatePatternDemo.cs" />
+    <Compile Include="VisitorPattern\Computer.cs" />
+    <Compile Include="VisitorPattern\ComputerPartDisplayVisitor.cs" />
+    <Compile Include="VisitorPattern\Keyboard.cs" />
+    <Compile Include="VisitorPattern\Monitor.cs" />
+    <Compile Include="VisitorPattern\Mouse.cs" />
+    <Compile Include="VisitorPattern\VisitorPatternDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AbstractFactoryPattern\AbstractFactoryPattern.cd" />
     <None Include="AdapterPattern\AdapterPattern.cd" />
     <None Include="BridgePattern\BridgePattern.cd" />
     <None Include="BuilderPattern\BuilderPattern.cd" />
+    <None Include="BusinessDelegatePattern\BusinessDelegatePattern.cd" />
     <None Include="ChainOfResponsibilityPattern\ChainPattern.cd" />
     <None Include="CommandPattern\CommandPattern.cd" />
+    <None Include="CompositeEntityPattern\CompositeEntityPattern.cd" />
     <None Include="CompositePattern\CompositePattern.cd" />
     <None Include="DecoratorPattern\DecoratorPattern.cd" />
     <None Include="FacadePatter\FacadePattern.cd" />
@@ -200,6 +223,7 @@
     <None Include="StatePattern\StatePattern.cd" />
     <None Include="StrategyPattern\StrategyPattern.cd" />
     <None Include="TemplatePattern\TemplatePattern.cd" />
+    <None Include="VisitorPattern\VisitorPattern.cd" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
