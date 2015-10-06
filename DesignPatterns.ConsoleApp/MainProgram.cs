@@ -27,7 +27,8 @@ using DesignPatterns.MementoPattern;
 using DesignPatterns.ObserverPattern;
 using DesignPatterns.StatePattern;
 using DesignPatterns.NullObjectPattern;
-using DesignPatterns.StrategyPattern; 
+using DesignPatterns.StrategyPattern;
+using DesignPatterns.TemplatePattern; 
 #endregion
 
 namespace DesignPatterns.ConsoleApp
@@ -108,6 +109,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== STRATEGY PATTERN RESULT ===========" + Environment.NewLine);
             StrategyPatternDemo.Output();
+
+            Console.WriteLine("========== TEMPLATE PATTERN RESULT ===========" + Environment.NewLine);
+            TemplatePatternDemo.Output();
 
             Console.WriteLine("========== MVC PATTERN RESULT ===========" + Environment.NewLine);
             MvcPatternDemo.Output();

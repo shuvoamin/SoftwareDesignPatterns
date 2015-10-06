@@ -169,6 +169,10 @@
     <Compile Include="StrategyPattern\MultiplyOperation.cs" />
     <Compile Include="StrategyPattern\StrategyPatternDemo.cs" />
     <Compile Include="StrategyPattern\SubstractOperation.cs" />
+    <Compile Include="TemplatePattern\Cricket.cs" />
+    <Compile Include="TemplatePattern\Football.cs" />
+    <Compile Include="TemplatePattern\Game.cs" />
+    <Compile Include="TemplatePattern\TemplatePatternDemo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AbstractFactoryPattern\AbstractFactoryPattern.cd" />
@@ -195,6 +199,7 @@
     <None Include="SingletonPattern\SingletonPattern.cd" />
     <None Include="StatePattern\StatePattern.cd" />
     <None Include="StrategyPattern\StrategyPattern.cd" />
+    <None Include="TemplatePattern\TemplatePattern.cd" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
