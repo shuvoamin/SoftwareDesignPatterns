@@ -14,7 +14,7 @@ namespace DesignPatterns.PrototypePattern
         }
 
         //Override
-        public override void draw()
+        public override void Draw()
         {
             Console.WriteLine("Inside Square::Draw() method." + Environment.NewLine);
         }

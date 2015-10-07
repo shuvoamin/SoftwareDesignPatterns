@@ -59,6 +59,7 @@ namespace DesignPatterns.PrototypePattern
         // for each shape run database query and create shape
         // shapeMap.put(shapeKey, shape);
         // for example, we are adding three shapes
+
         public static void LoadCache()
         {
             CirclePrototype circle = new CirclePrototype();

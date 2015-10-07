@@ -11,7 +11,7 @@ namespace DesignPatterns.PrototypePattern
         private int id;
         protected string type;
 
-        public abstract void draw();
+        public abstract void Draw();
 
         public string GetType()
         {

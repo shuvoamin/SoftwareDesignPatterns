@@ -15,7 +15,7 @@ namespace DesignPatterns.PrototypePattern
 
 
         //Override
-        public override void draw()
+        public override void Draw()
         {
             Console.WriteLine("Inside Rectangle::Draw() method." + Environment.NewLine);
         }

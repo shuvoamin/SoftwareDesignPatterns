@@ -59,21 +59,28 @@ namespace DesignPatterns.ConsoleApp
             Console.WriteLine("========== BUILDER PATTERN RESULT ===========" + Environment.NewLine);
             BuilderPatternDemo.Output();
 
+            #region SeeOutput => DesignPatters.PrototypePattern.PrototypePatternOutput.txt
+            //Assuming all the codes for this pattern are right see the output in text file located its code folder.
+
             //TODO: need to solve StackOverFlow exception
             //Console.WriteLine("========== PROTOTYPE PATTERN RESULT ===========" + Environment.NewLine);
-            //PrototypePatternDemo.Output();
+            //PrototypePatternDemo.Output(); 
+            #endregion
 
-            Console.WriteLine("========== ADAPTER PATTERN RESULT ===========" + Environment.NewLine);
-            AdapterPatternDemo.Output();
+            //TODO: makes output messed, need to fix
+            //Console.WriteLine("========== ADAPTER PATTERN RESULT ===========" + Environment.NewLine);
+            //AdapterPatternDemo.Output();
 
             Console.WriteLine("========== BRIDGE PATTERN RESULT ===========" + Environment.NewLine);
             BridgePatternDemo.Output();
 
-            Console.WriteLine("========== FILTER PATTERN RESULT ===========" + Environment.NewLine);
-            FilterPatternDemo.Output();
+            //TODO: makes output messed, need to fix
+            //Console.WriteLine("========== FILTER PATTERN RESULT ===========" + Environment.NewLine);
+            //FilterPatternDemo.Output();
 
-            Console.WriteLine("========== COMPOSITE PATTERN RESULT ===========" + Environment.NewLine);
-            CompositePatternDemo.Output();
+            //TODO: makes output messed, need to fix
+            //Console.WriteLine("========== COMPOSITE PATTERN RESULT ===========" + Environment.NewLine);
+            //CompositePatternDemo.Output();
 
             Console.WriteLine("========== DECORATOR PATTERN RESULT ===========" + Environment.NewLine);
             DecoratorPatternDemo.Output();
@@ -81,9 +88,15 @@ namespace DesignPatterns.ConsoleApp
             Console.WriteLine("========== FACADE PATTERN RESULT ===========" + Environment.NewLine);
             FacadePatternDemo.Output();
 
-            //TODO: dictionary cannot return null => need to fix
+            #region SeeOutput => DesignPatterns.FlyweightPattern.FlyweightPatternOutput.txt
+            //the original implementation of this pattern done by Java HashMap which supports null keys
+            //and adding duplicate keys. C# doesn't support this feature.
+            //Assuming all the codes for this pattern are right see the output in text file located its code folder.
+
+            //TODO: C# dictionary cannot add a null key and cannot assign a duplicate key => need to fix
             //Console.WriteLine("========== FLYWEIGHT PATTERN RESULT ===========" + Environment.NewLine);
-            //FlyweightPatternDemo.Output();
+            //FlyweightPatternDemo.Output(); 
+            #endregion
 
             Console.WriteLine("========== PROXY PATTERN RESULT ===========" + Environment.NewLine);
             ProxyPatternDemo.Output();
