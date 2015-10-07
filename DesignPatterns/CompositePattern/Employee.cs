@@ -36,7 +36,7 @@ namespace DesignPatterns.CompositePattern
             return _subOrdinates;
         }
 
-        public string ToString() 
+        public override string ToString() 
         {
             return ("Employee :[ Name : " + _name + ", dept : " + _dept + ", salary :" + _salary+" ]");
         }

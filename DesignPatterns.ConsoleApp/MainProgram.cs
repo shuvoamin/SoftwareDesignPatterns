@@ -72,9 +72,8 @@ namespace DesignPatterns.ConsoleApp
             Console.WriteLine("========== FILTER PATTERN RESULT ===========" + Environment.NewLine);
             FilterPatternDemo.Output();
 
-            //TODO: Output not working as expected
-            //Console.WriteLine("========== COMPOSITE PATTERN RESULT ===========" + Environment.NewLine);
-            //CompositePatternDemo.Output();
+            Console.WriteLine("========== COMPOSITE PATTERN RESULT ===========" + Environment.NewLine);
+            CompositePatternDemo.Output();
 
             Console.WriteLine("========== DECORATOR PATTERN RESULT ===========" + Environment.NewLine);
             DecoratorPatternDemo.Output();
