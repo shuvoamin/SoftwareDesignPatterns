@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.ServiceLocatorPattern.CacheServiceLocator">
+    <Position X="4.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAACAAAEA=</HashCode>
+      <FileName>ServiceLocatorPattern\CacheServiceLocator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.ServiceLocatorPattern.InitialContext">
+    <Position X="1.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceLocatorPattern\InitialContext.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Service2" />
+      <Property Name="Service1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.ServiceLocatorPattern.Service1">
+    <Position X="9.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ServiceLocatorPattern\Service1.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.ServiceLocatorPattern.Service2">
+    <Position X="7.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>ServiceLocatorPattern\Service2.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IService" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.ServiceLocatorPattern.ServiceLocator">
+    <Position X="1.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAQAAAAAAAAAAACAAAAAAAAAEA=</HashCode>
+      <FileName>ServiceLocatorPattern\ServiceLocator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="InitialContext" />
+      <Property Name="CacheServiceLocator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.ServiceLocatorPattern.ServiceLocatorPatternDemo">
+    <Position X="1.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceLocatorPattern\ServiceLocatorPatternDemo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ServiceLocator" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="DesignPatterns.Interfaces.IService">
+    <Position X="8" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Interfaces\IService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

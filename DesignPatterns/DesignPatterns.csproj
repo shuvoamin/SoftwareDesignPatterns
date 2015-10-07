@@ -133,6 +133,7 @@
     <Compile Include="Interfaces\IComputerPart.cs" />
     <Compile Include="Interfaces\IComputerPartVisitor.cs" />
     <Compile Include="Interfaces\IFilter.cs" />
+    <Compile Include="Interfaces\IService.cs" />
     <Compile Include="Interfaces\IStrategy.cs" />
     <Compile Include="Interfaces\IStudentDao.cs" />
     <Compile Include="NullObjectPattern\AbstractCustomer.cs" />
@@ -190,6 +191,11 @@
     <Compile Include="ProxyPattern\ProxyImage.cs" />
     <Compile Include="ProxyPattern\ProxyPatternDemo.cs" />
     <Compile Include="ProxyPattern\RealImage.cs" />
+    <Compile Include="ServiceLocatorPattern\CacheServiceLocator.cs" />
+    <Compile Include="ServiceLocatorPattern\InitialContext.cs" />
+    <Compile Include="ServiceLocatorPattern\Service1.cs" />
+    <Compile Include="ServiceLocatorPattern\Service2.cs" />
+    <Compile Include="ServiceLocatorPattern\ServiceLocator.cs" />
     <Compile Include="ServiceLocatorPattern\ServiceLocatorPatternDemo.cs" />
     <Compile Include="SingletonPattern\SingleObject.cs" />
     <Compile Include="SingletonPattern\SingletonPatternDemo.cs" />
@@ -243,6 +249,7 @@
     <None Include="ObserverPattern\ObserverPattern.cd" />
     <None Include="PrototypePattern\PrototypePattern.cd" />
     <None Include="ProxyPattern\ProxyPattern.cd" />
+    <None Include="ServiceLocatorPattern\ServiceLocatorPattern.cd" />
     <None Include="SingletonPattern\SingletonPattern.cd" />
     <None Include="StatePattern\StatePattern.cd" />
     <None Include="StrategyPattern\StrategyPattern.cd" />
