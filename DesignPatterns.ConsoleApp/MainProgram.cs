@@ -110,7 +110,6 @@ namespace DesignPatterns.ConsoleApp
             Console.WriteLine("========== OBSERVER PATTERN RESULT ===========" + Environment.NewLine);
             ObserverPatternDemo.Output();
 
-            //TODO: output not as expected
             Console.WriteLine("========== STATE PATTERN RESULT ===========" + Environment.NewLine);
             StatePatternDemo.Output();
 
