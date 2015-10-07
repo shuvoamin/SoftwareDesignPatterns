@@ -34,7 +34,9 @@ using DesignPatterns.BusinessDelegatePattern;
 using DesignPatterns.CompositeEntityPattern;
 using DesignPatterns.DataAccessObjectPattern;
 using DesignPatterns.FrontControllerPattern;
-using DesignPatterns.InterceptingFilterPattern; 
+using DesignPatterns.InterceptingFilterPattern;
+using DesignPatterns.ServiceLocatorPattern;
+using DesignPatterns.TransferObjectPattern; 
 #endregion
 
 namespace DesignPatterns.ConsoleApp
@@ -141,6 +143,12 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== INTERCEPTING FILTER PATTERN RESULT ===========" + Environment.NewLine);
             InterceptingFilterPatternDemo.Output();
+
+            Console.WriteLine("========== SERVICE LOCATOR PATTERN RESULT ===========" + Environment.NewLine);
+            ServiceLocatorPatternDemo.Output();
+
+            Console.WriteLine("========== TRANSFER OBJECT PATTERN RESULT ===========" + Environment.NewLine);
+            TransferObjectPatternDemo.Output();
 
             Console.WriteLine("=================== ROGRAM ENDS HERE ===================");
             Console.ReadKey();

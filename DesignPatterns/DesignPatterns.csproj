@@ -190,6 +190,7 @@
     <Compile Include="ProxyPattern\ProxyImage.cs" />
     <Compile Include="ProxyPattern\ProxyPatternDemo.cs" />
     <Compile Include="ProxyPattern\RealImage.cs" />
+    <Compile Include="ServiceLocatorPattern\ServiceLocatorPatternDemo.cs" />
     <Compile Include="SingletonPattern\SingleObject.cs" />
     <Compile Include="SingletonPattern\SingletonPatternDemo.cs" />
     <Compile Include="StatePattern\Context.cs" />
@@ -205,6 +206,9 @@
     <Compile Include="TemplatePattern\Football.cs" />
     <Compile Include="TemplatePattern\Game.cs" />
     <Compile Include="TemplatePattern\TemplatePatternDemo.cs" />
+    <Compile Include="TransferObjectPattern\StudentBusinessObject.cs" />
+    <Compile Include="TransferObjectPattern\StudentTransferObject.cs" />
+    <Compile Include="TransferObjectPattern\TransferObjectPatternDemo.cs" />
     <Compile Include="VisitorPattern\Computer.cs" />
     <Compile Include="VisitorPattern\ComputerPartDisplayVisitor.cs" />
     <Compile Include="VisitorPattern\Keyboard.cs" />
@@ -243,6 +247,7 @@
     <None Include="StatePattern\StatePattern.cd" />
     <None Include="StrategyPattern\StrategyPattern.cd" />
     <None Include="TemplatePattern\TemplatePattern.cd" />
+    <None Include="TransferObjectPattern\TransferObjectPattern.cd" />
     <None Include="VisitorPattern\VisitorPattern.cd" />
   </ItemGroup>
   <ItemGroup />
