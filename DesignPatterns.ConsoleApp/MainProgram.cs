@@ -111,8 +111,8 @@ namespace DesignPatterns.ConsoleApp
             ObserverPatternDemo.Output();
 
             //TODO: output not as expected
-            //Console.WriteLine("========== STATE PATTERN RESULT ===========" + Environment.NewLine);
-            //StatePatternDemo.Output();
+            Console.WriteLine("========== STATE PATTERN RESULT ===========" + Environment.NewLine);
+            StatePatternDemo.Output();
 
             Console.WriteLine("========== NULL OBJECT PATTERN RESULT ===========" + Environment.NewLine);
             NullPatternDemo.Output();

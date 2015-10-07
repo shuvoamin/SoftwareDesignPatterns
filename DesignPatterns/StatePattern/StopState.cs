@@ -26,7 +26,7 @@ namespace DesignPatterns.StatePattern
             context.State = this;
         }
 
-        public String ToString()
+        public override string ToString()
         {
             return "Stop State";
         }
