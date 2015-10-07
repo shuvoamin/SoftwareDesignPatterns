@@ -87,6 +87,13 @@
     <Compile Include="FrontControllerPattern\FrontControllerPatternDemo.cs" />
     <Compile Include="FrontControllerPattern\HomeView.cs" />
     <Compile Include="FrontControllerPattern\StudentView.cs" />
+    <Compile Include="InterceptingFilterPattern\AuthenticationFilter.cs" />
+    <Compile Include="InterceptingFilterPattern\ClientFilter.cs" />
+    <Compile Include="InterceptingFilterPattern\DebugFilter.cs" />
+    <Compile Include="InterceptingFilterPattern\FilterChain.cs" />
+    <Compile Include="InterceptingFilterPattern\FilterManager.cs" />
+    <Compile Include="InterceptingFilterPattern\InterceptingFilterPatternDemo.cs" />
+    <Compile Include="InterceptingFilterPattern\Target.cs" />
     <Compile Include="Interfaces\IBusinessService.cs" />
     <Compile Include="ChainOfResponsibilityPattern\AbstractLogger.cs" />
     <Compile Include="ChainOfResponsibilityPattern\ChainPatternDemo.cs" />
@@ -125,6 +132,7 @@
     <Compile Include="FlyweightPattern\ShapeFactoryFlyweight.cs" />
     <Compile Include="Interfaces\IComputerPart.cs" />
     <Compile Include="Interfaces\IComputerPartVisitor.cs" />
+    <Compile Include="Interfaces\IFilter.cs" />
     <Compile Include="Interfaces\IStrategy.cs" />
     <Compile Include="Interfaces\IStudentDao.cs" />
     <Compile Include="NullObjectPattern\AbstractCustomer.cs" />
@@ -221,6 +229,7 @@
     <None Include="FilterPattern\FilterPattern.cd" />
     <None Include="FlyweightPattern\FlyweightPattern.cd" />
     <None Include="FrontControllerPattern\FrontControllerPattern.cd" />
+    <None Include="InterceptingFilterPattern\InterceptingFilterPattern.cd" />
     <None Include="InterpreterPattern\InterpreterPattern.cd" />
     <None Include="IteratorPattern\IteratorPattern.cd" />
     <None Include="MediatorPattern\MediatorPattern.cd" />

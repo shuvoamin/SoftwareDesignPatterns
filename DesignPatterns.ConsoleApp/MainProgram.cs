@@ -33,7 +33,8 @@ using DesignPatterns.VisitorPattern;
 using DesignPatterns.BusinessDelegatePattern;
 using DesignPatterns.CompositeEntityPattern;
 using DesignPatterns.DataAccessObjectPattern;
-using DesignPatterns.FrontControllerPattern; 
+using DesignPatterns.FrontControllerPattern;
+using DesignPatterns.InterceptingFilterPattern; 
 #endregion
 
 namespace DesignPatterns.ConsoleApp
@@ -137,6 +138,9 @@ namespace DesignPatterns.ConsoleApp
 
             Console.WriteLine("========== FRONT CONTROLLER PATTERN RESULT ===========" + Environment.NewLine);
             FrontControllerPatternDemo.Output();
+
+            Console.WriteLine("========== INTERCEPTING FILTER PATTERN RESULT ===========" + Environment.NewLine);
+            InterceptingFilterPatternDemo.Output();
 
             Console.WriteLine("=================== ROGRAM ENDS HERE ===================");
             Console.ReadKey();
