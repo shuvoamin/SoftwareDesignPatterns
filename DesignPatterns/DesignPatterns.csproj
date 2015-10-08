@@ -258,6 +258,9 @@
     <None Include="VisitorPattern\VisitorPattern.cd" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdapterPattern\AdapterPatternDemoOutput.txt" />
+    <Content Include="CompositePattern\CompositePatternDemoOutput.txt" />
+    <Content Include="FilterPattern\FilterPatternDemoOutput.txt" />
     <Content Include="FlyweightPattern\FlyweightPatternOutput.txt" />
     <Content Include="PrototypePattern\PrototypePatternOutput.txt" />
   </ItemGroup>

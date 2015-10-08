@@ -12,15 +12,13 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.StrategyPattern.ContextStrategy">
-    <Position X="9.25" Y="3.5" Width="1.5" />
+    <Position X="8.75" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAQAIAAAAAAACAIAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAQAAAAAAAAACAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
       <FileName>StrategyPattern\ContextStrategy.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="MultiplyOperation" />
-      <Property Name="SubstractOperation" />
-      <Property Name="AddOperation" />
+      <Property Name="IStrategy" />
     </ShowAsAssociation>
   </Class>
   <Class Name="DesignPatterns.StrategyPattern.MultiplyOperation">
@@ -35,7 +33,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.StrategyPattern.StrategyPatternDemo">
-    <Position X="9" Y="1" Width="1.75" />
+    <Position X="8.75" Y="3.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>StrategyPattern\StrategyPatternDemo.cs</FileName>

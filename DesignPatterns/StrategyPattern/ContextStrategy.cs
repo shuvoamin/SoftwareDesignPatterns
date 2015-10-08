@@ -16,29 +16,7 @@ namespace DesignPatterns.StrategyPattern
             _strategy = strategy;
         }
 
-        public MultiplyOperation MultiplyOperation
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public SubstractOperation SubstractOperation
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public AddOperation AddOperation
+        public DesignPatterns.Interfaces.IStrategy IStrategy
         {
             get
             {
