@@ -8,7 +8,7 @@ namespace DesignPatterns.StatePattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
@@ -19,7 +19,7 @@ namespace DesignPatterns.StatePattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
@@ -30,7 +30,7 @@ namespace DesignPatterns.StatePattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

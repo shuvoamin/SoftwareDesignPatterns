@@ -30,7 +30,7 @@ namespace DesignPatterns.PrototypePattern
 
             try
             {
-                clone = this.Clone();
+                clone = Clone();
             }
             catch (Exception ex)
             {

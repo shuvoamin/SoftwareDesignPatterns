@@ -5,7 +5,7 @@ namespace DesignPatterns.FactoryPattern
 {
     public class ShapeFactory
     {
-        public DesignPatters.FactoryPattern.Rectangle Rectangle
+        public Rectangle Rectangle
         {
             get
             {

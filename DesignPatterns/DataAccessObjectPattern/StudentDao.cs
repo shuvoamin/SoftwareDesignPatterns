@@ -23,7 +23,7 @@
             set { _id = value; }
         }
 
-        public DesignPatterns.Interfaces.IStudentDao IStudentDao
+        public Interfaces.IStudentDao IStudentDao
         {
             get
             {

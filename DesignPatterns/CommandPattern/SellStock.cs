@@ -11,7 +11,7 @@ namespace DesignPatterns.CommandPattern
             _abcStock = abcStock;
         }
 
-        public DesignPatterns.Interfaces.IOrder IOrder
+        public IOrder IOrder
         {
             get
             {

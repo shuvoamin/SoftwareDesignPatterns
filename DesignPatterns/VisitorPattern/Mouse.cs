@@ -4,7 +4,7 @@ namespace DesignPatterns.VisitorPattern
 {
     public class Mouse : IComputerPart
     {
-        public DesignPatterns.Interfaces.IComputerPart IComputerPart
+        public IComputerPart IComputerPart
         {
             get
             {

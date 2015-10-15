@@ -5,11 +5,11 @@ namespace DesignPatterns.InterceptingFilterPattern
 {
     public class DebugFilter : IFilter
     {
-        public DesignPatterns.Interfaces.IFilter IFilter
+        public IFilter IFilter
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

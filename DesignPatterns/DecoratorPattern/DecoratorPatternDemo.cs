@@ -9,7 +9,7 @@ namespace DesignPatterns.DecoratorPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

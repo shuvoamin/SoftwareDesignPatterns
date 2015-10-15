@@ -8,11 +8,11 @@ namespace DesignPatterns.BuilderPattern
     {
         private List<IItem> items = new List<IItem>();
 
-        public DesignPatterns.Interfaces.IItem IItem
+        public IItem IItem
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

@@ -10,9 +10,6 @@ namespace DesignPatterns.AbstractFactoryPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
     
         public static AbstractFactory GetFactory(string choice)

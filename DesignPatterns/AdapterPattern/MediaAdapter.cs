@@ -18,7 +18,7 @@ namespace DesignPatterns.AdapterPattern
             }
         }
 
-        public DesignPatterns.Interfaces.IMediaPlayer IMediaPlayer
+        public IMediaPlayer IMediaPlayer
         {
             get
             {

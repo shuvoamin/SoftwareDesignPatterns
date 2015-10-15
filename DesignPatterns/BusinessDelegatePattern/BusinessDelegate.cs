@@ -8,7 +8,7 @@ namespace DesignPatterns.BusinessDelegatePattern
         private IBusinessService _businessService;
         private string _serviceType;
 
-        public DesignPatterns.Interfaces.IBusinessService IBusinessService
+        public IBusinessService IBusinessService
         {
             get
             {

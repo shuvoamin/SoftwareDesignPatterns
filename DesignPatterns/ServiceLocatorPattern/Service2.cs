@@ -5,11 +5,11 @@ namespace DesignPatterns.ServiceLocatorPattern
 {
     public class Service2 : IService
     {
-        public DesignPatterns.Interfaces.IService IService
+        public IService IService
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

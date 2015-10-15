@@ -19,7 +19,7 @@ namespace DesignPatterns.InterceptingFilterPattern
             }
         }
 
-        public DesignPatterns.Interfaces.IFilter IFilter
+        public IFilter IFilter
         {
             get
             {

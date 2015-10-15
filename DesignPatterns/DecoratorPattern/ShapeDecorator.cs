@@ -11,7 +11,7 @@ namespace DesignPatterns.DecoratorPattern
             _decoratedShape = decoratedShape;
         }
 
-        public DesignPatterns.Interfaces.IShape IShape
+        public IShape IShape
         {
             get
             {

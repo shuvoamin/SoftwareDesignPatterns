@@ -5,11 +5,11 @@ namespace DesignPatterns.BusinessDelegatePattern
 {
     public class JMSService : IBusinessService
     {
-        public DesignPatterns.Interfaces.IBusinessService IBusinessService
+        public IBusinessService IBusinessService
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

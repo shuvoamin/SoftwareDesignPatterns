@@ -16,7 +16,7 @@ namespace DesignPatterns.ServiceLocatorPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
@@ -27,7 +27,7 @@ namespace DesignPatterns.ServiceLocatorPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

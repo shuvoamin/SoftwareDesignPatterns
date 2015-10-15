@@ -11,7 +11,7 @@ namespace DesignPatterns.CompositeEntityPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
@@ -22,7 +22,7 @@ namespace DesignPatterns.CompositeEntityPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

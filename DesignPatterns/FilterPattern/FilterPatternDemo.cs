@@ -10,7 +10,7 @@ namespace DesignPatterns.FilterPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
@@ -21,7 +21,7 @@ namespace DesignPatterns.FilterPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
@@ -32,7 +32,7 @@ namespace DesignPatterns.FilterPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
@@ -43,7 +43,7 @@ namespace DesignPatterns.FilterPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
@@ -54,7 +54,7 @@ namespace DesignPatterns.FilterPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
@@ -65,7 +65,7 @@ namespace DesignPatterns.FilterPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

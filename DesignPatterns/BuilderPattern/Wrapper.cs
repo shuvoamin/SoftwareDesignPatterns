@@ -4,7 +4,7 @@ namespace DesignPatterns.BuilderPattern
 {
     public class Wrapper : IPacking
     {
-        public DesignPatterns.Interfaces.IPacking IPacking
+        public IPacking IPacking
         {
             get
             {

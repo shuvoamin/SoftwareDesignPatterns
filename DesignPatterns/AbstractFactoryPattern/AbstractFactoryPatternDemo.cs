@@ -10,9 +10,6 @@ namespace DesignPatterns.AbstractFactoryPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
     
         public static void Output()
@@ -37,7 +34,7 @@ namespace DesignPatterns.AbstractFactoryPattern
             IShape shape3 = shapeFactory.GetShape("SQUARE");
 
             //call draw method of Shape square
-            shape2.Draw(); 
+            shape3.Draw(); 
             #endregion
 
             #region ColorFactory

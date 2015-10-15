@@ -12,7 +12,7 @@ namespace DesignPatterns.ProxyPattern
             _fileName = fileName;
         }
 
-        public DesignPatterns.Interfaces.IImage IImage
+        public IImage IImage
         {
             get
             {

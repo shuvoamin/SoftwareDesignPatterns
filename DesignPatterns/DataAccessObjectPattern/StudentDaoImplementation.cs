@@ -19,11 +19,11 @@ namespace DesignPatterns.DataAccessObjectPattern
             _students.Add(student2);
         }
 
-        public DesignPatterns.Interfaces.IStudentDao IStudentDao
+        public IStudentDao IStudentDao
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

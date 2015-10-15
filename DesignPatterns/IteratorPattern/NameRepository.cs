@@ -7,22 +7,22 @@ namespace DesignPatterns.IteratorPattern
     {
         public static String[] _names = { "Robert", "John", "Julie", "Laura" };
 
-        public DesignPatterns.Interfaces.IContainer IContainer
+        public IContainer IContainer
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
             }
         }
 
-        public DesignPatterns.Interfaces.IIterator IIterator
+        public IIterator IIterator
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

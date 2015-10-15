@@ -4,7 +4,7 @@ namespace DesignPatterns.StrategyPattern
 {
     public class AddOperation : IStrategy
     {
-        public DesignPatterns.Interfaces.IStrategy IStrategy
+        public IStrategy IStrategy
         {
             get
             {

@@ -5,11 +5,11 @@ namespace DesignPatterns.AdapterPattern
 {
     public class Mp4Player : IAdvancedMediaPlayer
     {
-        public DesignPatterns.Interfaces.IAdvancedMediaPlayer IAdvancedMediaPlayer
+        public IAdvancedMediaPlayer IAdvancedMediaPlayer
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

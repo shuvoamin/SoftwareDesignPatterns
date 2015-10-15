@@ -8,7 +8,7 @@ namespace DesignPatterns.TemplatePattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
@@ -19,7 +19,7 @@ namespace DesignPatterns.TemplatePattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

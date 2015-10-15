@@ -5,7 +5,7 @@ namespace DesignPatterns.FilterPattern
 {
     public class CriteriaSingle : ICriteria
     {
-        public DesignPatterns.Interfaces.ICriteria ICriteria
+        public ICriteria ICriteria
         {
             get
             {

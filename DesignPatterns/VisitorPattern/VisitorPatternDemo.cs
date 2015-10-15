@@ -15,7 +15,7 @@ namespace DesignPatterns.VisitorPattern
             }
         }
 
-        public DesignPatterns.Interfaces.IComputerPart IComputerPart
+        public IComputerPart IComputerPart
         {
             get
             {

@@ -5,22 +5,22 @@ namespace DesignPatterns.FactoryPattern
 {
     public class Square : IShape
     {
-        public DesignPatterns.Interfaces.IShape IShape
+        public IShape IShape
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
             }
         }
 
-        public DesignPatterns.Interfaces.IShape IShape1
+        public IShape IShape1
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

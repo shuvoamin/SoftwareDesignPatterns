@@ -5,11 +5,11 @@ namespace DesignPatterns.DataAccessObjectPattern
 {
     public class DaoPatternDemo
     {
-        public DesignPatterns.Interfaces.IStudentDao IStudentDao
+        public IStudentDao IStudentDao
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

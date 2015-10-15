@@ -4,7 +4,7 @@ namespace DesignPatterns.VisitorPattern
 {
     public class Monitor : IComputerPart
     {
-        public DesignPatterns.Interfaces.IComputerPart IComputerPart
+        public IComputerPart IComputerPart
         {
             get
             {

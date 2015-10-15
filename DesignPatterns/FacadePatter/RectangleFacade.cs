@@ -5,11 +5,11 @@ namespace DesignPatterns.FacadePatter
 {
     public class RectangleFacade : IShape
     {
-        public DesignPatterns.Interfaces.IShape IShape
+        public IShape IShape
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

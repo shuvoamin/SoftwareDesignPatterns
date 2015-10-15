@@ -11,7 +11,7 @@ namespace DesignPatterns.BridgePattern
             _drawApi = drawApi;
         }
 
-        public DesignPatterns.Interfaces.IDrawApi IDrawApi
+        public IDrawApi IDrawApi
         {
             get
             {

@@ -12,11 +12,11 @@ namespace DesignPatterns.ProxyPattern
             _fileName = fileName;
         }
 
-        public DesignPatterns.Interfaces.IImage IImage
+        public IImage IImage
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

@@ -21,7 +21,7 @@ namespace DesignPatterns.TransferObjectPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

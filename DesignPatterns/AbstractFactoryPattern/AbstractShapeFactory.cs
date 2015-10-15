@@ -1,8 +1,8 @@
-﻿using DesignPatterns.AbstractFactoryPattern;
+﻿using DesignPatterns.FactoryPattern;
 using DesignPatterns.Interfaces;
 using DesignPatters.FactoryPattern;
 
-namespace DesignPatterns.FactoryPattern
+namespace DesignPatterns.AbstractFactoryPattern
 {
     public class AbstractShapeFactory : AbstractFactory
     {
@@ -12,19 +12,13 @@ namespace DesignPatterns.FactoryPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
-        public DesignPatters.FactoryPattern.Rectangle Rectangle
+        public Rectangle Rectangle
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 
@@ -34,10 +28,8 @@ namespace DesignPatterns.FactoryPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
+
         //Override
         public override IColor GetColor(string color)
         {

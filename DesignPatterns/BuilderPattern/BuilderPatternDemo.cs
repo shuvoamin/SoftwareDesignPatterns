@@ -8,7 +8,7 @@ namespace DesignPatterns.BuilderPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

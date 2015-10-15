@@ -5,11 +5,11 @@ namespace DesignPatterns.DecoratorPattern
 {
     class RectangleDecorator : IShape
     {
-        public DesignPatterns.Interfaces.IShape IShape
+        public IShape IShape
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

@@ -20,7 +20,7 @@ namespace DesignPatterns.MementoPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

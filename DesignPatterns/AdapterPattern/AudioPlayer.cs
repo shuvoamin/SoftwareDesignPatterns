@@ -7,11 +7,11 @@ namespace DesignPatterns.AdapterPattern
     {
         MediaAdapter mediaAdapter;
 
-        public DesignPatterns.Interfaces.IMediaPlayer IMediaPlayer
+        public IMediaPlayer IMediaPlayer
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
@@ -22,7 +22,7 @@ namespace DesignPatterns.AdapterPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

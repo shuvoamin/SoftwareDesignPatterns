@@ -5,11 +5,11 @@ namespace DesignPatterns.BridgePattern
 {
     public class RedCircle : IDrawApi
     {
-        public DesignPatterns.Interfaces.IDrawApi IDrawApi
+        public IDrawApi IDrawApi
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

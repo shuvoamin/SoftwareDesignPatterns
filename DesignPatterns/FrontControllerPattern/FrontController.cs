@@ -15,7 +15,7 @@ namespace DesignPatterns.FrontControllerPattern
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

@@ -14,11 +14,11 @@ namespace DesignPatterns.InterpreterPattern
             _expr2 = expr2;
         }
 
-        public DesignPatterns.Interfaces.IExpression IExpression
+        public IExpression IExpression
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

@@ -11,7 +11,7 @@ namespace DesignPatterns.InterpreterPattern
             _data = data;
         }
 
-        public DesignPatterns.Interfaces.IExpression IExpression
+        public IExpression IExpression
         {
             get
             {

@@ -11,7 +11,7 @@ namespace DesignPatterns.VisitorPattern
             _parts = new IComputerPart[] { new Mouse(), new Keyboard(), new Monitor() };
         }
 
-        public DesignPatterns.Interfaces.IComputerPart IComputerPart
+        public IComputerPart IComputerPart
         {
             get
             {

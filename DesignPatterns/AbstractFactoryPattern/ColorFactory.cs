@@ -9,10 +9,7 @@ namespace DesignPatterns.AbstractFactoryPattern
         {
             get
             {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
+                throw new NotImplementedException();
             }
         }
 
@@ -20,10 +17,7 @@ namespace DesignPatterns.AbstractFactoryPattern
         {
             get
             {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
+                throw new NotImplementedException();
             }
         }
 
@@ -31,12 +25,10 @@ namespace DesignPatterns.AbstractFactoryPattern
         {
             get
             {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
+                throw new NotImplementedException();
             }
         }
+
         //Override
         public override IShape GetShape(String color)
         {

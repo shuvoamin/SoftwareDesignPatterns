@@ -5,11 +5,11 @@ namespace DesignPatterns.VisitorPattern
 {
     public class ComputerPartDisplayVisitor : IComputerPartVisitor
     {
-        public DesignPatterns.Interfaces.IComputerPartVisitor IComputerPartVisitor
+        public IComputerPartVisitor IComputerPartVisitor
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {

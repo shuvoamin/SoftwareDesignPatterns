@@ -14,7 +14,7 @@ namespace DesignPatterns.FilterPattern
             _otherCriteria = criteria;
         }
 
-        public DesignPatterns.Interfaces.ICriteria ICriteria
+        public ICriteria ICriteria
         {
             get
             {

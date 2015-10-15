@@ -15,7 +15,7 @@ namespace DesignPatterns.BuilderPattern
             }
         }
 
-        public DesignPatterns.Interfaces.IItem IItem
+        public IItem IItem
         {
             get
             {

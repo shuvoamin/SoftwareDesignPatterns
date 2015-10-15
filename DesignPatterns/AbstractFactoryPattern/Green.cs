@@ -5,16 +5,14 @@ namespace DesignPatterns.AbstractFactoryPattern
 {
     class Green : IColor
     {
-        public DesignPatterns.Interfaces.IColor IColor
+        public IColor IColor
         {
             get
             {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
+                throw new NotImplementedException();
             }
         }
+
         //Override
         public void Fill()
         {

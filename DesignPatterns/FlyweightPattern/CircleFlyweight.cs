@@ -35,11 +35,11 @@ namespace DesignPatterns.FlyweightPattern
         } 
         #endregion
 
-        public DesignPatterns.Interfaces.IShape IShape
+        public IShape IShape
         {
             get
             {
-                throw new System.NotImplementedException();
+                throw new NotImplementedException();
             }
             set
             {
