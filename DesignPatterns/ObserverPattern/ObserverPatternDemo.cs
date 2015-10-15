@@ -31,7 +31,7 @@ namespace DesignPatterns.ObserverPattern
             }
         }
 
-        public DesignPatterns.MementoPattern.BinaryObserver BinaryObserver
+        public BinaryObserver BinaryObserver
         {
             get
             {

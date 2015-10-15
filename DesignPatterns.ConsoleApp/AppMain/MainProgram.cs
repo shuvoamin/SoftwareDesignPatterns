@@ -1,49 +1,40 @@
 ﻿#region Namespaces
-using DesignPatterns.AbstractFactoryPattern;
-using DesignPatterns.FactoryPattern;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DesignPatterns.SingletonPattern;
-using DesignPatterns.BuilderPattern;
-using DesignPatterns.PrototypePattern;
-using DesignPatterns.AdapterPattern;
-using DesignPatterns.MvcPattern;
+using DesignPatterns.AbstractFactoryPattern;
 using DesignPatterns.BridgePattern;
-using DesignPatterns.FilterPattern;
-using DesignPatterns.CompositePattern;
-using DesignPatterns.DecoratorPattern;
-using DesignPatterns.FacadePatter;
-using DesignPatterns.FlyweightPattern;
-using DesignPatterns.ProxyPattern;
+using DesignPatterns.BuilderPattern;
+using DesignPatterns.BusinessDelegatePattern;
 using DesignPatterns.ChainOfResponsibilityPattern;
 using DesignPatterns.CommandPattern;
+using DesignPatterns.CompositeEntityPattern;
+using DesignPatterns.DataAccessObjectPattern;
+using DesignPatterns.DecoratorPattern;
+using DesignPatterns.FacadePatter;
+using DesignPatterns.FactoryPattern;
+using DesignPatterns.FrontControllerPattern;
+using DesignPatterns.InterceptingFilterPattern;
 using DesignPatterns.InterpreterPattern;
 using DesignPatterns.IteratorPattern;
 using DesignPatterns.MediatorPattern;
 using DesignPatterns.MementoPattern;
-using DesignPatterns.ObserverPattern;
-using DesignPatterns.StatePattern;
+using DesignPatterns.MvcPattern;
 using DesignPatterns.NullObjectPattern;
+using DesignPatterns.ObserverPattern;
+using DesignPatterns.ProxyPattern;
+using DesignPatterns.ServiceLocatorPattern;
+using DesignPatterns.SingletonPattern;
+using DesignPatterns.StatePattern;
 using DesignPatterns.StrategyPattern;
 using DesignPatterns.TemplatePattern;
+using DesignPatterns.TransferObjectPattern;
 using DesignPatterns.VisitorPattern;
-using DesignPatterns.BusinessDelegatePattern;
-using DesignPatterns.CompositeEntityPattern;
-using DesignPatterns.DataAccessObjectPattern;
-using DesignPatterns.FrontControllerPattern;
-using DesignPatterns.InterceptingFilterPattern;
-using DesignPatterns.ServiceLocatorPattern;
-using DesignPatterns.TransferObjectPattern; 
 #endregion
 
-namespace DesignPatterns.ConsoleApp
+namespace DesignPatterns.ConsoleApp.AppMain
 {
     class MainProgram
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("=================== PROGRAM STARTS HERE ===================" + Environment.NewLine);
 

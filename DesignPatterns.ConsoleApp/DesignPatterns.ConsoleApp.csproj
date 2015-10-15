@@ -7,8 +7,8 @@
     <ProjectGuid>{FBA22DC1-9CA8-4F8E-B87C-905587DEFC1B}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DesignPatterns.Console</RootNamespace>
-    <AssemblyName>DesignPatterns.Console</AssemblyName>
+    <RootNamespace>DesignPatterns.ConsoleApp</RootNamespace>
+    <AssemblyName>DesignPatterns.ConsoleApp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainProgram.cs" />
+    <Compile Include="AppMain\MainProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
