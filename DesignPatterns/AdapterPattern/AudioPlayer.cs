@@ -5,18 +5,7 @@ namespace DesignPatterns.AdapterPattern
 {
     public class AudioPlayer : IMediaPlayer
     {
-        MediaAdapter mediaAdapter;
-
-        public IMediaPlayer IMediaPlayer
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-            set
-            {
-            }
-        }
+        MediaAdapter _mediaAdapter;
 
         public Mp4Player Mp4Player
         {
@@ -24,8 +13,13 @@ namespace DesignPatterns.AdapterPattern
             {
                 throw new NotImplementedException();
             }
-            set
+        }
+
+        public IMediaPlayer MediaPlayer
+        {
+            get
             {
+                throw new NotImplementedException();
             }
         }
 
@@ -37,11 +31,11 @@ namespace DesignPatterns.AdapterPattern
             {
                 Console.WriteLine("Playing mp3 file. Name : " + fileName + Environment.NewLine);
             }
-            //mediaAdapter is providing support to play other file formats
+            //_mediaAdapter is providing support to play other file formats
             else if ((audioType == "VLC") || (audioType == "MP4"))
             {
-                mediaAdapter = new MediaAdapter(audioType);
-                mediaAdapter.Play(audioType, fileName);
+                _mediaAdapter = new MediaAdapter(audioType);
+                _mediaAdapter.Play(audioType, fileName);
             }
             else
             {

@@ -4,28 +4,25 @@ namespace DesignPatterns.AdapterPattern
 {
     public class MediaAdapter : IMediaPlayer
     {
-        IAdvancedMediaPlayer advancedMusicPlayer;
+        readonly IAdvancedMediaPlayer _advancedMusicPlayer;
 
         public MediaAdapter(string audioType)
         {
             if (audioType == "VLC")
             {
-                advancedMusicPlayer = new VlcPlayer();
+                _advancedMusicPlayer = new VlcPlayer();
             }
             else if (audioType == "MP4")
             {
-                advancedMusicPlayer = new Mp4Player();
+                _advancedMusicPlayer = new Mp4Player();
             }
         }
 
-        public IMediaPlayer IMediaPlayer
+        public IMediaPlayer MediaPlayer
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 
@@ -35,20 +32,17 @@ namespace DesignPatterns.AdapterPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public void Play(string audioType, string fileName)
         {
             if (audioType == "VLC")
             {
-                advancedMusicPlayer.PlayVlc(fileName);
+                _advancedMusicPlayer.PlayVlc(fileName);
             }
             else if (audioType == "mp4")
             {
-                advancedMusicPlayer.PlayMp4(fileName);
+                _advancedMusicPlayer.PlayMp4(fileName);
             }
         }
     }

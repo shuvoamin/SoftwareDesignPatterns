@@ -5,16 +5,14 @@ namespace DesignPatterns.AdapterPattern
 {
     public class VlcPlayer : IAdvancedMediaPlayer
     {
-        public IAdvancedMediaPlayer IAdvancedMediaPlayer
+        public IAdvancedMediaPlayer AdvancedMediaPlayer
         {
             get
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
+
         //Override
         public void PlayVlc(string fileName)
         {
