@@ -4,21 +4,18 @@ namespace DesignPatterns.BridgePattern
 {
     public abstract class ShapeBridge
     {
-        protected IDrawApi _drawApi;
+        protected IDrawApi DrawApiShapeBridge;
 
         protected ShapeBridge(IDrawApi drawApi)
         {
-            _drawApi = drawApi;
+            DrawApiShapeBridge = drawApi;
         }
 
-        public IDrawApi IDrawApi
+        public IDrawApi DrawApi
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 

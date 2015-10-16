@@ -3,34 +3,34 @@
   <Class Name="DesignPatterns.BridgePattern.GreenCircle">
     <Position X="6" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAA=</HashCode>
       <FileName>BridgePattern\GreenCircle.cs</FileName>
       <NewMemberFileName>BridgePattern\RedCircle.cs</NewMemberFileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IDrawApi" />
+      <Property Name="DrawApi" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.BridgePattern.RedCircle">
     <Position X="8" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAA=</HashCode>
       <FileName>BridgePattern\RedCircle.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IDrawApi" />
+      <Property Name="DrawApi" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.BridgePattern.ShapeBridge">
-    <Position X="3.25" Y="0.5" Width="1.5" />
+    <Position X="3" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAgAFAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAABAAAAAgAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BridgePattern\ShapeBridge.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IDrawApi" />
+      <Property Name="DrawApi" />
     </ShowAsAssociation>
   </Class>
   <Class Name="DesignPatterns.BridgePattern.CircleBridge">
@@ -47,7 +47,7 @@
         <Point X="1.75" Y="4.853" />
         <Point X="1.75" Y="5.303" />
         <Point X="6.75" Y="5.303" />
-        <Point X="6.75" Y="4.853" />
+        <Point X="6.75" Y="4.863" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="RedCircle" Type="DesignPatterns.BridgePattern.RedCircle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
@@ -55,7 +55,7 @@
         <Point X="1.375" Y="4.853" />
         <Point X="1.375" Y="5.626" />
         <Point X="8.75" Y="5.626" />
-        <Point X="8.75" Y="4.853" />
+        <Point X="8.75" Y="4.863" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>

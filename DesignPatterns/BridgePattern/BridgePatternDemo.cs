@@ -8,9 +8,6 @@
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public GreenCircle GreenCircle
@@ -19,9 +16,6 @@
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public RedCircle RedCircle
@@ -29,9 +23,6 @@
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
     

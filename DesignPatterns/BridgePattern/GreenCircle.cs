@@ -5,16 +5,14 @@ namespace DesignPatterns.BridgePattern
 {
     public class GreenCircle : IDrawApi
     {
-        public IDrawApi IDrawApi
+        public IDrawApi DrawApi
         {
             get
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
+
         //Override
         public void DrawCircle(int radius, int x, int y)
         {
