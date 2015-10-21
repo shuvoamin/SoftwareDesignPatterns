@@ -8,30 +8,27 @@
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
     
         public static void Output()
         {
             AbstractLogger loggerChain = GetChainOfLoggers();
 
-            loggerChain.LogMessage(AbstractLogger._info,
+            loggerChain.LogMessage(AbstractLogger.Info,
                "This is an information.");
 
-            loggerChain.LogMessage(AbstractLogger._debug,
+            loggerChain.LogMessage(AbstractLogger.Debug,
                "This is an debug level information.");
 
-            loggerChain.LogMessage(AbstractLogger._error,
+            loggerChain.LogMessage(AbstractLogger.Error,
                "This is an error information.");
         }
 
         private static AbstractLogger GetChainOfLoggers()
         {
-            AbstractLogger errorLogger = new ErrorLogger(AbstractLogger._error);
-            AbstractLogger fileLogger = new FileLogger(AbstractLogger._debug);
-            AbstractLogger consoleLogger = new ConsoleLogger(AbstractLogger._info);
+            AbstractLogger errorLogger = new ErrorLogger(AbstractLogger.Error);
+            AbstractLogger fileLogger = new FileLogger(AbstractLogger.Debug);
+            AbstractLogger consoleLogger = new ConsoleLogger(AbstractLogger.Info);
 
             errorLogger.SetNextLogger(fileLogger);
             fileLogger.SetNextLogger(consoleLogger);

@@ -6,7 +6,7 @@ namespace DesignPatterns.ChainOfResponsibilityPattern
     {
         public ErrorLogger(int level)
         {
-            _level = level;
+            Level = level;
         }
 
         //Override

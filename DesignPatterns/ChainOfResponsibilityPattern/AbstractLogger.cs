@@ -1,35 +1,33 @@
-﻿using System;
-
-namespace DesignPatterns.ChainOfResponsibilityPattern
+﻿namespace DesignPatterns.ChainOfResponsibilityPattern
 {
     public abstract class AbstractLogger
     {
-        public static int _info = 1;
-        public static int _debug = 2;
-        public static int _error = 3;
+        public static int Info = 1;
+        public static int Debug = 2;
+        public static int Error = 3;
 
-        protected int _level;
+        protected int Level;
 
         //next element in chain or responsibility
-        protected AbstractLogger _nextLogger;
+        protected AbstractLogger NextLogger;
 
         public void SetNextLogger(AbstractLogger nextLogger)
         {
-            _nextLogger = nextLogger;
+            NextLogger = nextLogger;
         }
 
         public void LogMessage(int level, string message)
         {
-            if (_level <= level)
+            if (Level <= level)
             {
                 Write(message);
             }
-            if (_nextLogger != null)
+            if (NextLogger != null)
             {
-                _nextLogger.LogMessage(level, message);
+                NextLogger.LogMessage(level, message);
             }
         }
 
-        protected abstract void Write(String message);
+        protected abstract void Write(string message);
     }
 }
