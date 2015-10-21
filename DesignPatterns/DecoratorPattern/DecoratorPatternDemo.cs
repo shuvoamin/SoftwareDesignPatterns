@@ -11,9 +11,6 @@ namespace DesignPatterns.DecoratorPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
     
         public static void Output()

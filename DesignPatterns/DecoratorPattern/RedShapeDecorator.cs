@@ -11,12 +11,12 @@ namespace DesignPatterns.DecoratorPattern
         }
 
         //Override
-        public void Draw()
+        public new void Draw()
         {
-            _decoratedShape.Draw();
+            DecoratedShape.Draw();
         }
 
-        private void SetRedBorder(IShape decoratedShape)
+        public void SetRedBorder(IShape decoratedShape)
         {
             Console.WriteLine("Border Color: Red" + Environment.NewLine);
         }

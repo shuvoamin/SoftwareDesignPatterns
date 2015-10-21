@@ -4,28 +4,25 @@ namespace DesignPatterns.DecoratorPattern
 {
     public class ShapeDecorator : IShape
     {
-        protected IShape _decoratedShape;
+        protected IShape DecoratedShape;
 
         public ShapeDecorator(IShape decoratedShape)
         {
-            _decoratedShape = decoratedShape;
+            DecoratedShape = decoratedShape;
         }
 
-        public IShape IShape
+        public IShape Shape
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 
         //Overide
         public void Draw()
         {
-            _decoratedShape.Draw();
+            DecoratedShape.Draw();
         }
     }
 }
