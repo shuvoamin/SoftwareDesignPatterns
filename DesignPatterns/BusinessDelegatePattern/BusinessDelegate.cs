@@ -4,18 +4,15 @@ namespace DesignPatterns.BusinessDelegatePattern
 {
     public class BusinessDelegate
     {
-        private BusinessLookup _lookupService = new BusinessLookup();
+        private readonly BusinessLookup _lookupService = new BusinessLookup();
         private IBusinessService _businessService;
         private string _serviceType;
 
-        public IBusinessService IBusinessService
+        public IBusinessService BusinessService
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 
@@ -24,9 +21,6 @@ namespace DesignPatterns.BusinessDelegatePattern
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 

@@ -21,11 +21,10 @@
   <Class Name="DesignPatterns.BusinessDelegatePattern.BusinessDelegate">
     <Position X="5.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAIAAAAACAACAIAAAAAAAgAAQAgAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAgCAIAAAAAAAgAAQAgAAAA=</HashCode>
       <FileName>BusinessDelegatePattern\BusinessDelegate.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IBusinessService" />
       <Property Name="BusinessLookup" />
     </ShowAsAssociation>
   </Class>
@@ -36,35 +35,35 @@
       <FileName>BusinessDelegatePattern\BusinessLookup.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DesignPatterns.BusinessDelegatePattern.Client">
+  <Class Name="DesignPatterns.BusinessDelegatePattern.ClientBusiness">
     <Position X="9" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAgAAAAgAAAA=</HashCode>
-      <FileName>BusinessDelegatePattern\Client.cs</FileName>
+      <FileName>BusinessDelegatePattern\ClientBusiness.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="BusinessDelegate" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="DesignPatterns.BusinessDelegatePattern.EJBService">
+  <Class Name="DesignPatterns.BusinessDelegatePattern.EjbService">
     <Position X="0.75" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BusinessDelegatePattern\EJBService.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IBusinessService" />
+      <Property Name="BusinessService" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="DesignPatterns.BusinessDelegatePattern.JMSService">
+  <Class Name="DesignPatterns.BusinessDelegatePattern.JmsService">
     <Position X="2.75" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BusinessDelegatePattern\JMSService.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IBusinessService" />
+      <Property Name="BusinessService" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>

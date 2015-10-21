@@ -8,11 +8,11 @@ namespace DesignPatterns.BusinessDelegatePattern
         {
             if (serviceType.Equals("EJB"))
             {
-                return new EJBService();
+                return new EjbService();
             }
             else
             {
-                return new JMSService();
+                return new JmsService();
             }
         }
     }

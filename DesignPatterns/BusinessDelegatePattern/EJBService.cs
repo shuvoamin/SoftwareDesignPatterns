@@ -3,18 +3,16 @@ using System;
 
 namespace DesignPatterns.BusinessDelegatePattern
 {
-    public class EJBService : IBusinessService
+    public class EjbService : IBusinessService
     {
-        public IBusinessService IBusinessService
+        public IBusinessService BusinessService
         {
             get
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
+
         //Override
         public void DoProcessing()
         {

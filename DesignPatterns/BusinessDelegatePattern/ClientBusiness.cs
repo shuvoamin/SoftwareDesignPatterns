@@ -2,7 +2,7 @@
 {
     public class ClientBusiness
     {
-        BusinessDelegate _businessService;
+        readonly BusinessDelegate _businessService;
 
         public ClientBusiness(BusinessDelegate businessService)
         {
@@ -14,9 +14,6 @@
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 
