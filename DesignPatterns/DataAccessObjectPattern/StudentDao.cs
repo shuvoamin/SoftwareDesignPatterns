@@ -1,36 +1,24 @@
-﻿namespace DesignPatterns.DataAccessObjectPattern
+﻿using DesignPatterns.Interfaces;
+
+namespace DesignPatterns.DataAccessObjectPattern
 {
     public class StudentDao
     {
-        private string _name;
-        private int _id;
-
         public StudentDao(string name, int id)
         {
-            _name = name;
-            _id = id;
+            Name = name;
+            Id = id;
         }
 
-        public string Name
-        {
-            get { return _name; }
-            set { _name = value; }
-        }
+        public string Name { get; set; }
 
-        public int Id
-        {
-            get { return _id; }
-            set { _id = value; }
-        }
+        public int Id { get; set; }
 
-        public Interfaces.IStudentDao IStudentDao
+        public IStudentDao StudentDaoIDao
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
     }

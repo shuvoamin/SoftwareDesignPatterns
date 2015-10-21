@@ -3,31 +3,28 @@
   <Class Name="DesignPatterns.DataAccessObjectPattern.DaoPatternDemo">
     <Position X="9.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
       <FileName>DataAccessObjectPattern\DaoPatternDemo.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IStudentDao" />
+      <Property Name="StudentDao" />
     </ShowAsAssociation>
   </Class>
   <Class Name="DesignPatterns.DataAccessObjectPattern.StudentDao">
     <Position X="1.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACIAAAAAAAAAAAAABAAAQAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAA=</HashCode>
       <FileName>DataAccessObjectPattern\StudentDao.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="IStudentDao" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="DesignPatterns.DataAccessObjectPattern.StudentDaoImplementation">
     <Position X="5" Y="3.75" Width="2.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAIAAAAEAAAEAAAAAAAAAAAAAAAAAQBAIAAAAAA=</HashCode>
+      <HashCode>AAAAAAIAAAAEAAAEAAAAAAAAAAAAAAAAAQBAAgAAAAA=</HashCode>
       <FileName>DataAccessObjectPattern\StudentDaoImplementation.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IStudentDao" />
+      <Property Name="StudentDao" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>

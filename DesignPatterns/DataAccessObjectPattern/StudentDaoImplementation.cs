@@ -19,7 +19,7 @@ namespace DesignPatterns.DataAccessObjectPattern
             _students.Add(student2);
         }
 
-        public IStudentDao IStudentDao
+        public IStudentDao StudentDao
         {
             get
             {
