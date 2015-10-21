@@ -10,21 +10,16 @@ namespace DesignPatterns.BuilderPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
-        public IItem IItem
+        public IItem Item
         {
             get
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
+
         //Override
         public abstract string name();
 

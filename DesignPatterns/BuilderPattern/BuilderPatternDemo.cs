@@ -10,9 +10,6 @@ namespace DesignPatterns.BuilderPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
     
         public static void Output()

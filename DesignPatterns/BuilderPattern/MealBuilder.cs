@@ -8,9 +8,6 @@
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
     
         public Meal PrepareVegetarianMeal()

@@ -1,44 +1,35 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace DesignPatterns.BuilderPattern
 {
     public class Meal
     {
-        private List<IItem> items = new List<IItem>();
+        private readonly List<IItem> _items = new List<IItem>();
 
-        public IItem IItem
+        public IItem Item
         {
             get
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public void AddItem(IItem item)
         {
-            items.Add(item);
+            _items.Add(item);
         }
 
         public float GetCost()
         {
-            float cost = 0.0F;
-
-            foreach (IItem item in items)
-            {
-                cost += item.price();
-            }
-      		
-            return cost;
+            return _items.Sum(item => item.price());
         }
 
         public void ShowItems()
         {
-            foreach (IItem item in items)
+            foreach (IItem item in _items)
             {
                 Console.WriteLine("Item : " + item.name());
                 Console.WriteLine(", Packing : " + item.packing().pack());

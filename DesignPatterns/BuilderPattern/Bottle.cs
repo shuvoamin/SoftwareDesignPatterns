@@ -4,16 +4,14 @@ namespace DesignPatterns.BuilderPattern
 {
     public class Bottle : IPacking
     {
-        public IPacking IPacking
+        public IPacking Packing
         {
             get
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
+
         //Override
         public string pack()
         {
