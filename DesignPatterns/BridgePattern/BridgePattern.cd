@@ -45,17 +45,17 @@
     <AssociationLine Name="GreenCircle" Type="DesignPatterns.BridgePattern.GreenCircle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="1.75" Y="4.853" />
-        <Point X="1.75" Y="5.303" />
-        <Point X="6.75" Y="5.303" />
-        <Point X="6.75" Y="4.863" />
+        <Point X="1.75" Y="5.345" />
+        <Point X="6.75" Y="5.345" />
+        <Point X="6.75" Y="4.853" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="RedCircle" Type="DesignPatterns.BridgePattern.RedCircle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="1.375" Y="4.853" />
-        <Point X="1.375" Y="5.626" />
-        <Point X="8.75" Y="5.626" />
-        <Point X="8.75" Y="4.863" />
+        <Point X="1.375" Y="5.668" />
+        <Point X="8.75" Y="5.668" />
+        <Point X="8.75" Y="4.853" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
