@@ -4,14 +4,14 @@ namespace DesignPatterns.CommandPattern
 {
     class BuyStock : IOrder
     {
-        private Stock _abcStock;
+        private readonly Stock _abcStock;
 
         public BuyStock(Stock abcStock)
         {
             _abcStock = abcStock;
         }
 
-        public IOrder IOrder
+        public IOrder Order
         {
             get
             {

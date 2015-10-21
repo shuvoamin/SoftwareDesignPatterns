@@ -8,9 +8,6 @@
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public Stock Stock
@@ -18,9 +15,6 @@
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
     

@@ -5,16 +5,13 @@ namespace DesignPatterns.CommandPattern
 {
     public class Broker
     {
-        private List<IOrder> _orderList = new List<IOrder>();
+        private readonly List<IOrder> _orderList = new List<IOrder>();
 
         public SellStock SellStock
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 
@@ -23,9 +20,6 @@ namespace DesignPatterns.CommandPattern
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 

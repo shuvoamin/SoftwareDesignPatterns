@@ -2,14 +2,6 @@
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="DesignPatterns.CommandPattern.Broker">
     <Position X="6.25" Y="4" Width="1.5" />
-    <AssociationLine Name="BuyStock" Type="DesignPatterns.CommandPattern.BuyStock" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="7" Y="5.747" />
-        <Point X="7" Y="6.252" />
-        <Point X="2.125" Y="6.252" />
-        <Point X="2.125" Y="5.877" />
-      </Path>
-    </AssociationLine>
     <TypeIdentifier>
       <HashCode>AABAAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAIBAAAAA=</HashCode>
       <FileName>CommandPattern\Broker.cs</FileName>
@@ -22,11 +14,11 @@
   <Class Name="DesignPatterns.CommandPattern.BuyStock">
     <Position X="1.5" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAACAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAEAAAAAAAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CommandPattern\BuyStock.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IOrder" />
+      <Property Name="Order" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
@@ -44,11 +36,11 @@
   <Class Name="DesignPatterns.CommandPattern.SellStock">
     <Position X="3.5" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAACAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAEAAAAAAAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>CommandPattern\SellStock.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IOrder" />
+      <Property Name="Order" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>

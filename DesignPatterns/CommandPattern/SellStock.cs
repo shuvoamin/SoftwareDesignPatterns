@@ -4,21 +4,18 @@ namespace DesignPatterns.CommandPattern
 {
     public class SellStock : IOrder
     {
-        private Stock _abcStock;
+        private readonly Stock _abcStock;
 
         public SellStock(Stock abcStock)
         {
             _abcStock = abcStock;
         }
 
-        public IOrder IOrder
+        public IOrder Order
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 
