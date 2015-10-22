@@ -4,7 +4,7 @@ namespace DesignPatterns.ObserverPattern
 {
     public class Subject
     {
-        private List<Observer> _observers = new List<Observer>();
+        private readonly List<Observer> _observers = new List<Observer>();
         private int _state;
 
         public int State
@@ -22,9 +22,6 @@ namespace DesignPatterns.ObserverPattern
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 

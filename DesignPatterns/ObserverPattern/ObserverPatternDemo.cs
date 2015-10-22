@@ -10,9 +10,6 @@ namespace DesignPatterns.ObserverPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public OctalObserver OctalObserver
@@ -20,20 +17,6 @@ namespace DesignPatterns.ObserverPattern
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
-        public BinaryObserver BinaryObserver
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
 
@@ -43,8 +26,13 @@ namespace DesignPatterns.ObserverPattern
             {
                 throw new NotImplementedException();
             }
-            set
+        }
+
+        public BinaryObserver BinaryObserver
+        {
+            get
             {
+                throw new NotImplementedException();
             }
         }
     

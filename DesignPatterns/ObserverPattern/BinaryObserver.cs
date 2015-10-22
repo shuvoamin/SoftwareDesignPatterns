@@ -6,14 +6,14 @@ namespace DesignPatterns.ObserverPattern
     {
         public BinaryObserver(Subject subject)
         {
-            _subject = subject;
-            _subject.Attach(this);
+            Subject = subject;
+            Subject.Attach(this);
         }
 
         //Override
         public override void Update()
         {
-            Console.WriteLine("Binary String: " + Convert.ToString(_subject.State, 2) + Environment.NewLine);
+            Console.WriteLine("Binary String: " + Convert.ToString(Subject.State, 2) + Environment.NewLine);
         }
     }
 }

@@ -6,14 +6,14 @@ namespace DesignPatterns.ObserverPattern
     {
         public OctalObserver(Subject subject)
         {
-            _subject = subject;
-            _subject.Attach(this);
+            Subject = subject;
+            Subject.Attach(this);
         }
 
         //Override
         public override void Update()
         {
-            Console.WriteLine("Octal String: " + Convert.ToString(_subject.State, 8) + Environment.NewLine);
+            Console.WriteLine("Octal String: " + Convert.ToString(Subject.State, 8) + Environment.NewLine);
         }
     }
 }

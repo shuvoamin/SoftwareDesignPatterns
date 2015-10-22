@@ -2,7 +2,7 @@
 {
     public abstract class Observer
     {
-        protected Subject _subject;
+        protected Subject Subject;
         public abstract void Update();
     }
 }

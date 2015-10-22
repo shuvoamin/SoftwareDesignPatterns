@@ -6,14 +6,14 @@ namespace DesignPatterns.ObserverPattern
     {
         public HexaObserver(Subject subject)
         {
-            _subject = subject;
-            _subject.Attach(this);
+            Subject = subject;
+            Subject.Attach(this);
         }
 
         //Override
         public override void Update()
         {
-            Console.WriteLine("Hex String: " + _subject.State.ToString("X1") + Environment.NewLine);
+            Console.WriteLine("Hex String: " + Subject.State.ToString("X1") + Environment.NewLine);
         }
     }
 }
