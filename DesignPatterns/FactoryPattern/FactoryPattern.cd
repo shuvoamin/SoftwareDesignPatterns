@@ -3,59 +3,59 @@
   <Class Name="DesignPatterns.FactoryPattern.Circle">
     <Position X="4" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>FactoryPattern\Circle.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IShape" />
-    </ShowAsAssociation>
-    <Lollipop Position="0.2" />
-  </Class>
-  <Class Name="DesignPatters.FactoryPattern.Rectangle">
-    <Position X="5.75" Y="4" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
-      <FileName>FactoryPattern\Rectangle.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="IShape" />
+      <Property Name="Shape" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.FactoryPattern.Square">
     <Position X="2.25" Y="4" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>FactoryPattern\Square.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IShape" />
+      <Property Name="Shape" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.FactoryPattern.ShapeFactory">
-    <Position X="8.5" Y="4.75" Width="1.5" />
-    <AssociationLine Name="Rectangle" Type="DesignPatters.FactoryPattern.Rectangle">
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="0.058" Y="0.07" />
-      </MemberNameLabel>
+    <Position X="8.5" Y="4" Width="1.5" />
+    <AssociationLine Name="Circle" Type="DesignPatterns.FactoryPattern.Circle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.188" Y="5.113" />
+        <Point X="9.188" Y="5.562" />
+        <Point X="4.75" Y="5.562" />
+        <Point X="4.75" Y="5.103" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Square" Type="DesignPatterns.FactoryPattern.Square" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.375" Y="5.113" />
+        <Point X="9.375" Y="5.718" />
+        <Point X="3" Y="5.718" />
+        <Point X="3" Y="5.103" />
+      </Path>
     </AssociationLine>
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAggAAAABAAgAAAAAAA=</HashCode>
       <FileName>FactoryPattern\ShapeFactory.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="Rectangle" />
       <Property Name="Circle" />
       <Property Name="Square" />
+      <Property Name="Rectangle" />
     </ShowAsAssociation>
   </Class>
   <Class Name="DesignPatterns.FactoryPattern.FactoryPatternDemo">
-    <Position X="8.5" Y="1.75" Width="1.5" />
+    <Position X="8.5" Y="1" Width="1.5" />
     <AssociationLine Name="ShapeFactory" Type="DesignPatterns.FactoryPattern.ShapeFactory" FixedToPoint="true">
       <Path>
-        <Point X="9.25" Y="2.853" />
-        <Point X="9.25" Y="4.75" />
+        <Point X="9.25" Y="2.103" />
+        <Point X="9.25" Y="4" />
       </Path>
       <MemberNameLabel ManuallyPlaced="true">
         <Position X="-1.14" Y="0.143" />
@@ -68,6 +68,17 @@
     <ShowAsAssociation>
       <Property Name="ShapeFactory" />
     </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.FactoryPattern.Rectangle">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FactoryPattern\Rectangle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Shape" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="DesignPatterns.Interfaces.IShape">
     <Position X="2.25" Y="1.75" Width="5" />

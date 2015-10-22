@@ -4,25 +4,11 @@ namespace DesignPatterns.FactoryPattern
 {
     public class ShapeFactory
     {
-        public Rectangle Rectangle
-        {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
-        }
-
         public Circle Circle
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 
@@ -32,8 +18,13 @@ namespace DesignPatterns.FactoryPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
+        }
+
+        public Rectangle Rectangle
+        {
+            get
             {
+                throw new System.NotImplementedException();
             }
         }
     

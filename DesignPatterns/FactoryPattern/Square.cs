@@ -5,27 +5,14 @@ namespace DesignPatterns.FactoryPattern
 {
     public class Square : IShape
     {
-        public IShape IShape
+        public IShape Shape
         {
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
 
-        public IShape IShape1
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-            set
-            {
-            }
-        }
         //Override
         public void Draw()
         {

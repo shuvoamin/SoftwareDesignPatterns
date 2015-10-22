@@ -10,9 +10,6 @@ namespace DesignPatterns.FactoryPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
     
         public static void Output()
