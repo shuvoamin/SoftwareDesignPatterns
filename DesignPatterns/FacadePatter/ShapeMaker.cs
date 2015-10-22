@@ -4,9 +4,9 @@ namespace DesignPatterns.FacadePatter
 {
     public class ShapeMaker
     {
-        private IShape _circle;
-        private IShape _rectangle;
-        private IShape _square;
+        private readonly IShape _circle;
+        private readonly IShape _rectangle;
+        private readonly IShape _square;
 
         public ShapeMaker()
         {
@@ -21,9 +21,6 @@ namespace DesignPatterns.FacadePatter
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public SquareFacade SquareFacade
@@ -32,9 +29,6 @@ namespace DesignPatterns.FacadePatter
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public RectangleFacade RectangleFacade
@@ -42,9 +36,6 @@ namespace DesignPatterns.FacadePatter
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 

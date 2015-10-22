@@ -3,35 +3,35 @@
   <Class Name="DesignPatterns.FacadePatter.CircleFacade">
     <Position X="5.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>FacadePatter\CircleFacade.cs</FileName>
       <NewMemberFileName>FacadePatter\RectangleFacade.cs</NewMemberFileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IShape" />
+      <Property Name="Shape" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.FacadePatter.RectangleFacade">
     <Position X="1.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>FacadePatter\RectangleFacade.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IShape" />
+      <Property Name="Shape" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.FacadePatter.SquareFacade">
     <Position X="3.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>FacadePatter\SquareFacade.cs</FileName>
       <NewMemberFileName>FacadePatter\RectangleFacade.cs</NewMemberFileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IShape" />
+      <Property Name="Shape" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>

@@ -5,16 +5,14 @@ namespace DesignPatterns.FacadePatter
 {
     public class CircleFacade : IShape
     {
-        public IShape IShape
+        public IShape Shape
         {
             get
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
+
         //Override
         public void Draw()
         {
