@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace DesignPatterns.Interfaces
+﻿namespace DesignPatterns.Interfaces
 {
     public interface IIterator
     {
-        Boolean HasNext();
-        Object Next();
+        bool HasNext();
+        object Next();
     }
 }

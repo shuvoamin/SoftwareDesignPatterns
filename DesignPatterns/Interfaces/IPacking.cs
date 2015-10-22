@@ -2,6 +2,6 @@
 {
     public interface IPacking
     {
-        string pack();
+        string Pack();
     }
 }

@@ -90,16 +90,16 @@ namespace DesignPatterns.FilterPattern
             ICriteria singleOrFemale = new OrCriteria(single, female);
 
             Console.WriteLine("Males: ");
-            PrintPersons(male.meetCriteria(persons));
+            PrintPersons(male.MeetCriteria(persons));
 
             Console.WriteLine("\nFemales: ");
-            PrintPersons(female.meetCriteria(persons));
+            PrintPersons(female.MeetCriteria(persons));
 
             Console.WriteLine("\nSingle Males: ");
-            PrintPersons(singleMale.meetCriteria(persons));
+            PrintPersons(singleMale.MeetCriteria(persons));
 
             Console.WriteLine("\nSingle Or Females: ");
-            PrintPersons(singleOrFemale.meetCriteria(persons));
+            PrintPersons(singleOrFemale.MeetCriteria(persons));
         }
 
         private static void PrintPersons(List<Person> persons)

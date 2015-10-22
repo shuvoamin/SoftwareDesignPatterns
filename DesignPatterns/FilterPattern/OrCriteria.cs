@@ -26,10 +26,10 @@ namespace DesignPatterns.FilterPattern
         }
 
         //Override
-        public List<Person> meetCriteria(List<Person> persons)
+        public List<Person> MeetCriteria(List<Person> persons)
         {
-            List<Person> firstCriteriaItems = _criteria.meetCriteria(persons);
-            List<Person> otherCriteriaItems = _otherCriteria.meetCriteria(persons);
+            List<Person> firstCriteriaItems = _criteria.MeetCriteria(persons);
+            List<Person> otherCriteriaItems = _otherCriteria.MeetCriteria(persons);
 
             foreach (Person person in otherCriteriaItems)
             {

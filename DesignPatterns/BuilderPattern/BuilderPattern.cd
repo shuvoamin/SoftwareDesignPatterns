@@ -8,7 +8,7 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\Bottle.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -29,7 +29,7 @@
   <Class Name="DesignPatterns.BuilderPattern.Burger">
     <Position X="0.5" Y="4" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAAAAAAAEAkAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAQAAAAAQkAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\Burger.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -41,14 +41,14 @@
   <Class Name="DesignPatterns.BuilderPattern.ChickenBurger">
     <Position X="2.25" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\ChickenBurger.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.Coke">
     <Position X="11.5" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\Coke.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -67,7 +67,7 @@
       </MemberNameLabel>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAAAAAAAEAEAAAEAAAAAAAAAAAAAgA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAQAAAAAQEAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>BuilderPattern\ColdDrink.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -96,21 +96,21 @@
   <Class Name="DesignPatterns.BuilderPattern.Pepsi">
     <Position X="9.75" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\Pepsi.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.VegetarianBurger">
     <Position X="0.5" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\VegetarianBurger.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DesignPatterns.BuilderPattern.Wrapper">
     <Position X="5" Y="5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAQAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>BuilderPattern\Wrapper.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -121,14 +121,14 @@
   <Interface Name="DesignPatterns.Interfaces.IItem">
     <Position X="0.5" Y="0.5" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAAAAAAAEAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAQAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IItem.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="DesignPatterns.Interfaces.IPacking">
     <Position X="5" Y="3.25" Width="3.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Interfaces\IPacking.cs</FileName>
     </TypeIdentifier>
   </Interface>

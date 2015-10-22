@@ -3,13 +3,13 @@
     public class ChickenBurger : Burger
     {
         //Override
-        public override string name()
+        public override string Name()
         {
             return "Chicken Burger";
         }
 
         //Override
-        public override float price()
+        public override float Price()
         {
             return 50.0F;
         }

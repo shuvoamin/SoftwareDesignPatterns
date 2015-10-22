@@ -21,15 +21,15 @@ namespace DesignPatterns.BuilderPattern
         }
 
         //Override
-        public abstract string name();
+        public abstract string Name();
 
         //Override
-        public IPacking packing()
+        public IPacking Packing()
         {
             return new Bottle();
         }
 
         //Override
-        public abstract float price();
+        public abstract float Price();
     }
 }

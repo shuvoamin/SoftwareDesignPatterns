@@ -16,7 +16,7 @@ namespace DesignPatterns.FilterPattern
             }
         }
         //Override
-        public List<Person> meetCriteria(List<Person> persons)
+        public List<Person> MeetCriteria(List<Person> persons)
         {
             List<Person> singlePersons = new List<Person>();
 

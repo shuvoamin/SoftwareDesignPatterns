@@ -24,16 +24,16 @@ namespace DesignPatterns.BuilderPattern
 
         public float GetCost()
         {
-            return _items.Sum(item => item.price());
+            return _items.Sum(item => item.Price());
         }
 
         public void ShowItems()
         {
             foreach (IItem item in _items)
             {
-                Console.WriteLine("Item : " + item.name());
-                Console.WriteLine(", Packing : " + item.packing().pack());
-                Console.WriteLine(", Price : " + item.price());
+                Console.WriteLine("Item : " + item.Name());
+                Console.WriteLine(", Packing : " + item.Packing().Pack());
+                Console.WriteLine(", Price : " + item.Price());
             }
         }			
     }

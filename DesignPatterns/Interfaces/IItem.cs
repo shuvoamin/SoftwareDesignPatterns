@@ -2,8 +2,8 @@
 {
     public interface IItem
     {
-        string name();
-        IPacking packing();
-        float price();
+        string Name();
+        IPacking Packing();
+        float Price();
     }
 }

@@ -5,6 +5,6 @@ namespace DesignPatterns.Interfaces
 {
     public interface ICriteria
     {
-        List<Person> meetCriteria(List<Person> persons);
+        List<Person> MeetCriteria(List<Person> persons);
     }
 }

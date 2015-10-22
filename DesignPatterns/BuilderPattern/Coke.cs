@@ -3,13 +3,13 @@
     public class Coke : ColdDrink
     {
         //Override
-        public override string name()
+        public override string Name()
         {
             return "Coke";
         }
 
         //Overide
-        public override float price()
+        public override float Price()
         {
             return 35.0F;
         }
