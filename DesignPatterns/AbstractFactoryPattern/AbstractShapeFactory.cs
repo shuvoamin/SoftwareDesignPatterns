@@ -1,6 +1,5 @@
 ﻿using DesignPatterns.FactoryPattern;
 using DesignPatterns.Interfaces;
-using DesignPatters.FactoryPattern;
 
 namespace DesignPatterns.AbstractFactoryPattern
 {

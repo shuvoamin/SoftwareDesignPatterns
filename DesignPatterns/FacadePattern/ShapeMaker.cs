@@ -1,6 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 
-namespace DesignPatterns.FacadePatter
+namespace DesignPatterns.FacadePattern
 {
     public class ShapeMaker
     {

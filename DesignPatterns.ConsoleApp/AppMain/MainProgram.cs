@@ -9,7 +9,7 @@ using DesignPatterns.CommandPattern;
 using DesignPatterns.CompositeEntityPattern;
 using DesignPatterns.DataAccessObjectPattern;
 using DesignPatterns.DecoratorPattern;
-using DesignPatterns.FacadePatter;
+using DesignPatterns.FacadePattern;
 using DesignPatterns.FactoryPattern;
 using DesignPatterns.FrontControllerPattern;
 using DesignPatterns.InterceptingFilterPattern;

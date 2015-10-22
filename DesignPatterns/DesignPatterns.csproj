@@ -82,6 +82,11 @@
     <Compile Include="DataAccessObjectPattern\DaoPatternDemo.cs" />
     <Compile Include="DataAccessObjectPattern\StudentDao.cs" />
     <Compile Include="DataAccessObjectPattern\StudentDaoImplementation.cs" />
+    <Compile Include="FacadePattern\CircleFacade.cs" />
+    <Compile Include="FacadePattern\FacadePatternDemo.cs" />
+    <Compile Include="FacadePattern\RectangleFacade.cs" />
+    <Compile Include="FacadePattern\ShapeMaker.cs" />
+    <Compile Include="FacadePattern\SquareFacade.cs" />
     <Compile Include="FrontControllerPattern\Dispatcher.cs" />
     <Compile Include="FrontControllerPattern\FrontController.cs" />
     <Compile Include="FrontControllerPattern\FrontControllerPatternDemo.cs" />
@@ -112,11 +117,6 @@
     <Compile Include="DecoratorPattern\RectangleDecorator.cs" />
     <Compile Include="DecoratorPattern\RedShapeDecorator.cs" />
     <Compile Include="DecoratorPattern\ShapeDecorator.cs" />
-    <Compile Include="FacadePatter\CircleFacade.cs" />
-    <Compile Include="FacadePatter\FacadePatternDemo.cs" />
-    <Compile Include="FacadePatter\RectangleFacade.cs" />
-    <Compile Include="FacadePatter\ShapeMaker.cs" />
-    <Compile Include="FacadePatter\SquareFacade.cs" />
     <Compile Include="FactoryPattern\Circle.cs" />
     <Compile Include="FactoryPattern\FactoryPatternDemo.cs" />
     <Compile Include="FactoryPattern\Rectangle.cs" />
@@ -234,7 +234,7 @@
     <None Include="CompositePattern\CompositePattern.cd" />
     <None Include="DataAccessObjectPattern\DataAccessObjectPattern.cd" />
     <None Include="DecoratorPattern\DecoratorPattern.cd" />
-    <None Include="FacadePatter\FacadePattern.cd" />
+    <None Include="FacadePattern\FacadePattern.cd" />
     <None Include="FactoryPattern\FactoryPattern.cd" />
     <None Include="FilterPattern\FilterPattern.cd" />
     <None Include="FlyweightPattern\FlyweightPattern.cd" />
@@ -264,6 +264,7 @@
     <Content Include="FlyweightPattern\FlyweightPatternOutput.txt" />
     <Content Include="PrototypePattern\PrototypePatternOutput.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

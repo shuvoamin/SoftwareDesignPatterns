@@ -1,7 +1,7 @@
-﻿using DesignPatterns.Interfaces;
-using System;
+﻿using System;
+using DesignPatterns.Interfaces;
 
-namespace DesignPatterns.FacadePatter
+namespace DesignPatterns.FacadePattern
 {
     public class CircleFacade : IShape
     {

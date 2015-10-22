@@ -1,7 +1,7 @@
-﻿using DesignPatterns.Interfaces;
-using System;
+﻿using System;
+using DesignPatterns.Interfaces;
 
-namespace DesignPatters.FactoryPattern
+namespace DesignPatterns.FactoryPattern
 {
     public class Rectangle : IShape
     {

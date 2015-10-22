@@ -1,9 +1,9 @@
-﻿using DesignPatterns.Interfaces;
-using System;
+﻿using System;
+using DesignPatterns.Interfaces;
 
-namespace DesignPatterns.FacadePatter
+namespace DesignPatterns.FacadePattern
 {
-    public class RectangleFacade : IShape
+    public class SquareFacade : IShape
     {
         public IShape Shape
         {
@@ -16,7 +16,7 @@ namespace DesignPatterns.FacadePatter
         //Override
         public void Draw()
         {
-            Console.WriteLine("Rectangle::draw()" + Environment.NewLine);
+            Console.WriteLine("Square::draw()" + Environment.NewLine);
         }
     }
 }

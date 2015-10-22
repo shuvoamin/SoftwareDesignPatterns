@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.FacadePatter
+﻿namespace DesignPatterns.FacadePattern
 {
     public class FacadePatternDemo
     {
