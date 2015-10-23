@@ -5,16 +5,14 @@ namespace DesignPatterns.ServiceLocatorPattern
 {
     public class Service1 : IService
     {
-        public IService IService
+        public IService Service
         {
             get
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
+
         //Override
         public string GetName()
         {

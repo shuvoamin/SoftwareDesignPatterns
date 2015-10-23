@@ -1,12 +1,13 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace DesignPatterns.ServiceLocatorPattern
 {
     public class CacheServiceLocator
     {
-        private List<IService> _services;
+        private readonly List<IService> _services;
 
         public CacheServiceLocator()
         {
@@ -15,14 +16,10 @@ namespace DesignPatterns.ServiceLocatorPattern
 
         public IService GetService(string serviceName)
         {
-
-            foreach (var service in _services)
+            foreach (var service in _services.Where(service => service.GetName().Equals(serviceName)))
             {
-                if (service.GetName().Equals(serviceName))
-                {
-                    Console.WriteLine("Returning cached  " + serviceName + " object");
-                    return service;
-                }
+                Console.WriteLine("Returning cached  " + serviceName + " object");
+                return service;
             }
             return null;
         }
@@ -31,12 +28,9 @@ namespace DesignPatterns.ServiceLocatorPattern
         {
             var exists = false;
 
-            foreach (var service in _services)
+            foreach (var service in _services.Where(service => service.GetName().Equals(newService.GetName())))
             {
-                if (service.GetName().Equals(newService.GetName()))
-                {
-                    exists = true;
-                }
+                exists = true;
             }
 
             if (!exists)

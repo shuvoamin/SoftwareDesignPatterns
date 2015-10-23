@@ -10,9 +10,6 @@ namespace DesignPatterns.ServiceLocatorPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public Service1 Service1
@@ -20,9 +17,6 @@ namespace DesignPatterns.ServiceLocatorPattern
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
     
@@ -33,7 +27,7 @@ namespace DesignPatterns.ServiceLocatorPattern
                 Console.WriteLine("Looking up and creating a new Service1 object" + Environment.NewLine);
                 return new Service1();
             }
-            else if (jndiName.Equals("SERVICE2"))
+            if (jndiName.Equals("SERVICE2"))
             {
                 Console.WriteLine("Looking up and creating a new Service2 object" + Environment.NewLine);
                 return new Service2();

@@ -5,11 +5,11 @@ namespace DesignPatterns.ServiceLocatorPattern
 {
     public class ServiceLocator
     {
-        private static CacheServiceLocator _cache;
+        private static readonly CacheServiceLocator Cache;
 
         static ServiceLocator() 
         {
-           _cache = new CacheServiceLocator();		
+           Cache = new CacheServiceLocator();		
         }
 
         public InitialContext InitialContext
@@ -17,9 +17,6 @@ namespace DesignPatterns.ServiceLocatorPattern
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
 
@@ -29,15 +26,12 @@ namespace DesignPatterns.ServiceLocatorPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public static IService GetService(string jndiName)
         {
 
-            var service = _cache.GetService(jndiName);
+            var service = Cache.GetService(jndiName);
 
             if (service != null)
             {
@@ -46,7 +40,7 @@ namespace DesignPatterns.ServiceLocatorPattern
 
             var context = new InitialContext();
             var service1 = (IService)context.Lookup(jndiName);
-            _cache.AddService(service1);
+            Cache.AddService(service1);
             return service1;
         }
     }
