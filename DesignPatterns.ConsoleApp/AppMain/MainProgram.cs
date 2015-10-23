@@ -40,6 +40,14 @@ namespace DesignPatterns.ConsoleApp.AppMain
     {
         static void Main()
         {
+            Trace.Listeners.Add(new TextWriterTraceListener("SoftwareDesignPaternsOutput.log"));
+            Trace.AutoFlush = true;
+            Trace.Indent();
+            Console.WriteLine("Output text file location ==> \n");
+            Console.WriteLine("./SoftwareDesignPatterns/DesignPatterns.ConsoleApp/bin/Debug/SoftwareDesignPatternsOutput.log");
+            Console.WriteLine("\nAlternatively, see the visual studio output window.");
+
+            #region Writing All Output in Trace File
             Trace.WriteLine("=================== PROGRAM STARTS HERE ===================" + Environment.NewLine);
 
             Trace.WriteLine("========== FACTORY PATTERN RESULT ===========" + Environment.NewLine);
@@ -153,7 +161,12 @@ namespace DesignPatterns.ConsoleApp.AppMain
             Trace.WriteLine("========== TRANSFER OBJECT PATTERN RESULT ===========" + Environment.NewLine);
             TransferObjectPatternDemo.Output();
 
-            Trace.WriteLine("=================== ROGRAM ENDS HERE ===================");
+            Trace.WriteLine("=================== ROGRAM ENDS HERE ==================="); 
+            #endregion
+
+            Trace.Unindent();
+            Trace.Flush();
+            Console.ReadKey();
         }
     }
 }
