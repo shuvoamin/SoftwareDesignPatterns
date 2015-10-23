@@ -2,8 +2,8 @@
 {
     public class StudentController
     {
-        private Student _model;
-        private StudentView _view;
+        private readonly Student _model;
+        private readonly StudentView _view;
 
         public StudentController(Student model, StudentView view)
         {
@@ -17,9 +17,6 @@
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public StudentView StudentView
@@ -27,9 +24,6 @@
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 
