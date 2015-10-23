@@ -6,7 +6,7 @@ namespace DesignPatterns.PrototypePattern
     {
         public CirclePrototype()
         {
-            type = "Circle";
+            Type = "Circle";
         }
 
         //Override

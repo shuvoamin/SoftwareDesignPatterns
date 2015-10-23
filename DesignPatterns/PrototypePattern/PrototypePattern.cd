@@ -11,7 +11,7 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PrototypePattern\CircleProtype.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -36,7 +36,7 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PrototypePattern\RectanglePrototype.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -51,14 +51,14 @@
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PrototypePattern\SquarePrototype.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="DesignPatterns.PrototypePattern.ShapePrototype">
     <Position X="1.25" Y="0.5" Width="6.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAIAAAAAAAABAAEAAAAAAAIAAhA=</HashCode>
+      <HashCode>AAAAAAAAAAAAIgAAAABAAAAAAAAAAAEAAQAAAAIAABA=</HashCode>
       <FileName>PrototypePattern\ShapePrototype.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />

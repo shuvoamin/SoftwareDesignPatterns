@@ -6,9 +6,8 @@ namespace DesignPatterns.PrototypePattern
     {
         public RectanglePrototype()
         {
-            type = "Rectangle";
+            Type = "Rectangle";
         }
-
 
         //Override
         public override void Draw()

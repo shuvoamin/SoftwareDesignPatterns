@@ -4,29 +4,29 @@ namespace DesignPatterns.PrototypePattern
 {
     public abstract class ShapePrototype : ICloneable
     {
-        private int id;
-        protected string type;
+        private int _id;
+        protected string Type;
 
         public abstract void Draw();
 
-        public string GetType()
+        public new string GetType()
         {
-            return type;
+            return Type;
         }
 
         public int GetId()
         {
-            return id;
+            return _id;
         }
 
         public void SetId(int id)
         {
-            this.id = id;
+            _id = id;
         }
 
         public object Clone()
         {
-            object clone = null;
+            object clone;
 
             try
             {

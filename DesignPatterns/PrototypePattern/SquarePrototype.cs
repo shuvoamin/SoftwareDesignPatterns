@@ -6,7 +6,7 @@ namespace DesignPatterns.PrototypePattern
     {
         public SquarePrototype()
         {
-            type = "Square";
+            Type = "Square";
         }
 
         //Override

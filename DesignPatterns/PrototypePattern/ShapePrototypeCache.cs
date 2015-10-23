@@ -12,9 +12,6 @@ namespace DesignPatterns.PrototypePattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public RectanglePrototype RectanglePrototype
@@ -23,9 +20,6 @@ namespace DesignPatterns.PrototypePattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public CirclePrototype CirclePrototype
@@ -33,9 +27,6 @@ namespace DesignPatterns.PrototypePattern
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 
