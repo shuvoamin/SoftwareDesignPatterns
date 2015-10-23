@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.MementoPattern
 {
@@ -33,12 +34,12 @@ namespace DesignPatterns.MementoPattern
             careTaker.Add(originator.SaveStateToMemento());
 
             originator.State = "State #4";
-            Console.WriteLine("Current State: " + originator.State + Environment.NewLine);
+            Trace.WriteLine("Current State: " + originator.State + Environment.NewLine);
 
             originator.GetStateFromMemento(careTaker.Get(0));
-            Console.WriteLine("First saved State: " + originator.State + Environment.NewLine);
+            Trace.WriteLine("First saved State: " + originator.State + Environment.NewLine);
             originator.GetStateFromMemento(careTaker.Get(1));
-            Console.WriteLine("Second saved State: " + originator.State + Environment.NewLine);
+            Trace.WriteLine("Second saved State: " + originator.State + Environment.NewLine);
         }
     }
 }

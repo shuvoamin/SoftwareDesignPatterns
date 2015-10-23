@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.TransferObjectPattern
 {
@@ -19,7 +20,7 @@ namespace DesignPatterns.TransferObjectPattern
             //print all students
             foreach (var student in studentBusinessObject.GetAllStudents())
             {
-                Console.WriteLine("Student: [RollNo : " + student.Id + ", Name : " + student.Name + " ]" + Environment.NewLine);
+                Trace.WriteLine("Student: [RollNo : " + student.Id + ", Name : " + student.Name + " ]" + Environment.NewLine);
             }
 
             //update student
@@ -29,7 +30,7 @@ namespace DesignPatterns.TransferObjectPattern
 
             //get the student
             updateStudent = studentBusinessObject.GetStudent(0);
-            Console.WriteLine("Student: [RollNo : " + updateStudent.Id + ", Name : " + updateStudent.Name + " ]" + Environment.NewLine);
+            Trace.WriteLine("Student: [RollNo : " + updateStudent.Id + ", Name : " + updateStudent.Name + " ]" + Environment.NewLine);
         }
     }
 }

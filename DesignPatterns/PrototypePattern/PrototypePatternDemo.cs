@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.PrototypePattern
 {
@@ -17,13 +18,13 @@ namespace DesignPatterns.PrototypePattern
             ShapePrototypeCache.LoadCache();
 
             var clonedShape = ShapePrototypeCache.GetShape(1);
-            Console.WriteLine("Shape : " + clonedShape.GetType() + Environment.NewLine);
+            Trace.WriteLine("Shape : " + clonedShape.GetType() + Environment.NewLine);
 
             var clonedShape2 = ShapePrototypeCache.GetShape(2);
-            Console.WriteLine("Shape : " + clonedShape2.GetType() + Environment.NewLine);
+            Trace.WriteLine("Shape : " + clonedShape2.GetType() + Environment.NewLine);
 
             var clonedShape3 = ShapePrototypeCache.GetShape(3);
-            Console.WriteLine("Shape : " + clonedShape3.GetType() + Environment.NewLine);
+            Trace.WriteLine("Shape : " + clonedShape3.GetType() + Environment.NewLine);
         }
     }
 }

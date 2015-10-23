@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using DesignPatterns.Interfaces;
 
 namespace DesignPatterns.FactoryPattern
@@ -16,7 +17,7 @@ namespace DesignPatterns.FactoryPattern
         //Override
         public void Draw()
         {
-            Console.WriteLine("Inside Rectangle::Draw() method." + Environment.NewLine);
+            Trace.WriteLine("Inside Rectangle::Draw() method." + Environment.NewLine);
         }
     }
 }

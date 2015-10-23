@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.FactoryPattern
 {
@@ -16,7 +17,7 @@ namespace DesignPatterns.FactoryPattern
         //Override
         public void Draw()
         {
-            Console.WriteLine("Inside Square::Draw() method." + Environment.NewLine);
+            Trace.WriteLine("Inside Square::Draw() method." + Environment.NewLine);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.MvcPattern
 {
@@ -6,9 +7,9 @@ namespace DesignPatterns.MvcPattern
     {
         public void ShowStudentDetails(string studentName, int studentId)
         {
-            Console.WriteLine("Student: ");
-            Console.WriteLine("Name: " + studentName);
-            Console.WriteLine("Id: " + studentId + Environment.NewLine);
+            Trace.WriteLine("Student: ");
+            Trace.WriteLine("Name: " + studentName);
+            Trace.WriteLine("Id: " + studentId + Environment.NewLine);
         }
     }
 }

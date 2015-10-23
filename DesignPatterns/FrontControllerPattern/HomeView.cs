@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.FrontControllerPattern
 {
@@ -6,7 +7,7 @@ namespace DesignPatterns.FrontControllerPattern
     {
         public void Show()
         {
-            Console.WriteLine("Displaying Home Page" + Environment.NewLine);
+            Trace.WriteLine("Displaying Home Page" + Environment.NewLine);
         }
     }
 }

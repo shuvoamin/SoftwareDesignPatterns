@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.AbstractFactoryPattern
 {
@@ -19,7 +20,7 @@ namespace DesignPatterns.AbstractFactoryPattern
         //Override
         public void Fill()
         {
-            Console.WriteLine("Inside Red:: Fill() method." + Environment.NewLine);
+            Trace.WriteLine("Inside Red:: Fill() method." + Environment.NewLine);
         }
     }
 }

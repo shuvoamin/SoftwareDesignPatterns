@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.DecoratorPattern
 {
@@ -16,7 +17,7 @@ namespace DesignPatterns.DecoratorPattern
         //Override
         public void Draw()
         {
-            Console.WriteLine("Shape: Circle" + Environment.NewLine);
+            Trace.WriteLine("Shape: Circle" + Environment.NewLine);
         }
     }
 }

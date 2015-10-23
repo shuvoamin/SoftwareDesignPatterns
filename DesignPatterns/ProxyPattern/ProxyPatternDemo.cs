@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.ProxyPattern
 {
@@ -19,7 +20,7 @@ namespace DesignPatterns.ProxyPattern
 
             //image will be loaded from disk
             image.Display();
-            Console.WriteLine("" + Environment.NewLine);
+            Trace.WriteLine("" + Environment.NewLine);
 
             //image will not be loaded from disk
             image.Display();

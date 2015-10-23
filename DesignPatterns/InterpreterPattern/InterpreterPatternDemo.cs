@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.InterpreterPattern
 {
@@ -34,8 +35,8 @@ namespace DesignPatterns.InterpreterPattern
             var isMale = GetMaleExpression();
             var isMarriedWoman = GetMarriedWomanExpression();
 
-            Console.WriteLine("John is male? " + isMale.Interpret("John") + Environment.NewLine);
-            Console.WriteLine("Julie is a married women? " + isMarriedWoman.Interpret("Married Julie") + Environment.NewLine);
+            Trace.WriteLine("John is male? " + isMale.Interpret("John") + Environment.NewLine);
+            Trace.WriteLine("Julie is a married women? " + isMarriedWoman.Interpret("Married Julie") + Environment.NewLine);
         }
 
         //Rule: Robert and John are male

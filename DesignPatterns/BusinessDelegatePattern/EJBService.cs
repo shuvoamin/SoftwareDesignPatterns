@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.BusinessDelegatePattern
 {
@@ -16,7 +17,7 @@ namespace DesignPatterns.BusinessDelegatePattern
         //Override
         public void DoProcessing()
         {
-            Console.WriteLine("Processing task by invoking EJB Service" + Environment.NewLine);
+            Trace.WriteLine("Processing task by invoking EJB Service" + Environment.NewLine);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.CompositePattern
 {
@@ -39,15 +40,15 @@ namespace DesignPatterns.CompositePattern
             headMarketing.Add(clerk2);
 
             //print all employee of the organisation
-            Console.WriteLine(CEO + Environment.NewLine);
+            Trace.WriteLine(CEO + Environment.NewLine);
 
             foreach (var headEmployee in CEO.GetAllEmployee())
             {
-                Console.WriteLine(headEmployee + Environment.NewLine);
+                Trace.WriteLine(headEmployee + Environment.NewLine);
 
                 foreach (var employee in headEmployee.GetAllEmployee())
                 {
-                    Console.WriteLine(employee + Environment.NewLine);
+                    Trace.WriteLine(employee + Environment.NewLine);
                 }
             }
         }

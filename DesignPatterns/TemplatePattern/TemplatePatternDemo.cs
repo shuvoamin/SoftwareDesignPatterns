@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.TemplatePattern
 {
@@ -24,7 +25,7 @@ namespace DesignPatterns.TemplatePattern
         {
             Game game = new Cricket();
             game.Play();
-            Console.WriteLine(Environment.NewLine);
+            Trace.WriteLine(Environment.NewLine);
             game = new Football();
             game.Play();
         }

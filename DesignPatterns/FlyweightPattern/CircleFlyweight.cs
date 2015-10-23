@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.FlyweightPattern
 {
@@ -31,7 +32,7 @@ namespace DesignPatterns.FlyweightPattern
         //Override
         public void Draw()
         {
-            Console.WriteLine("Circle: Draw() [Color : " + _color + ", x : " + X + ", y :" + Y + ", radius :" + Radius);
+            Trace.WriteLine("Circle: Draw() [Color : " + _color + ", x : " + X + ", y :" + Y + ", radius :" + Radius);
         }
     }
 }

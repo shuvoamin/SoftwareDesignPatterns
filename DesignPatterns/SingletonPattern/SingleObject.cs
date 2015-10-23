@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.SingletonPattern
 {
@@ -19,7 +20,7 @@ namespace DesignPatterns.SingletonPattern
 
         public void ShowMessage()
         {
-            Console.WriteLine("Hello World From Singleton Pattern!" + Environment.NewLine);
+            Trace.WriteLine("Hello World From Singleton Pattern!" + Environment.NewLine);
         }
     }
 }

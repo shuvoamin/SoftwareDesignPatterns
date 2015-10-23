@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.ProxyPattern
 {
@@ -22,13 +23,13 @@ namespace DesignPatterns.ProxyPattern
 
         public void LoadFromDisk(string fileName)
         {
-            Console.WriteLine("Loading :" + fileName + Environment.NewLine);
+            Trace.WriteLine("Loading :" + fileName + Environment.NewLine);
         }
 
         //Override
         public void Display()
         {
-            Console.WriteLine("Displaying :" + _fileName + Environment.NewLine);
+            Trace.WriteLine("Displaying :" + _fileName + Environment.NewLine);
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.StatePattern
 {
@@ -15,7 +16,7 @@ namespace DesignPatterns.StatePattern
     
         public void DoAction(Context context)
         {
-            Console.WriteLine("Player is in state" + Environment.NewLine);
+            Trace.WriteLine("Player is in state" + Environment.NewLine);
             context.State = this;
         }
 

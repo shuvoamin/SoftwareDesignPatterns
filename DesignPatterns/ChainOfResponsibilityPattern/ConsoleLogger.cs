@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.ChainOfResponsibilityPattern
 {
@@ -12,7 +13,7 @@ namespace DesignPatterns.ChainOfResponsibilityPattern
         //Override
         protected override void Write(string message)
         {
-            Console.WriteLine("Standard Console::Logger " + message + Environment.NewLine);
+            Trace.WriteLine("Standard Console::Logger " + message + Environment.NewLine);
         }
     }
 }

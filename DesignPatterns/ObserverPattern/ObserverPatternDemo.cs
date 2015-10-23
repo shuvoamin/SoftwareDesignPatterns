@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.ObserverPattern
 {
@@ -44,9 +45,9 @@ namespace DesignPatterns.ObserverPattern
             new OctalObserver(subject);
             new BinaryObserver(subject);
 
-            Console.WriteLine("First state change: 15" + Environment.NewLine);
+            Trace.WriteLine("First state change: 15" + Environment.NewLine);
             subject.State = 15;
-            Console.WriteLine("Second state change: 10" + Environment.NewLine);
+            Trace.WriteLine("Second state change: 10" + Environment.NewLine);
             subject.State = 10;
         }
     }

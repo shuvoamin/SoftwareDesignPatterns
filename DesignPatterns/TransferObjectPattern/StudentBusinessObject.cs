@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace DesignPatterns.TransferObjectPattern
 {
@@ -28,7 +29,7 @@ namespace DesignPatterns.TransferObjectPattern
         public void DeleteStudent(StudentTransferObject student)
         {
             _students.Remove(student);
-            Console.WriteLine("Student: Roll No " + student.Id + ", deleted from database" + Environment.NewLine);
+            Trace.WriteLine("Student: Roll No " + student.Id + ", deleted from database" + Environment.NewLine);
         }
 
         //retrive list of students from the database
@@ -45,7 +46,7 @@ namespace DesignPatterns.TransferObjectPattern
         public void UpdateStudent(StudentTransferObject student)
         {
             _students[student.Id].Name = student.Name;
-            Console.WriteLine("Student: Roll No " + student.Id + ", updated in the database" + Environment.NewLine);
+            Trace.WriteLine("Student: Roll No " + student.Id + ", updated in the database" + Environment.NewLine);
         }
     }
 }

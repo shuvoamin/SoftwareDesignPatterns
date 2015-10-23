@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.ServiceLocatorPattern
 {
@@ -22,7 +23,7 @@ namespace DesignPatterns.ServiceLocatorPattern
         //Override
         public void Execute()
         {
-            Console.WriteLine("Executing Service 1" + Environment.NewLine);
+            Trace.WriteLine("Executing Service 1" + Environment.NewLine);
         }
     }
 }

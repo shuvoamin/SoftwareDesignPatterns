@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.DataAccessObjectPattern
 {
@@ -20,7 +21,7 @@ namespace DesignPatterns.DataAccessObjectPattern
             //print all students
             foreach (var student in studentDao.GetAllStudents())
             {
-                Console.WriteLine("Student: [RollNo : " + student.Id + ", Name : " + student.Name + " ]" + Environment.NewLine);
+                Trace.WriteLine("Student: [RollNo : " + student.Id + ", Name : " + student.Name + " ]" + Environment.NewLine);
             }
 
 
@@ -31,7 +32,7 @@ namespace DesignPatterns.DataAccessObjectPattern
 
             //get the student
             studentDao.GetStudent(0);
-            Console.WriteLine("Student: [RollNo : " + studentUpdate.Id + ", Name : " + studentUpdate.Name + " ]" + Environment.NewLine);
+            Trace.WriteLine("Student: [RollNo : " + studentUpdate.Id + ", Name : " + studentUpdate.Name + " ]" + Environment.NewLine);
         }
     }
 }

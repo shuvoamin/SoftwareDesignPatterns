@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.AdapterPattern
 {
@@ -16,7 +17,7 @@ namespace DesignPatterns.AdapterPattern
         //Override
         public void PlayVlc(string fileName)
         {
-            Console.WriteLine("Playing vlc file. Name: " +  fileName + Environment.NewLine);
+            Trace.WriteLine("Playing vlc file. Name: " +  fileName + Environment.NewLine);
         }
 
         //Override

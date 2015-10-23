@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.AdapterPattern
 {
@@ -22,7 +23,7 @@ namespace DesignPatterns.AdapterPattern
         //override
         public void PlayMp4(string fileName)
         {
-            Console.WriteLine("Playing mp4 file. Name: " + fileName + Environment.NewLine);
+            Trace.WriteLine("Playing mp4 file. Name: " + fileName + Environment.NewLine);
         }
     }
 }

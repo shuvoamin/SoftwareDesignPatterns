@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 namespace DesignPatterns.BuilderPattern
@@ -31,9 +32,9 @@ namespace DesignPatterns.BuilderPattern
         {
             foreach (var item in _items)
             {
-                Console.WriteLine("Item : " + item.Name());
-                Console.WriteLine(", Packing : " + item.Packing().Pack());
-                Console.WriteLine(", Price : " + item.Price());
+                Trace.WriteLine("Item : " + item.Name());
+                Trace.WriteLine(", Packing : " + item.Packing().Pack());
+                Trace.WriteLine(", Price : " + item.Price());
             }
         }			
     }

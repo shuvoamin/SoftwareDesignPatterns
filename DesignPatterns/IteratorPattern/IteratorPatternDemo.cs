@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.IteratorPattern
 {
@@ -19,7 +20,7 @@ namespace DesignPatterns.IteratorPattern
             for (var iter = namesRepository.GetIterator(); iter.HasNext(); )
             {
                 var name = (string)iter.Next();
-                Console.WriteLine("Name : " + name + Environment.NewLine);
+                Trace.WriteLine("Name : " + name + Environment.NewLine);
             }
         }
     }

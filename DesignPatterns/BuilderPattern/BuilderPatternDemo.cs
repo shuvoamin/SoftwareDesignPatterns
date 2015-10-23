@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.BuilderPattern
 {
@@ -18,15 +19,15 @@ namespace DesignPatterns.BuilderPattern
 
             //creating a vegetarian meal
             var vegetarianMeal = mealBuilder.PrepareVegetarianMeal();
-            Console.WriteLine("Vegetarian Meal" + Environment.NewLine);
+            Trace.WriteLine("Vegetarian Meal" + Environment.NewLine);
             vegetarianMeal.ShowItems();
-            Console.WriteLine("Total Cost: " + vegetarianMeal.GetCost() + Environment.NewLine);
+            Trace.WriteLine("Total Cost: " + vegetarianMeal.GetCost() + Environment.NewLine);
 
             //creating non vegetarian meal
             var nonVegetarianMeal = mealBuilder.PrepareNonVegetarianMeal();
-            Console.WriteLine("\n\n Non-Vegetarian Meal" + Environment.NewLine);
+            Trace.WriteLine("\n\n Non-Vegetarian Meal" + Environment.NewLine);
             nonVegetarianMeal.ShowItems();
-            Console.WriteLine("Total Cost: " + nonVegetarianMeal.GetCost() + Environment.NewLine);
+            Trace.WriteLine("Total Cost: " + nonVegetarianMeal.GetCost() + Environment.NewLine);
         }
     }
 }

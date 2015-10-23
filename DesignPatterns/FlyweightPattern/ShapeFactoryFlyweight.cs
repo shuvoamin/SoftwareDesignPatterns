@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace DesignPatterns.FlyweightPattern
 {
@@ -24,7 +25,7 @@ namespace DesignPatterns.FlyweightPattern
             {
                 circle = new CircleFlyweight(color);
                 CircleMap.Add(color, circle);
-                Console.WriteLine("Creating cricle of color : " + color);
+                Trace.WriteLine("Creating cricle of color : " + color);
             }
 
             return circle;

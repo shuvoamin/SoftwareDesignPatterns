@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace DesignPatterns.FilterPattern
 {
@@ -89,16 +90,16 @@ namespace DesignPatterns.FilterPattern
             ICriteria singleMale = new AndCriteria(single, male);
             ICriteria singleOrFemale = new OrCriteria(single, female);
 
-            Console.WriteLine("Males: ");
+            Trace.WriteLine("Males: ");
             PrintPersons(male.MeetCriteria(persons));
 
-            Console.WriteLine("\nFemales: ");
+            Trace.WriteLine("\nFemales: ");
             PrintPersons(female.MeetCriteria(persons));
 
-            Console.WriteLine("\nSingle Males: ");
+            Trace.WriteLine("\nSingle Males: ");
             PrintPersons(singleMale.MeetCriteria(persons));
 
-            Console.WriteLine("\nSingle Or Females: ");
+            Trace.WriteLine("\nSingle Or Females: ");
             PrintPersons(singleOrFemale.MeetCriteria(persons));
         }
 
@@ -106,7 +107,7 @@ namespace DesignPatterns.FilterPattern
         {
             foreach (var person in persons)
             {
-                Console.WriteLine("Person : [ Name : " + person.GetName() + ", Gender : " + person.GetGender() + ", Marital Status : " + person.GetMaritalStatus() + " ]" + Environment.NewLine);
+                Trace.WriteLine("Person : [ Name : " + person.GetName() + ", Gender : " + person.GetGender() + ", Marital Status : " + person.GetMaritalStatus() + " ]" + Environment.NewLine);
             }
         }
     }

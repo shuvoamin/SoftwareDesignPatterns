@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.InterceptingFilterPattern
 {
@@ -6,7 +7,7 @@ namespace DesignPatterns.InterceptingFilterPattern
     {
         public void Execute(string request)
         {
-            Console.WriteLine("Executing request: " + request + Environment.NewLine);
+            Trace.WriteLine("Executing request: " + request + Environment.NewLine);
         }
     }
 }

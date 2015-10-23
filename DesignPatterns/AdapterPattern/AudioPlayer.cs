@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.AdapterPattern
 {
@@ -29,7 +30,7 @@ namespace DesignPatterns.AdapterPattern
             //inbuilt support to play mp3 music files
             if (audioType == "MP3")
             {
-                Console.WriteLine("Playing mp3 file. Name : " + fileName + Environment.NewLine);
+                Trace.WriteLine("Playing mp3 file. Name : " + fileName + Environment.NewLine);
             }
             //_mediaAdapter is providing support to play other file formats
             else if ((audioType == "VLC") || (audioType == "MP4"))
@@ -39,7 +40,7 @@ namespace DesignPatterns.AdapterPattern
             }
             else
             {
-                Console.WriteLine("Invalid media. " + audioType + " format not supported" + Environment.NewLine);
+                Trace.WriteLine("Invalid media. " + audioType + " format not supported" + Environment.NewLine);
             }
         }
     }

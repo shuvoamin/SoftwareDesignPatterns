@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using DesignPatterns.Interfaces;
 
 namespace DesignPatterns.FacadePattern
@@ -16,7 +17,7 @@ namespace DesignPatterns.FacadePattern
         //Override
         public void Draw()
         {
-            Console.WriteLine("Square::draw()" + Environment.NewLine);
+            Trace.WriteLine("Square::draw()" + Environment.NewLine);
         }
     }
 }

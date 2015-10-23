@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 namespace DesignPatterns.ServiceLocatorPattern
@@ -18,7 +19,7 @@ namespace DesignPatterns.ServiceLocatorPattern
         {
             foreach (var service in _services.Where(service => service.GetName().Equals(serviceName)))
             {
-                Console.WriteLine("Returning cached  " + serviceName + " object");
+                Trace.WriteLine("Returning cached  " + serviceName + " object");
                 return service;
             }
             return null;

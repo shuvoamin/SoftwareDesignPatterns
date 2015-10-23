@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.CommandPattern
 {
@@ -9,12 +10,12 @@ namespace DesignPatterns.CommandPattern
 
         public void Buy()
         {
-            Console.WriteLine("Stock [ name: " + Name + ", Quantity: " + Quantity + " ] bought" + Environment.NewLine);
+            Trace.WriteLine("Stock [ name: " + Name + ", Quantity: " + Quantity + " ] bought" + Environment.NewLine);
         }
 
         public void Sell()
         {
-            Console.WriteLine("Stock [ name: " + Name + ", Quantity: " + Quantity + " ] sold" + Environment.NewLine);
+            Trace.WriteLine("Stock [ name: " + Name + ", Quantity: " + Quantity + " ] sold" + Environment.NewLine);
         }
     }
 }

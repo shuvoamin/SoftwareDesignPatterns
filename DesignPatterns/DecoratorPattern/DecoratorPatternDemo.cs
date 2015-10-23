@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.DecoratorPattern
 {
@@ -20,13 +21,13 @@ namespace DesignPatterns.DecoratorPattern
             IShape redCircle = new RedShapeDecorator(new CircleDecorator());
 
             IShape redRectangle = new RedShapeDecorator(new RectangleDecorator());
-            Console.WriteLine("Circle with normal border");
+            Trace.WriteLine("Circle with normal border");
             circle.Draw();
 
-            Console.WriteLine("\nCircle of red border");
+            Trace.WriteLine("\nCircle of red border");
             redCircle.Draw();
 
-            Console.WriteLine("\nRectangle of red border");
+            Trace.WriteLine("\nRectangle of red border");
             redRectangle.Draw();
         }
     }

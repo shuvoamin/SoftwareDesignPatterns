@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.CompositeEntityPattern
 {
@@ -21,7 +22,7 @@ namespace DesignPatterns.CompositeEntityPattern
         {
             for (var i = 0; i < compositeEntity.GetData().Length; i++)
             {
-                Console.WriteLine("Data: " + compositeEntity.GetData()[i] + Environment.NewLine);
+                Trace.WriteLine("Data: " + compositeEntity.GetData()[i] + Environment.NewLine);
             }
         }
 

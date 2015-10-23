@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.VisitorPattern
 {
@@ -16,25 +17,25 @@ namespace DesignPatterns.VisitorPattern
         //Override
         public void Visit(Computer computer)
         {
-            Console.WriteLine("Displaying Computer" + Environment.NewLine);
+            Trace.WriteLine("Displaying Computer" + Environment.NewLine);
         }
 
         //Override
         public void Visit(Mouse mouse)
         {
-            Console.WriteLine("Displaying Mouse" + Environment.NewLine);
+            Trace.WriteLine("Displaying Mouse" + Environment.NewLine);
         }
 
         //Override
         public void Visit(Keyboard keyboard)
         {
-            Console.WriteLine("Displaying Keyboard" + Environment.NewLine);
+            Trace.WriteLine("Displaying Keyboard" + Environment.NewLine);
         }
 
         //Override
         public void Visit(Monitor monitor)
         {
-            Console.WriteLine("Displaying Monitor" + Environment.NewLine);
+            Trace.WriteLine("Displaying Monitor" + Environment.NewLine);
         }
     }
 }

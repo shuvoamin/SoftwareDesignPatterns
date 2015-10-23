@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.PrototypePattern
 {
@@ -12,7 +13,7 @@ namespace DesignPatterns.PrototypePattern
         //Override
         public override void Draw()
         {
-            Console.WriteLine("Inside Circle::Draw() method." + Environment.NewLine);
+            Trace.WriteLine("Inside Circle::Draw() method." + Environment.NewLine);
         }
     }
 }

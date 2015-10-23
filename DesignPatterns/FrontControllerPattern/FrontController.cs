@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.FrontControllerPattern
 {
@@ -21,13 +22,13 @@ namespace DesignPatterns.FrontControllerPattern
 
         private static bool IsAuthenticedUser()
         {
-            Console.WriteLine("User is authenticated successfully." + Environment.NewLine);
+            Trace.WriteLine("User is authenticated successfully." + Environment.NewLine);
             return true;
         }
 
         private static void TrackRequest(string request)
         {
-            Console.WriteLine("Page requested: " + request + Environment.NewLine);
+            Trace.WriteLine("Page requested: " + request + Environment.NewLine);
         }
 
         public void DispatchRequest(string request)

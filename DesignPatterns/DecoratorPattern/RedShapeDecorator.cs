@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.DecoratorPattern
 {
@@ -18,7 +19,7 @@ namespace DesignPatterns.DecoratorPattern
 
         public void SetRedBorder(IShape decoratedShape)
         {
-            Console.WriteLine("Border Color: Red" + Environment.NewLine);
+            Trace.WriteLine("Border Color: Red" + Environment.NewLine);
         }
     }
 }

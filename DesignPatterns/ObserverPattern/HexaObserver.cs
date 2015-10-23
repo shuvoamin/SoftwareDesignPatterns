@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.ObserverPattern
 {
@@ -13,7 +14,7 @@ namespace DesignPatterns.ObserverPattern
         //Override
         public override void Update()
         {
-            Console.WriteLine("Hex String: " + Subject.State.ToString("X1") + Environment.NewLine);
+            Trace.WriteLine("Hex String: " + Subject.State.ToString("X1") + Environment.NewLine);
         }
     }
 }

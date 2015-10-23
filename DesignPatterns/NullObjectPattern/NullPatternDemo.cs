@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.NullObjectPattern
 {
@@ -19,11 +20,11 @@ namespace DesignPatterns.NullObjectPattern
             var customer3 = CustomerFactory.GetCustomer("Julie");
             var customer4 = CustomerFactory.GetCustomer("Laura");
 
-            Console.WriteLine("Customers" + Environment.NewLine);
-            Console.WriteLine(customer1.GetName() + Environment.NewLine);
-            Console.WriteLine(customer2.GetName() + Environment.NewLine);
-            Console.WriteLine(customer3.GetName() + Environment.NewLine);
-            Console.WriteLine(customer4.GetName() + Environment.NewLine);
+            Trace.WriteLine("Customers" + Environment.NewLine);
+            Trace.WriteLine(customer1.GetName() + Environment.NewLine);
+            Trace.WriteLine(customer2.GetName() + Environment.NewLine);
+            Trace.WriteLine(customer3.GetName() + Environment.NewLine);
+            Trace.WriteLine(customer4.GetName() + Environment.NewLine);
         }
     }
 }

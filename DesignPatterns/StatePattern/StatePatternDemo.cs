@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.StatePattern
 {
@@ -35,12 +36,12 @@ namespace DesignPatterns.StatePattern
             var startState = new StartState();
             startState.DoAction(context);
 
-            Console.WriteLine(context.State + Environment.NewLine);
+            Trace.WriteLine(context.State + Environment.NewLine);
 
             var stopState = new StopState();
             stopState.DoAction(context);
 
-            Console.WriteLine(context.State + Environment.NewLine);
+            Trace.WriteLine(context.State + Environment.NewLine);
         }
     }
 }

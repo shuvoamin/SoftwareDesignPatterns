@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.MediatorPattern
 {
@@ -6,7 +7,7 @@ namespace DesignPatterns.MediatorPattern
     {
         public static void ShowMessage(UserMediator user, string message)
         {
-            Console.WriteLine(DateTime.Now + " [" + user.Name + "] : " + message + Environment.NewLine);
+            Trace.WriteLine(DateTime.Now + " [" + user.Name + "] : " + message + Environment.NewLine);
         }
     }
 }

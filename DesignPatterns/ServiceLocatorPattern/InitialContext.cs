@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.ServiceLocatorPattern
 {
@@ -24,12 +25,12 @@ namespace DesignPatterns.ServiceLocatorPattern
         {
             if (jndiName.Equals("SERVICE1"))
             {
-                Console.WriteLine("Looking up and creating a new Service1 object" + Environment.NewLine);
+                Trace.WriteLine("Looking up and creating a new Service1 object" + Environment.NewLine);
                 return new Service1();
             }
             if (jndiName.Equals("SERVICE2"))
             {
-                Console.WriteLine("Looking up and creating a new Service2 object" + Environment.NewLine);
+                Trace.WriteLine("Looking up and creating a new Service2 object" + Environment.NewLine);
                 return new Service2();
             }
 

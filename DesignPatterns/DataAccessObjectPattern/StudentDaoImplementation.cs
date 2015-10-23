@@ -1,6 +1,7 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 
 namespace DesignPatterns.DataAccessObjectPattern
@@ -34,7 +35,7 @@ namespace DesignPatterns.DataAccessObjectPattern
         public void DeleteStudent(StudentDao student)
         {
             _students.Remove(student);
-            Console.WriteLine("StudentDao: Id No " + student.Id + ", deleted from database" + Environment.NewLine);
+            Trace.WriteLine("StudentDao: Id No " + student.Id + ", deleted from database" + Environment.NewLine);
         }
 
         //retrive list of students from the database
@@ -54,7 +55,7 @@ namespace DesignPatterns.DataAccessObjectPattern
         public void UpdateStudent(StudentDao student)
         {
             _students[student.Id].Name = student.Name;
-            Console.WriteLine("StudentDao: Roll No " + student.Id + ", updated in the database" + Environment.NewLine);
+            Trace.WriteLine("StudentDao: Roll No " + student.Id + ", updated in the database" + Environment.NewLine);
         }
     }
 }

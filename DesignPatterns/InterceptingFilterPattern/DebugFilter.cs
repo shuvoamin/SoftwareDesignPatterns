@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.InterceptingFilterPattern
 {
@@ -16,7 +17,7 @@ namespace DesignPatterns.InterceptingFilterPattern
         //Override
         public void Execute(string request)
         {
-            Console.WriteLine("request log: " + request + Environment.NewLine);
+            Trace.WriteLine("request log: " + request + Environment.NewLine);
         }
     }
 }

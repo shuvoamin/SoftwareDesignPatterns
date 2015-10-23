@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace DesignPatterns.ObserverPattern
 {
@@ -13,7 +14,7 @@ namespace DesignPatterns.ObserverPattern
         //Override
         public override void Update()
         {
-            Console.WriteLine("Binary String: " + Convert.ToString(Subject.State, 2) + Environment.NewLine);
+            Trace.WriteLine("Binary String: " + Convert.ToString(Subject.State, 2) + Environment.NewLine);
         }
     }
 }
