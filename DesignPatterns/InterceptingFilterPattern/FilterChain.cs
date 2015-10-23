@@ -14,19 +14,13 @@ namespace DesignPatterns.InterceptingFilterPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
-        public IFilter IFilter
+        public IFilter Filter
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 

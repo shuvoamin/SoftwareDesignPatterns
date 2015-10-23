@@ -4,7 +4,7 @@ namespace DesignPatterns.InterceptingFilterPattern
 {
     public class FilterManager
     {
-        FilterChain _filterChain;
+        readonly FilterChain _filterChain;
 
         public FilterManager(Target target)
         {
@@ -17,9 +17,6 @@ namespace DesignPatterns.InterceptingFilterPattern
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 

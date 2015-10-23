@@ -3,11 +3,11 @@
   <Class Name="DesignPatterns.InterceptingFilterPattern.AuthenticationFilter">
     <Position X="9" Y="4.75" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>InterceptingFilterPattern\AuthenticationFilter.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IFilter" />
+      <Property Name="Filter" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
@@ -24,17 +24,17 @@
   <Class Name="DesignPatterns.InterceptingFilterPattern.DebugFilter">
     <Position X="6.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>InterceptingFilterPattern\DebugFilter.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IFilter" />
+      <Property Name="Filter" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.InterceptingFilterPattern.FilterChain">
     <Position X="1.5" Y="3.75" Width="1.5" />
-    <AssociationLine Name="IFilter" Type="DesignPatterns.Interfaces.IFilter" FixedFromPoint="true" FixedToPoint="true">
+    <AssociationLine Name="Filter" Type="DesignPatterns.Interfaces.IFilter" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="2.562" Y="3.75" />
         <Point X="2.562" Y="3.312" />
@@ -42,12 +42,12 @@
       </Path>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAEAAAQAAAIAACAAQAAAAAAAAAAACAAAAAI=</HashCode>
+      <HashCode>AAAAAAAAAAEAAAQAAAIAACAAQBAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>InterceptingFilterPattern\FilterChain.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Target" />
-      <Property Name="IFilter" />
+      <Property Name="Filter" />
     </ShowAsAssociation>
   </Class>
   <Class Name="DesignPatterns.InterceptingFilterPattern.FilterManager">

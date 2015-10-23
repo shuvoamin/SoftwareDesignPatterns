@@ -5,16 +5,14 @@ namespace DesignPatterns.InterceptingFilterPattern
 {
     public class DebugFilter : IFilter
     {
-        public IFilter IFilter
+        public IFilter Filter
         {
             get
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
+
         //Override
         public void Execute(string request)
         {

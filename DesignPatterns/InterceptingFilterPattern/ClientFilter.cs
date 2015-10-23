@@ -10,9 +10,6 @@
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public void SetFilterManager(FilterManager filterManager)
