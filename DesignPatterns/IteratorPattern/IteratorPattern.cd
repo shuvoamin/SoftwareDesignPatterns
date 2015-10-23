@@ -23,27 +23,27 @@
         <Lollipop Position="0.2" />
       </Class>
     </NestedTypes>
-    <AssociationLine Name="IContainer" Type="DesignPatterns.Interfaces.IContainer" FixedFromPoint="true" FixedToPoint="true">
+    <AssociationLine Name="Container" Type="DesignPatterns.Interfaces.IContainer" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="4.75" Y="2.938" />
-        <Point X="3.25" Y="2.938" />
+        <Point X="4.75" Y="2.94" />
+        <Point X="3.25" Y="2.94" />
         <Point X="3.25" Y="1.603" />
       </Path>
     </AssociationLine>
-    <AssociationLine Name="IIterator" Type="DesignPatterns.Interfaces.IIterator" FixedFromPoint="true" FixedToPoint="true">
+    <AssociationLine Name="Iterator" Type="DesignPatterns.Interfaces.IIterator" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="6.75" Y="5.188" />
-        <Point X="8.188" Y="5.188" />
+        <Point X="6.75" Y="5.195" />
+        <Point X="8.188" Y="5.195" />
         <Point X="8.188" Y="1.796" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAIAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAI=</HashCode>
+      <HashCode>AAAAgCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
       <FileName>IteratorPattern\NameRepository.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IContainer" />
-      <Property Name="IIterator" />
+      <Property Name="Container" />
+      <Property Name="Iterator" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>

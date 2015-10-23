@@ -17,7 +17,7 @@ namespace DesignPatterns.StrategyPattern
     
         public static void Output()
         {
-            ContextStrategy context = new ContextStrategy(new AddOperation());
+            var context = new ContextStrategy(new AddOperation());
             Console.WriteLine("10 + 5 = " + context.ExecuteStrategy(10, 5) + Environment.NewLine);
 
             context = new ContextStrategy(new SubstractOperation());

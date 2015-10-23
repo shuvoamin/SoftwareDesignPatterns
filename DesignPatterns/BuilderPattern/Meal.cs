@@ -29,7 +29,7 @@ namespace DesignPatterns.BuilderPattern
 
         public void ShowItems()
         {
-            foreach (IItem item in _items)
+            foreach (var item in _items)
             {
                 Console.WriteLine("Item : " + item.Name());
                 Console.WriteLine(", Packing : " + item.Packing().Pack());

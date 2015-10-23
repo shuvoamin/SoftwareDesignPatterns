@@ -31,8 +31,8 @@ namespace DesignPatterns.InterpreterPattern
     
         public static void Output()
         {
-            IExpression isMale = GetMaleExpression();
-            IExpression isMarriedWoman = GetMarriedWomanExpression();
+            var isMale = GetMaleExpression();
+            var isMarriedWoman = GetMarriedWomanExpression();
 
             Console.WriteLine("John is male? " + isMale.Interpret("John") + Environment.NewLine);
             Console.WriteLine("Julie is a married women? " + isMarriedWoman.Interpret("Married Julie") + Environment.NewLine);

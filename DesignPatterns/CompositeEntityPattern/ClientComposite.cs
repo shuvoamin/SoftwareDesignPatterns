@@ -19,13 +19,13 @@ namespace DesignPatterns.CompositeEntityPattern
 
         public void PrintData()
         {
-            for (int i = 0; i < compositeEntity.GetData().Length; i++)
+            for (var i = 0; i < compositeEntity.GetData().Length; i++)
             {
                 Console.WriteLine("Data: " + compositeEntity.GetData()[i] + Environment.NewLine);
             }
         }
 
-        public void SetData(String data1, String data2)
+        public void SetData(string data1, string data2)
         {
             compositeEntity.SetData(data1, data2);
         }

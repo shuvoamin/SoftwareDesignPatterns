@@ -20,7 +20,7 @@
             //SingleObject object = new SingleObject();
 
             //Get the only object available
-            SingleObject singleObject = SingleObject.getInstance();
+            var singleObject = SingleObject.getInstance();
 
             //show the message
             singleObject.showMessage();

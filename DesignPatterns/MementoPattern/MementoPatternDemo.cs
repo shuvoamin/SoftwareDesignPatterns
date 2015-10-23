@@ -28,8 +28,8 @@ namespace DesignPatterns.MementoPattern
     
         public static void Output()
         {
-            Originator originator = new Originator();
-            CareTaker careTaker = new CareTaker();
+            var originator = new Originator();
+            var careTaker = new CareTaker();
 
             originator.State = "State #1";
             originator.State = "State #2";

@@ -14,16 +14,16 @@ namespace DesignPatterns.BuilderPattern
     
         public static void Output()
         {
-            MealBuilder mealBuilder = new MealBuilder();
+            var mealBuilder = new MealBuilder();
 
             //creating a vegetarian meal
-            Meal vegetarianMeal = mealBuilder.PrepareVegetarianMeal();
+            var vegetarianMeal = mealBuilder.PrepareVegetarianMeal();
             Console.WriteLine("Vegetarian Meal" + Environment.NewLine);
             vegetarianMeal.ShowItems();
             Console.WriteLine("Total Cost: " + vegetarianMeal.GetCost() + Environment.NewLine);
 
             //creating non vegetarian meal
-            Meal nonVegetarianMeal = mealBuilder.PrepareNonVegetarianMeal();
+            var nonVegetarianMeal = mealBuilder.PrepareNonVegetarianMeal();
             Console.WriteLine("\n\n Non-Vegetarian Meal" + Environment.NewLine);
             nonVegetarianMeal.ShowItems();
             Console.WriteLine("Total Cost: " + nonVegetarianMeal.GetCost() + Environment.NewLine);

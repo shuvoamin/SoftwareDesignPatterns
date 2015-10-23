@@ -28,7 +28,7 @@ namespace DesignPatterns.FilterPattern
         //Override
         public List<Person> MeetCriteria(List<Person> persons)
         {
-            List<Person> firstCriteriaPersons = _criteria.MeetCriteria(persons);
+            var firstCriteriaPersons = _criteria.MeetCriteria(persons);
             return _otherCriteria.MeetCriteria(firstCriteriaPersons);
         }
     }

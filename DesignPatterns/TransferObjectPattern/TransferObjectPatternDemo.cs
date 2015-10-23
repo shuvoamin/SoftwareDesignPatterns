@@ -17,16 +17,16 @@ namespace DesignPatterns.TransferObjectPattern
     
         public static void Output()
         {
-            StudentBusinessObject studentBusinessObject = new StudentBusinessObject();
+            var studentBusinessObject = new StudentBusinessObject();
 
             //print all students
-            foreach (StudentTransferObject student in studentBusinessObject.GetAllStudents())
+            foreach (var student in studentBusinessObject.GetAllStudents())
             {
                 Console.WriteLine("Student: [RollNo : " + student.Id + ", Name : " + student.Name + " ]" + Environment.NewLine);
             }
 
             //update student
-            StudentTransferObject updateStudent = studentBusinessObject.GetAllStudents()[0];
+            var updateStudent = studentBusinessObject.GetAllStudents()[0];
             updateStudent.Name = "Michael";
             studentBusinessObject.UpdateStudent(updateStudent);
 

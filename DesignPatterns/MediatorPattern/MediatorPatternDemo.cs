@@ -15,8 +15,8 @@
     
         public static void Output()
         {
-            UserMediator robert = new UserMediator("Robert");
-            UserMediator john = new UserMediator("John");
+            var robert = new UserMediator("Robert");
+            var john = new UserMediator("John");
 
             robert.SendMessage("Hi! John!");
             john.SendMessage("Hello! Robert!");

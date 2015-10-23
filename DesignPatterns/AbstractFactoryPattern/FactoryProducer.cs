@@ -1,6 +1,4 @@
-﻿using DesignPatterns.FactoryPattern;
-
-namespace DesignPatterns.AbstractFactoryPattern
+﻿namespace DesignPatterns.AbstractFactoryPattern
 {
     public class FactoryProducer
     {

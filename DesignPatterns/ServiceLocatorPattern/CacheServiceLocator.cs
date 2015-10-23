@@ -13,10 +13,10 @@ namespace DesignPatterns.ServiceLocatorPattern
             _services = new List<IService>();
         }
 
-        public IService GetService(String serviceName)
+        public IService GetService(string serviceName)
         {
 
-            foreach (IService service in _services)
+            foreach (var service in _services)
             {
                 if (service.GetName().Equals(serviceName))
                 {
@@ -29,9 +29,9 @@ namespace DesignPatterns.ServiceLocatorPattern
 
         public void AddService(IService newService)
         {
-            Boolean exists = false;
+            var exists = false;
 
-            foreach (IService service in _services)
+            foreach (var service in _services)
             {
                 if (service.GetName().Equals(newService.GetName()))
                 {

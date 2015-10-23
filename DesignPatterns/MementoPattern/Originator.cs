@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace DesignPatterns.MementoPattern
+﻿namespace DesignPatterns.MementoPattern
 {
     public class Originator
     {
-        private String _state;
+        private string _state;
 
-        public String State
+        public string State
         {
             get { return _state; }
             set { _state = value; }

@@ -12,7 +12,7 @@
     
         public static void Output()
         {
-            AbstractLogger loggerChain = GetChainOfLoggers();
+            var loggerChain = GetChainOfLoggers();
 
             loggerChain.LogMessage(AbstractLogger.Info,
                "This is an information.");

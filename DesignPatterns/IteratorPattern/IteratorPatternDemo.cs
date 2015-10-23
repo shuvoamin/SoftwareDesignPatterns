@@ -1,5 +1,4 @@
-﻿using DesignPatterns.Interfaces;
-using System;
+﻿using System;
 
 namespace DesignPatterns.IteratorPattern
 {
@@ -11,18 +10,15 @@ namespace DesignPatterns.IteratorPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
     
         public static void Output()
         {
-            NameRepository namesRepository = new NameRepository();
+            var namesRepository = new NameRepository();
 
-            for (IIterator iter = namesRepository.GetIterator(); iter.HasNext(); )
+            for (var iter = namesRepository.GetIterator(); iter.HasNext(); )
             {
-                String name = (String)iter.Next();
+                var name = (string)iter.Next();
                 Console.WriteLine("Name : " + name + Environment.NewLine);
             }
         }

@@ -39,14 +39,14 @@ namespace DesignPatterns.StatePattern
     
         public static void Output()
         {
-            Context context = new Context();
+            var context = new Context();
 
-            StartState startState = new StartState();
+            var startState = new StartState();
             startState.DoAction(context);
 
             Console.WriteLine(context.State.ToString() + Environment.NewLine);
 
-            StopState stopState = new StopState();
+            var stopState = new StopState();
             stopState.DoAction(context);
 
             Console.WriteLine(context.State.ToString() + Environment.NewLine);

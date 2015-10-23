@@ -26,7 +26,7 @@ namespace DesignPatterns.ServiceLocatorPattern
             }
         }
     
-        public Object Lookup(string jndiName)
+        public object Lookup(string jndiName)
         {
             if (jndiName.Equals("SERVICE1"))
             {

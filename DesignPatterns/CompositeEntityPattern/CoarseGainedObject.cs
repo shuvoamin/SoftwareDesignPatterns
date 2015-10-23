@@ -29,15 +29,15 @@ namespace DesignPatterns.CompositeEntityPattern
             }
         }
 
-        public void SetData(String data1, String data2)
+        public void SetData(string data1, string data2)
         {
             do1.SetData(data1);
             do2.SetData(data2);
         }
 
-        public String[] getData()
+        public string[] getData()
         {
-            return new String[] { do1.GetData(), do2.GetData() };
+            return new string[] { do1.GetData(), do2.GetData() };
         }
     }
 }

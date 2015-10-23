@@ -22,7 +22,7 @@ namespace DesignPatterns.CompositeEntityPattern
             cgo.SetData(data1, data2);
         }
 
-        public String[] GetData()
+        public string[] GetData()
         {
             return cgo.getData();
         }

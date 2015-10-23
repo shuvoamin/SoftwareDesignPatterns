@@ -17,10 +17,10 @@ namespace DesignPatterns.NullObjectPattern
     
         public static void Output()
         {
-            AbstractCustomer customer1 = CustomerFactory.GetCustomer("Rob");
-            AbstractCustomer customer2 = CustomerFactory.GetCustomer("Bob");
-            AbstractCustomer customer3 = CustomerFactory.GetCustomer("Julie");
-            AbstractCustomer customer4 = CustomerFactory.GetCustomer("Laura");
+            var customer1 = CustomerFactory.GetCustomer("Rob");
+            var customer2 = CustomerFactory.GetCustomer("Bob");
+            var customer3 = CustomerFactory.GetCustomer("Julie");
+            var customer4 = CustomerFactory.GetCustomer("Laura");
 
             Console.WriteLine("Customers" + Environment.NewLine);
             Console.WriteLine(customer1.GetName() + Environment.NewLine);

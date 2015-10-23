@@ -20,12 +20,12 @@
     
         public static void Output()
         {
-            Stock abcStock = new Stock();
+            var abcStock = new Stock();
 
-            BuyStock buyStockOrder = new BuyStock(abcStock);
-            SellStock sellStockOrder = new SellStock(abcStock);
+            var buyStockOrder = new BuyStock(abcStock);
+            var sellStockOrder = new SellStock(abcStock);
 
-            Broker broker = new Broker();
+            var broker = new Broker();
             broker.TakeOrder(buyStockOrder);
             broker.TakeOrder(sellStockOrder);
 

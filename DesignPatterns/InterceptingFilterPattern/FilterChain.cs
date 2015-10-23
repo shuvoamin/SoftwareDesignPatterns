@@ -31,7 +31,7 @@ namespace DesignPatterns.InterceptingFilterPattern
 
         public void Execute(string request)
         {
-            foreach (IFilter filter in _filters)
+            foreach (var filter in _filters)
             {
                 filter.Execute(request);
             }

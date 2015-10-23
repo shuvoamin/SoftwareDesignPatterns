@@ -11,8 +11,8 @@ namespace DesignPatterns.TransferObjectPattern
         public StudentBusinessObject()
         {
             _students = new List<StudentTransferObject>();
-            StudentTransferObject student1 = new StudentTransferObject("Robert", 0);
-            StudentTransferObject student2 = new StudentTransferObject("John", 1);
+            var student1 = new StudentTransferObject("Robert", 0);
+            var student2 = new StudentTransferObject("John", 1);
             _students.Add(student1);
             _students.Add(student2);
         }

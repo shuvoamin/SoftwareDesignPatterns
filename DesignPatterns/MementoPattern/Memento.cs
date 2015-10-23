@@ -4,14 +4,14 @@ namespace DesignPatterns.MementoPattern
 {
     public class Memento
     {
-        private String _state;
+        private string _state;
 
-        public Memento(String state)
+        public Memento(string state)
         {
             _state = state;
         }
 
-        public String State
+        public string State
         {
             get { return _state; }
         }

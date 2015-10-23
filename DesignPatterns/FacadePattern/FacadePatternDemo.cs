@@ -12,7 +12,7 @@
     
         public static void Output()
         {
-            ShapeMaker shapeMaker = new ShapeMaker();
+            var shapeMaker = new ShapeMaker();
 
             shapeMaker.DrawCircle();
             shapeMaker.DrawRectangle();

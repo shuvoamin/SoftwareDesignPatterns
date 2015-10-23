@@ -38,7 +38,7 @@ namespace DesignPatterns.ObserverPattern
     
         public static void Output()
         {
-            Subject subject = new Subject();
+            var subject = new Subject();
 
             new HexaObserver(subject);
             new OctalObserver(subject);

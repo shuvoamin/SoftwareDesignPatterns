@@ -18,9 +18,9 @@ namespace DesignPatterns.FilterPattern
         //Override
         public List<Person> MeetCriteria(List<Person> persons)
         {
-            List<Person> singlePersons = new List<Person>();
+            var singlePersons = new List<Person>();
 
-            foreach (Person person in persons)
+            foreach (var person in persons)
             {
                 if (person.GetMaritalStatus().Equals("SINGLE"))
                 {

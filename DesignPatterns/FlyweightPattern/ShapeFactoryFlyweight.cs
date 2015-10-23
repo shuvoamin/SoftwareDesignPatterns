@@ -18,7 +18,7 @@ namespace DesignPatterns.FlyweightPattern
 
         public static IShape GetCircle(string color)
         {
-            CircleFlyweight circle = (CircleFlyweight)CircleMap[color];
+            var circle = (CircleFlyweight)CircleMap[color];
 
             if (circle == null)
             {

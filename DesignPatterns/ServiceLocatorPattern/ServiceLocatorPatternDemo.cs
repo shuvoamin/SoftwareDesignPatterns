@@ -1,6 +1,4 @@
-﻿using DesignPatterns.Interfaces;
-
-namespace DesignPatterns.ServiceLocatorPattern
+﻿namespace DesignPatterns.ServiceLocatorPattern
 {
     public class ServiceLocatorPatternDemo
     {
@@ -17,7 +15,7 @@ namespace DesignPatterns.ServiceLocatorPattern
     
         public static void Output()
         {
-            IService service = ServiceLocator.GetService("SERVICE1");
+            var service = ServiceLocator.GetService("SERVICE1");
             service.Execute();
             service = ServiceLocator.GetService("SERVICE2");
             service.Execute();

@@ -18,9 +18,9 @@ namespace DesignPatterns.FlyweightPattern
 
         public static void Output()
         {
-            for (int i = 0; i < 20; ++i)
+            for (var i = 0; i < 20; ++i)
             {
-                CircleFlyweight circle = (CircleFlyweight)ShapeFactoryFlyweight.GetCircle(GetRandomColor());
+                var circle = (CircleFlyweight)ShapeFactoryFlyweight.GetCircle(GetRandomColor());
                 circle.X = GetRandomX();
                 circle.Y = GetRandomY();
                 circle.Radius = 100;

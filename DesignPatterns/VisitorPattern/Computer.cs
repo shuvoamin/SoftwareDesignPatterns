@@ -25,7 +25,7 @@ namespace DesignPatterns.VisitorPattern
         //Override
         public void Accept(IComputerPartVisitor computerPartVisitor)
         {
-            for (int i = 0; i < _parts.Length; i++)
+            for (var i = 0; i < _parts.Length; i++)
             {
                 _parts[i].Accept(computerPartVisitor);
             }

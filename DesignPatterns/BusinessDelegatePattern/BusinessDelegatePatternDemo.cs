@@ -20,10 +20,10 @@
     
         public static void Output()
         {
-            BusinessDelegate businessDelegate = new BusinessDelegate();
+            var businessDelegate = new BusinessDelegate();
             businessDelegate.SetServiceType("EJB");
 
-            ClientBusiness client = new ClientBusiness(businessDelegate);
+            var client = new ClientBusiness(businessDelegate);
             client.DoTask();
 
             businessDelegate.SetServiceType("JMS");

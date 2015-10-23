@@ -12,7 +12,7 @@
     
         public static void Output()
         {
-            FrontController frontController = new FrontController();
+            var frontController = new FrontController();
             frontController.DispatchRequest("HOME");
             frontController.DispatchRequest("STUDENT");
         }

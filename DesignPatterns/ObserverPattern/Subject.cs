@@ -32,7 +32,7 @@ namespace DesignPatterns.ObserverPattern
 
         public void NotifyAllObservers()
         {
-            foreach (Observer observer in _observers)
+            foreach (var observer in _observers)
             {
                 observer.Update();
             }

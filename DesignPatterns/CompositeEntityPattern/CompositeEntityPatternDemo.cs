@@ -15,7 +15,7 @@
     
         public static void Output()
         {
-            ClientComposite client = new ClientComposite();
+            var client = new ClientComposite();
             client.SetData("Test", "Data");
             client.PrintData();
             client.SetData("Second Test", "Data1");

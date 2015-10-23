@@ -13,8 +13,8 @@ namespace DesignPatterns.DataAccessObjectPattern
         public StudentDaoImplementation()
         {
             _students = new List<StudentDao>();
-            StudentDao student1 = new StudentDao("Robert", 1);
-            StudentDao student2 = new StudentDao("John", 2);
+            var student1 = new StudentDao("Robert", 1);
+            var student2 = new StudentDao("John", 2);
             _students.Add(student1);
             _students.Add(student2);
         }

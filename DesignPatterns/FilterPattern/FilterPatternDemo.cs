@@ -74,7 +74,7 @@ namespace DesignPatterns.FilterPattern
     
         public static void Output()
         {
-            List<Person> persons = new List<Person>();
+            var persons = new List<Person>();
 
             persons.Add(new Person("Robert", "MALE", "SINGLE"));
             persons.Add(new Person("John", "MALE", "MARRIED"));
@@ -104,7 +104,7 @@ namespace DesignPatterns.FilterPattern
 
         private static void PrintPersons(List<Person> persons)
         {
-            foreach (Person person in persons)
+            foreach (var person in persons)
             {
                 Console.WriteLine("Person : [ Name : " + person.GetName() + ", Gender : " + person.GetGender() + ", Marital Status : " + person.GetMaritalStatus() + " ]" + Environment.NewLine);
             }

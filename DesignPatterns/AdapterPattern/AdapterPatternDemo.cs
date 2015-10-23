@@ -12,7 +12,7 @@
     
         public static void Output() 
         {
-            AudioPlayer audioPlayer = new AudioPlayer();
+            var audioPlayer = new AudioPlayer();
 
             audioPlayer.Play("MP3", "beyond the horizon.mp3");
             audioPlayer.Play("MP4", "alone.mp4");

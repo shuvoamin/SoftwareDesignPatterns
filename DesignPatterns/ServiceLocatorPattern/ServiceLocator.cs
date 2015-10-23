@@ -34,18 +34,18 @@ namespace DesignPatterns.ServiceLocatorPattern
             }
         }
 
-        public static IService GetService(String jndiName)
+        public static IService GetService(string jndiName)
         {
 
-            IService service = _cache.GetService(jndiName);
+            var service = _cache.GetService(jndiName);
 
             if (service != null)
             {
                 return service;
             }
 
-            InitialContext context = new InitialContext();
-            IService service1 = (IService)context.Lookup(jndiName);
+            var context = new InitialContext();
+            var service1 = (IService)context.Lookup(jndiName);
             _cache.AddService(service1);
             return service1;
         }

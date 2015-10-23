@@ -12,7 +12,7 @@
     
         public Meal PrepareVegetarianMeal()
         {
-            Meal meal = new Meal();
+            var meal = new Meal();
             meal.AddItem(new VegetarianBurger());
             meal.AddItem(new Coke());
             return meal;
@@ -20,7 +20,7 @@
 
         public Meal PrepareNonVegetarianMeal()
         {
-            Meal meal = new Meal();
+            var meal = new Meal();
             meal.AddItem(new ChickenBurger());
             meal.AddItem(new Pepsi());
             return meal;

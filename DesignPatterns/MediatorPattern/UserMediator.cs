@@ -4,9 +4,9 @@ namespace DesignPatterns.MediatorPattern
 {
     public class UserMediator
     {
-        private String _name;
+        private string _name;
 
-        public String Name 
+        public string Name 
         { 
             get { return _name; }
             set { _name = value; } 
@@ -23,12 +23,12 @@ namespace DesignPatterns.MediatorPattern
             }
         }
 
-        public UserMediator(String name)
+        public UserMediator(string name)
         {
             _name = name;
         }
 
-        public void SendMessage(String message)
+        public void SendMessage(string message)
         {
             ChatRoom.ShowMessage(this, message);
         }

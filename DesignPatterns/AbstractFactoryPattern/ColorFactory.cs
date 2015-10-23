@@ -30,7 +30,7 @@ namespace DesignPatterns.AbstractFactoryPattern
         }
 
         //Override
-        public override IShape GetShape(String color)
+        public override IShape GetShape(string color)
         {
             return null;
         }

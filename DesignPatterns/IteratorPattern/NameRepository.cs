@@ -5,27 +5,21 @@ namespace DesignPatterns.IteratorPattern
 {
     public class NameRepository : IContainer
     {
-        public static String[] _names = { "Robert", "John", "Julie", "Laura" };
+        public static string[] Names = { "Robert", "John", "Julie", "Laura" };
 
-        public IContainer IContainer
+        public IContainer Container
         {
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
 
-        public IIterator IIterator
+        public IIterator Iterator
         {
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
 
@@ -42,23 +36,13 @@ namespace DesignPatterns.IteratorPattern
             //Override
             public bool HasNext()
             {
-                if (_index < _names.Length)
-                {
-                    return true;
-                }
-
-                return false;
+                return _index < Names.Length;
             }
 
             //Override
             public object Next()
             {
-                if (HasNext())
-                {
-                    return _names[_index++];
-                }
-
-                return null;
+                return HasNext() ? Names[_index++] : null;
             }
         }
     }

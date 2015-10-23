@@ -28,7 +28,7 @@
 
         public static AbstractCustomer GetCustomer(string name)
         {
-            for (int i = 0; i < names.Length; i++)
+            for (var i = 0; i < names.Length; i++)
             {
                 if (names[i].Equals(name))
                 {

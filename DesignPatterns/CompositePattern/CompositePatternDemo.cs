@@ -17,17 +17,17 @@ namespace DesignPatterns.CompositePattern
     
         public static void Output()
         {
-            Employee CEO = new Employee("John", "CEO", 30000);
+            var CEO = new Employee("John", "CEO", 30000);
 
-            Employee headSales = new Employee("Robert", "Head Sales", 20000);
+            var headSales = new Employee("Robert", "Head Sales", 20000);
 
-            Employee headMarketing = new Employee("Michel", "Head Marketing", 20000);
+            var headMarketing = new Employee("Michel", "Head Marketing", 20000);
 
-            Employee clerk1 = new Employee("Laura", "Marketing", 10000);
-            Employee clerk2 = new Employee("Bob", "Marketing", 10000);
+            var clerk1 = new Employee("Laura", "Marketing", 10000);
+            var clerk2 = new Employee("Bob", "Marketing", 10000);
 
-            Employee salesExecutive1 = new Employee("Richard", "Sales", 10000);
-            Employee salesExecutive2 = new Employee("Rob", "Sales", 10000);
+            var salesExecutive1 = new Employee("Richard", "Sales", 10000);
+            var salesExecutive2 = new Employee("Rob", "Sales", 10000);
 
             CEO.Add(headSales);
             CEO.Add(headMarketing);
@@ -41,11 +41,11 @@ namespace DesignPatterns.CompositePattern
             //print all employee of the organisation
             Console.WriteLine(CEO + Environment.NewLine);
 
-            foreach (Employee headEmployee in CEO.GetAllEmployee())
+            foreach (var headEmployee in CEO.GetAllEmployee())
             {
                 Console.WriteLine(headEmployee + Environment.NewLine);
 
-                foreach (Employee employee in headEmployee.GetAllEmployee())
+                foreach (var employee in headEmployee.GetAllEmployee())
                 {
                     Console.WriteLine(employee + Environment.NewLine);
                 }

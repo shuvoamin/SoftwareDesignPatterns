@@ -43,7 +43,7 @@ namespace DesignPatterns.PrototypePattern
         {
             if (shapeMap.ContainsKey(shapeId))
             {
-                ShapePrototype cachedShape = shapeMap[shapeId];
+                var cachedShape = shapeMap[shapeId];
 
                 return (ShapePrototype)cachedShape.Clone();
             }
@@ -57,15 +57,15 @@ namespace DesignPatterns.PrototypePattern
 
         public static void LoadCache()
         {
-            CirclePrototype circle = new CirclePrototype();
+            var circle = new CirclePrototype();
             circle.SetId(1);
             shapeMap.Add(circle.GetId(), circle);
 
-            SquarePrototype square = new SquarePrototype();
+            var square = new SquarePrototype();
             square.SetId(2);
             shapeMap.Add(square.GetId(), square);
 
-            RectanglePrototype rectangle = new RectanglePrototype();
+            var rectangle = new RectanglePrototype();
             rectangle.SetId(3);
             shapeMap.Add(rectangle.GetId(), rectangle);
         }

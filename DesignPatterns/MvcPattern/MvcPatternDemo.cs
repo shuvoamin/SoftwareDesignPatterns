@@ -16,12 +16,12 @@
         public static void Output()
         {
             //fetch student record based on his roll no from the database
-            Student model = RetriveStudentFromDatabase();
+            var model = RetriveStudentFromDatabase();
 
             //Create a view : to write student details on console
-            StudentView view = new StudentView();
+            var view = new StudentView();
 
-            StudentController controller = new StudentController(model, view);
+            var controller = new StudentController(model, view);
 
             //update model data
             controller.UpdateView("John => Name updated (previous name Robert)", 2);
@@ -29,7 +29,7 @@
 
         private static Student RetriveStudentFromDatabase()
         {
-            Student student = new Student();
+            var student = new Student();
             student.Name = "Robert";
             student.Id = 2;
             return student;
