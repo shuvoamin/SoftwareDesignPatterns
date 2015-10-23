@@ -4,8 +4,8 @@ namespace DesignPatterns.InterpreterPattern
 {
     public class OrExpression : IExpression
     {
-        private IExpression _expr1 = null;
-        private IExpression _expr2 = null;
+        private readonly IExpression _expr1;
+        private readonly IExpression _expr2;
 
         public OrExpression(IExpression expr1, IExpression expr2)
         {
@@ -13,14 +13,11 @@ namespace DesignPatterns.InterpreterPattern
             _expr2 = expr2;
         }
 
-        public IExpression IExpression
+        public IExpression Expression
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 

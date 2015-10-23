@@ -5,8 +5,8 @@ namespace DesignPatterns.InterpreterPattern
 {
     public class AndExpression : IExpression
     {
-        private IExpression _expr1 = null;
-        private IExpression _expr2 = null;
+        private readonly IExpression _expr1;
+        private readonly IExpression _expr2;
 
         public AndExpression(IExpression expr1, IExpression expr2)
         {
@@ -14,19 +14,16 @@ namespace DesignPatterns.InterpreterPattern
             _expr2 = expr2;
         }
 
-        public IExpression IExpression
+        public IExpression Expression
         {
             get
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         //Override
-        public Boolean Interpret(string context)
+        public bool Interpret(string context)
         {
             return _expr1.Interpret(context) && _expr2.Interpret(context);
         }

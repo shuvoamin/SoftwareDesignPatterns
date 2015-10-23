@@ -11,9 +11,6 @@ namespace DesignPatterns.InterpreterPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public AndExpression AndExpression
@@ -22,9 +19,6 @@ namespace DesignPatterns.InterpreterPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public OrExpression OrExpression
@@ -32,9 +26,6 @@ namespace DesignPatterns.InterpreterPattern
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
     
