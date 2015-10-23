@@ -8,9 +8,6 @@
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
     
         public static void Output()
@@ -20,10 +17,10 @@
             //SingleObject object = new SingleObject();
 
             //Get the only object available
-            var singleObject = SingleObject.getInstance();
+            var singleObject = SingleObject.GetInstance();
 
             //show the message
-            singleObject.showMessage();
+            singleObject.ShowMessage();
         }
     }
 }
