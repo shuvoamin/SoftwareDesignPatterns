@@ -10,9 +10,6 @@ namespace DesignPatterns.TemplatePattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public Cricket Cricket
@@ -20,9 +17,6 @@ namespace DesignPatterns.TemplatePattern
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
     
