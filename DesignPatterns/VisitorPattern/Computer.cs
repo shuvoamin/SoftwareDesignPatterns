@@ -4,21 +4,18 @@ namespace DesignPatterns.VisitorPattern
 {
     public class Computer : IComputerPart
     {
-        IComputerPart[] _parts;
+        readonly IComputerPart[] _parts;
 
         public Computer()
         {
             _parts = new IComputerPart[] { new Mouse(), new Keyboard(), new Monitor() };
         }
 
-        public IComputerPart IComputerPart
+        public IComputerPart ComputerPart
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 

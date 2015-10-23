@@ -10,9 +10,6 @@ namespace DesignPatterns.TransferObjectPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
     
         public static void Output()

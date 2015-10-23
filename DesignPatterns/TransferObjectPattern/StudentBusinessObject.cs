@@ -6,7 +6,7 @@ namespace DesignPatterns.TransferObjectPattern
     public class StudentBusinessObject
     {
         //list is working as a database
-        List<StudentTransferObject> _students;
+        readonly List<StudentTransferObject> _students;
 
         public StudentBusinessObject()
         {
@@ -22,9 +22,6 @@ namespace DesignPatterns.TransferObjectPattern
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
     

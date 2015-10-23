@@ -4,16 +4,14 @@ namespace DesignPatterns.VisitorPattern
 {
     public class Keyboard : IComputerPart
     {
-        public IComputerPart IComputerPart
+        public IComputerPart ComputerPart
         {
             get
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
+
         //Override
         public void Accept(IComputerPartVisitor computerPartVisitor)
         {

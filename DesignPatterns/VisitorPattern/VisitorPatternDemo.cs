@@ -10,19 +10,13 @@ namespace DesignPatterns.VisitorPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
-        public IComputerPart IComputerPart
+        public IComputerPart ComputerPart
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
     

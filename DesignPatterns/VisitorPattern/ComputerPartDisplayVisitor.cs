@@ -5,16 +5,14 @@ namespace DesignPatterns.VisitorPattern
 {
     public class ComputerPartDisplayVisitor : IComputerPartVisitor
     {
-        public IComputerPartVisitor IComputerPartVisitor
+        public IComputerPartVisitor ComputerPartVisitor
         {
             get
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
+
         //Override
         public void Visit(Computer computer)
         {
