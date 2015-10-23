@@ -14,6 +14,14 @@ namespace DesignPatterns.FactoryPattern
             }
         }
 
+        public DesignPatterns.Interfaces.IShape ShapeAbstract
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+        }
+
         //Override
         public void Draw()
         {

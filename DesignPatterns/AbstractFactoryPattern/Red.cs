@@ -6,14 +6,11 @@ namespace DesignPatterns.AbstractFactoryPattern
 {
     public class Red : IColor
     {
-        public IColor IColor
+        public IColor Color
         {
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
 

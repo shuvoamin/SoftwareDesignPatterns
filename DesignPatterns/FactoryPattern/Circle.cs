@@ -6,14 +6,16 @@ namespace DesignPatterns.FactoryPattern
 {
     public class Circle : IShape
     {
-        public IShape Shape
+        public DesignPatterns.Interfaces.IShape Shape
         {
             get
             {
-                throw new NotImplementedException();
+                throw new System.NotImplementedException();
+            }
+            set
+            {
             }
         }
-
         //Override
         public void Draw()
         {

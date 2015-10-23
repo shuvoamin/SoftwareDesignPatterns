@@ -20,11 +20,11 @@
   <Class Name="DesignPatterns.AbstractFactoryPattern.Blue">
     <Position X="9" Y="4" Width="1.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAgAAAAAA=</HashCode>
       <FileName>AbstractFactoryPattern\Blue.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IColor" />
+      <Property Name="Color" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
@@ -33,8 +33,8 @@
     <AssociationLine Name="Blue" Type="DesignPatterns.AbstractFactoryPattern.Blue" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="7.562" Y="3.675" />
-        <Point X="7.562" Y="4.552" />
-        <Point X="9" Y="4.552" />
+        <Point X="7.562" Y="4.557" />
+        <Point X="9" Y="4.557" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="Green" Type="DesignPatterns.AbstractFactoryPattern.Green" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
@@ -42,7 +42,7 @@
         <Point X="7.25" Y="3.675" />
         <Point X="7.25" Y="5.295" />
         <Point X="11.125" Y="5.295" />
-        <Point X="11.125" Y="5.103" />
+        <Point X="11.125" Y="5.113" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="Red" Type="DesignPatterns.AbstractFactoryPattern.Red" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
@@ -50,7 +50,7 @@
         <Point X="6.938" Y="3.675" />
         <Point X="6.938" Y="5.476" />
         <Point X="12.562" Y="5.476" />
-        <Point X="12.562" Y="5.103" />
+        <Point X="12.562" Y="5.113" />
       </Path>
     </AssociationLine>
     <TypeIdentifier>
@@ -76,76 +76,61 @@
   <Class Name="DesignPatterns.AbstractFactoryPattern.Green">
     <Position X="10.5" Y="4" Width="1.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAgAAAAAA=</HashCode>
       <FileName>AbstractFactoryPattern\Green.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IColor" />
+      <Property Name="Color" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.AbstractFactoryPattern.Red">
     <Position X="12" Y="4" Width="1.25" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAgAAAAAA=</HashCode>
       <FileName>AbstractFactoryPattern\Red.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IColor" />
+      <Property Name="Color" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.FactoryPattern.Circle">
     <Position X="2.5" Y="6" Width="1.25" />
-    <AssociationLine Name="IShape1" Type="DesignPatterns.Interfaces.IShape">
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-0.827" Y="0.122" />
-      </MemberNameLabel>
-    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <HashCode>AAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>FactoryPattern\Circle.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IShape1" />
+      <Property Name="Shape" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.FactoryPattern.Square">
     <Position X="5.5" Y="6" Width="1.25" />
-    <AssociationLine Name="IShape1" Type="DesignPatterns.Interfaces.IShape">
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-0.807" Y="0.122" />
-      </MemberNameLabel>
-    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <HashCode>EAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>FactoryPattern\Square.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IShape1" />
+      <Property Name="ShapeAbstract" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="DesignPatters.FactoryPattern.Rectangle">
+  <Class Name="DesignPatterns.FactoryPattern.Rectangle">
     <Position X="4" Y="6" Width="1.25" />
-    <AssociationLine Name="IShape1" Type="DesignPatterns.Interfaces.IShape">
-      <MemberNameLabel ManuallyPlaced="true">
-        <Position X="-0.807" Y="0.133" />
-      </MemberNameLabel>
-    </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAABAAgAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <HashCode>EAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>FactoryPattern\Rectangle.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IShape1" />
+      <Property Name="ShapeAbstract" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="DesignPatterns.FactoryPattern.AbstractShapeFactory">
+  <Class Name="DesignPatterns.AbstractFactoryPattern.AbstractShapeFactory">
     <Position X="1.75" Y="2.25" Width="1.5" />
-    <AssociationLine Name="Rectangle" Type="DesignPatters.FactoryPattern.Rectangle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+    <AssociationLine Name="Rectangle" Type="DesignPatterns.FactoryPattern.Rectangle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="1.75" Y="3.375" />
         <Point X="1.052" Y="3.375" />

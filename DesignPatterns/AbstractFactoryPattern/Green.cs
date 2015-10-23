@@ -6,7 +6,7 @@ namespace DesignPatterns.AbstractFactoryPattern
 {
     class Green : IColor
     {
-        public IColor IColor
+        public IColor Color
         {
             get
             {

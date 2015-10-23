@@ -34,12 +34,12 @@ namespace DesignPatterns.FlyweightPattern
 
         private static int GetRandomX()
         {
-            return RandomNum.Next(0, 4);
+            return RandomNum.Next(1, 100);
         }
 
         private static int GetRandomY()
         {
-            return RandomNum.Next(0, 4);
+            return RandomNum.Next(1, 100);
         }
     }
 }
