@@ -5,14 +5,11 @@ namespace DesignPatterns.StatePattern
 {
     public class StartState : IState
     {
-        public IState IState
+        public IState State
         {
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
     

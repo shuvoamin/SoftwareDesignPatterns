@@ -10,9 +10,6 @@ namespace DesignPatterns.StatePattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public StopState StopState
@@ -21,9 +18,6 @@ namespace DesignPatterns.StatePattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public StartState StartState
@@ -31,9 +25,6 @@ namespace DesignPatterns.StatePattern
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
     
@@ -44,12 +35,12 @@ namespace DesignPatterns.StatePattern
             var startState = new StartState();
             startState.DoAction(context);
 
-            Console.WriteLine(context.State.ToString() + Environment.NewLine);
+            Console.WriteLine(context.State + Environment.NewLine);
 
             var stopState = new StopState();
             stopState.DoAction(context);
 
-            Console.WriteLine(context.State.ToString() + Environment.NewLine);
+            Console.WriteLine(context.State + Environment.NewLine);
         }
     }
 }

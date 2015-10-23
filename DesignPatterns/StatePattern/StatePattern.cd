@@ -22,22 +22,22 @@
   <Class Name="DesignPatterns.StatePattern.StopState">
     <Position X="4.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAgAAIAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAAAABAAAAAA=</HashCode>
       <FileName>StatePattern\StopState.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IState" />
+      <Property Name="State" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
   <Class Name="DesignPatterns.StatePattern.StartState">
     <Position X="2.25" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAgAAIAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAIAAAAAAAABAAAAAA=</HashCode>
       <FileName>StatePattern\StartState.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IState" />
+      <Property Name="State" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
