@@ -4,8 +4,8 @@ namespace DesignPatterns.FrontControllerPattern
 {
     public class Dispatcher
     {
-        private StudentView _studentView;
-        private HomeView _homeView;
+        private readonly StudentView _studentView;
+        private readonly HomeView _homeView;
 
         public Dispatcher()
         {
@@ -19,9 +19,6 @@ namespace DesignPatterns.FrontControllerPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public StudentView StudentView
@@ -30,12 +27,9 @@ namespace DesignPatterns.FrontControllerPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
-        public void Dispatch(String request)
+        public void Dispatch(string request)
         {
             if (request.Equals("STUDENT"))
             {

@@ -4,7 +4,7 @@ namespace DesignPatterns.FrontControllerPattern
 {
     public class FrontController
     {
-        private Dispatcher _dispatcher;
+        private readonly Dispatcher _dispatcher;
 
         public FrontController()
         {
@@ -17,23 +17,20 @@ namespace DesignPatterns.FrontControllerPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
-        private Boolean IsAuthenticedUser()
+        private static bool IsAuthenticedUser()
         {
             Console.WriteLine("User is authenticated successfully." + Environment.NewLine);
             return true;
         }
 
-        private void TrackRequest(String request)
+        private static void TrackRequest(string request)
         {
             Console.WriteLine("Page requested: " + request + Environment.NewLine);
         }
 
-        public void DispatchRequest(String request)
+        public void DispatchRequest(string request)
         {
             //log each request
             TrackRequest(request);
