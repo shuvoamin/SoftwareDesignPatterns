@@ -3,11 +3,11 @@
   <Class Name="DesignPatterns.StrategyPattern.AddOperation">
     <Position X="1.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAgAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAA=</HashCode>
       <FileName>StrategyPattern\AddOperation.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IStrategy" />
+      <Property Name="Strategy" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
@@ -26,11 +26,11 @@
   <Class Name="DesignPatterns.StrategyPattern.MultiplyOperation">
     <Position X="5.5" Y="3.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAgAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAA=</HashCode>
       <FileName>StrategyPattern\MultiplyOperation.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IStrategy" />
+      <Property Name="Strategy" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
@@ -47,11 +47,11 @@
   <Class Name="DesignPatterns.StrategyPattern.SubstractOperation">
     <Position X="3.25" Y="3.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAgAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAABAAAAA=</HashCode>
       <FileName>StrategyPattern\SubstractOperation.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IStrategy" />
+      <Property Name="Strategy" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>

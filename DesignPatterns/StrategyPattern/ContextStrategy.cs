@@ -4,7 +4,7 @@ namespace DesignPatterns.StrategyPattern
 {
     public class ContextStrategy
     {
-        private IStrategy _strategy;
+        private readonly IStrategy _strategy;
 
         public ContextStrategy(IStrategy strategy)
         {
@@ -17,9 +17,6 @@ namespace DesignPatterns.StrategyPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public SubstractOperation SubstractOperation
@@ -28,9 +25,6 @@ namespace DesignPatterns.StrategyPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public AddOperation AddOperation
@@ -38,9 +32,6 @@ namespace DesignPatterns.StrategyPattern
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 
