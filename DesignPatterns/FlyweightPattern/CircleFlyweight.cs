@@ -5,10 +5,7 @@ namespace DesignPatterns.FlyweightPattern
 {
     public class CircleFlyweight : IShape
     {
-        private string _color;
-        private int _x;
-        private int _y;
-        private int _radius;
+        private readonly string _color;
 
         public CircleFlyweight(string color)
         {
@@ -16,33 +13,18 @@ namespace DesignPatterns.FlyweightPattern
         }
 
         #region X, Y, Radius Getter/Setter
-        public int X
-        {
-            get { return _x; }
-            set { _x = value; }
-        }
+        public int X { get; set; }
 
-        public int Y
-        {
-            get { return _y; }
-            set { _y = value; }
-        }
+        public int Y { get; set; }
 
-        public int Radius
-        {
-            get { return _radius; }
-            set { _radius = value; }
-        } 
+        public int Radius { get; set; }
         #endregion
 
-        public IShape IShape
+        public IShape Shape
         {
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
 

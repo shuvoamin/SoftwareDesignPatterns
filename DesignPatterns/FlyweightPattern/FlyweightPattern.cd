@@ -3,11 +3,11 @@
   <Class Name="DesignPatterns.FlyweightPattern.CircleFlyweight">
     <Position X="3" Y="3" Width="2" />
     <TypeIdentifier>
-      <HashCode>CAAIAAAIAAQIAgAAAAAAAAAAAAAAAAAAAAAgAAAAYAA=</HashCode>
+      <HashCode>CAAMAAAIAAQIAgAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
       <FileName>FlyweightPattern\CircleFlyweight.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Property Name="IShape" />
+      <Property Name="Shape" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>

@@ -6,7 +6,7 @@ namespace DesignPatterns.FlyweightPattern
 {
     public class ShapeFactoryFlyweight
     {
-        private static readonly Dictionary<string, IShape> circleMap = new Dictionary<string, IShape>();
+        private static readonly Dictionary<string, IShape> CircleMap = new Dictionary<string, IShape>();
 
         public CircleFlyweight CircleFlyweight
         {
@@ -14,19 +14,16 @@ namespace DesignPatterns.FlyweightPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public static IShape GetCircle(string color)
         {
-            CircleFlyweight circle = (CircleFlyweight)circleMap[color];
+            CircleFlyweight circle = (CircleFlyweight)CircleMap[color];
 
             if (circle == null)
             {
                 circle = new CircleFlyweight(color);
-                circleMap.Add(color, circle);
+                CircleMap.Add(color, circle);
                 Console.WriteLine("Creating cricle of color : " + color);
             }
 

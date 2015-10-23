@@ -4,18 +4,15 @@ namespace DesignPatterns.FlyweightPattern
 {
     public class FlyweightPatternDemo
     {
-        private static readonly Random randomNum = new Random();
+        private static readonly Random RandomNum = new Random();
 
-        private static readonly string[] _colors = { "Red", "Green", "Blue", "White", "Black" };
+        private static readonly string[] Colors = { "Red", "Green", "Blue", "White", "Black" };
 
         public ShapeFactoryFlyweight ShapeFactoryFlyweight
         {
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
 
@@ -32,17 +29,17 @@ namespace DesignPatterns.FlyweightPattern
         }
         private static string GetRandomColor()
         {
-            return _colors[randomNum.Next(0, 4)];
+            return Colors[RandomNum.Next(0, 4)];
         }
 
         private static int GetRandomX()
         {
-            return randomNum.Next(0, 4);
+            return RandomNum.Next(0, 4);
         }
 
         private static int GetRandomY()
         {
-            return randomNum.Next(0, 4);
+            return RandomNum.Next(0, 4);
         }
     }
 }
