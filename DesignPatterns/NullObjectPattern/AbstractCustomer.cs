@@ -2,7 +2,7 @@
 {
     public abstract class AbstractCustomer
     {
-        protected string _name;
+        protected string Name;
 
         public abstract bool IsNill();
         public abstract string GetName();

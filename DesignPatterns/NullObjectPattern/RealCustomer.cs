@@ -4,7 +4,7 @@
     {
         public RealCustomer(string name)
         {
-            _name = name;
+            Name = name;
         }
 
         //Override
@@ -16,7 +16,7 @@
         //Override
         public override string GetName()
         {
-            return _name;
+            return Name;
         }
     }
 }
