@@ -5,21 +5,18 @@ namespace DesignPatterns.ProxyPattern
     public class ProxyImage : IImage
     {
         private RealImage _realImage;
-        private string _fileName;
+        private readonly string _fileName;
 
         public ProxyImage(string fileName)
         {
             _fileName = fileName;
         }
 
-        public IImage IImage
+        public IImage Image
         {
             get
             {
                 throw new System.NotImplementedException();
-            }
-            set
-            {
             }
         }
 

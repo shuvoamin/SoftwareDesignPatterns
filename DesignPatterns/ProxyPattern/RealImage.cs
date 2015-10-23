@@ -5,21 +5,18 @@ namespace DesignPatterns.ProxyPattern
 {
     public class RealImage : IImage
     {
-        private string _fileName;
+        private readonly string _fileName;
 
         public RealImage(string fileName)
         {
             _fileName = fileName;
         }
 
-        public IImage IImage
+        public IImage Image
         {
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
 
