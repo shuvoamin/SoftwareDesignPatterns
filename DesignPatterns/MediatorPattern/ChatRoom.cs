@@ -6,7 +6,7 @@ namespace DesignPatterns.MediatorPattern
     {
         public static void ShowMessage(UserMediator user, string message)
         {
-            Console.WriteLine(DateTime.Now.ToString() + " [" + user.Name + "] : " + message + Environment.NewLine);
+            Console.WriteLine(DateTime.Now + " [" + user.Name + "] : " + message + Environment.NewLine);
         }
     }
 }

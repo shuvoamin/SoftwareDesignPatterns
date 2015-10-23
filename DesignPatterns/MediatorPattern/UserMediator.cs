@@ -4,13 +4,7 @@ namespace DesignPatterns.MediatorPattern
 {
     public class UserMediator
     {
-        private string _name;
-
-        public string Name 
-        { 
-            get { return _name; }
-            set { _name = value; } 
-        }
+        public string Name { get; set; }
 
         public ChatRoom ChatRoom
         {
@@ -18,14 +12,11 @@ namespace DesignPatterns.MediatorPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public UserMediator(string name)
         {
-            _name = name;
+            Name = name;
         }
 
         public void SendMessage(string message)

@@ -2,22 +2,16 @@
 {
     public class Originator
     {
-        private string _state;
-
-        public string State
-        {
-            get { return _state; }
-            set { _state = value; }
-        }
+        public string State { get; set; }
 
         public Memento SaveStateToMemento()
         {
-            return new Memento(_state);
+            return new Memento(State);
         }
 
         public void GetStateFromMemento(Memento memento)
         {
-            _state = memento.State;
+            State = memento.State;
         }
     }
 }

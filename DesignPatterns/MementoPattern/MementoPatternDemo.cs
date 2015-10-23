@@ -10,9 +10,6 @@ namespace DesignPatterns.MementoPattern
             {
                 throw new NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public CareTaker CareTaker
@@ -20,9 +17,6 @@ namespace DesignPatterns.MementoPattern
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
     

@@ -4,7 +4,7 @@ namespace DesignPatterns.MementoPattern
 {
     public class Memento
     {
-        private string _state;
+        private readonly string _state;
 
         public Memento(string state)
         {
@@ -21,9 +21,6 @@ namespace DesignPatterns.MementoPattern
             get
             {
                 throw new NotImplementedException();
-            }
-            set
-            {
             }
         }
     }

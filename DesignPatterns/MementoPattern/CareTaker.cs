@@ -4,7 +4,7 @@ namespace DesignPatterns.MementoPattern
 {
     public class CareTaker
     {
-        private List<Memento> mementoList = new List<Memento>();
+        private readonly List<Memento> _mementoList = new List<Memento>();
 
         public Memento Memento
         {
@@ -12,19 +12,16 @@ namespace DesignPatterns.MementoPattern
             {
                 throw new System.NotImplementedException();
             }
-            set
-            {
-            }
         }
 
         public void Add(Memento state)
         {
-            mementoList.Add(state);
+            _mementoList.Add(state);
         }
 
         public Memento Get(int index)
         {
-            return mementoList[index];
+            return _mementoList[index];
         }
     }
 }
