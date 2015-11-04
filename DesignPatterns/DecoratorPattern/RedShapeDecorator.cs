@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 namespace DesignPatterns.DecoratorPattern
 {
-    class RedShapeDecorator :ShapeDecorator
+    class RedShapeDecorator : ShapeDecorator
     {
         public RedShapeDecorator(IShape decoratedShape)
             :base(decoratedShape)
