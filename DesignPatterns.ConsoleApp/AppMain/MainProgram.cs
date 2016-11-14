@@ -23,6 +23,7 @@ using DesignPatterns.MementoPattern;
 using DesignPatterns.MvcPattern;
 using DesignPatterns.NullObjectPattern;
 using DesignPatterns.ObserverPattern;
+using DesignPatterns.PrototypePattern;
 using DesignPatterns.ProxyPattern;
 using DesignPatterns.ServiceLocatorPattern;
 using DesignPatterns.SingletonPattern;
@@ -33,6 +34,7 @@ using DesignPatterns.TransferObjectPattern;
 using DesignPatterns.VisitorPattern;
 using System;
 using System.Diagnostics;
+
 #endregion
 
 namespace DesignPatterns.ConsoleApp.AppMain
@@ -63,13 +65,8 @@ namespace DesignPatterns.ConsoleApp.AppMain
             Trace.WriteLine("========== BUILDER PATTERN RESULT ===========" + Environment.NewLine);
             BuilderPatternDemo.Output();
 
-            #region SeeOutput => DesignPatters.PrototypePattern.PrototypePatternOutput.txt
-            //Assuming all the codes for this pattern are right see the output in text file located its code folder.
-
-            //TODO: need to solve StackOverFlow exception
-            //Trace.WriteLine("========== PROTOTYPE PATTERN RESULT ===========" + Environment.NewLine);
-            //PrototypePatternDemo.Output(); 
-            #endregion
+            Trace.WriteLine("========== PROTOTYPE PATTERN RESULT ===========" + Environment.NewLine);
+            PrototypePatternDemo.Output();
 
             Trace.WriteLine("========== ADAPTER PATTERN RESULT ===========" + Environment.NewLine);
             AdapterPatternDemo.Output();
