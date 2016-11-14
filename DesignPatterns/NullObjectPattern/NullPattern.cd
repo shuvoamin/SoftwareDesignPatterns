@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.NullObjectPattern.AbstractCustomer">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>NullObjectPattern\AbstractCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.NullObjectPattern.CustomerFactory">
+    <Position X="8" Y="3.5" Width="1.5" />
+    <AssociationLine Name="RealCustomer" Type="DesignPatterns.NullObjectPattern.RealCustomer" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="5.055" />
+        <Point X="8.75" Y="5.742" />
+        <Point X="3.188" Y="5.742" />
+        <Point X="3.188" Y="5.367" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAIBAIA=</HashCode>
+      <FileName>NullObjectPattern\CustomerFactory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="NullCustomer" />
+      <Property Name="RealCustomer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.NullObjectPattern.NullCustomer">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>NullObjectPattern\NullCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.NullObjectPattern.NullPatternDemo">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NullObjectPattern\NullPatternDemo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CustomerFactory" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.NullObjectPattern.RealCustomer">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>NullObjectPattern\RealCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

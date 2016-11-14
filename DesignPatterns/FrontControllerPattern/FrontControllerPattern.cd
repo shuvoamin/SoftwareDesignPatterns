@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.FrontControllerPattern.Dispatcher">
+    <Position X="7" Y="1.25" Width="1.75" />
+    <AssociationLine Name="StudentView" Type="DesignPatterns.FrontControllerPattern.StudentView">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.109" Y="0.05" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>EAgAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAASAAA=</HashCode>
+      <FileName>FrontControllerPattern\Dispatcher.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HomeView" />
+      <Property Name="StudentView" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.FrontControllerPattern.FrontController">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAQAAAAAAAAAAAACAAAAAAAEgAAAAAAA=</HashCode>
+      <FileName>FrontControllerPattern\FrontController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Dispatcher" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.FrontControllerPattern.FrontControllerPatternDemo">
+    <Position X="2.75" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrontControllerPattern\FrontControllerPatternDemo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FrontController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.FrontControllerPattern.HomeView">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrontControllerPattern\HomeView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.FrontControllerPattern.StudentView">
+    <Position X="8.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FrontControllerPattern\StudentView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

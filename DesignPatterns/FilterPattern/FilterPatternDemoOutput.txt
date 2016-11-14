@@ -1,0 +1,21 @@
+﻿Males: 
+Person : [ Name : Robert, Gender : Male, Marital Status : Single ]
+Person : [ Name : John, Gender : Male, Marital Status : Married ]
+Person : [ Name : Mike, Gender : Male, Marital Status : Single ]
+Person : [ Name : Bobby, Gender : Male, Marital Status : Single ]
+
+Females: 
+Person : [ Name : Laura, Gender : Female, Marital Status : Married ]
+Person : [ Name : Diana, Gender : Female, Marital Status : Single ]
+
+Single Males: 
+Person : [ Name : Robert, Gender : Male, Marital Status : Single ]
+Person : [ Name : Mike, Gender : Male, Marital Status : Single ]
+Person : [ Name : Bobby, Gender : Male, Marital Status : Single ]
+
+Single Or Females: 
+Person : [ Name : Robert, Gender : Male, Marital Status : Single ]
+Person : [ Name : Diana, Gender : Female, Marital Status : Single ]
+Person : [ Name : Mike, Gender : Male, Marital Status : Single ]
+Person : [ Name : Bobby, Gender : Male, Marital Status : Single ]
+Person : [ Name : Laura, Gender : Female, Marital Status : Married ]

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.DataAccessObjectPattern.DaoPatternDemo">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>DataAccessObjectPattern\DaoPatternDemo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="StudentDao" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.DataAccessObjectPattern.StudentDao">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>DataAccessObjectPattern\StudentDao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.DataAccessObjectPattern.StudentDaoImplementation">
+    <Position X="5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAEAAAEAAAAAAAAAAAAAAAAAQBAAgAAAAA=</HashCode>
+      <FileName>DataAccessObjectPattern\StudentDaoImplementation.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="StudentDao" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DesignPatterns.Interfaces.IStudentDao">
+    <Position X="5" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAEAAAAAAAAAAAAAAAAAQBAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IStudentDao.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

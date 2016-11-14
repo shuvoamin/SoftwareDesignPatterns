@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.InterceptingFilterPattern.AuthenticationFilter">
+    <Position X="9" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterceptingFilterPattern\AuthenticationFilter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Filter" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.InterceptingFilterPattern.ClientFilter">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAABAAAAAAEACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterceptingFilterPattern\ClientFilter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FilterManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.InterceptingFilterPattern.DebugFilter">
+    <Position X="6.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterceptingFilterPattern\DebugFilter.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Filter" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.InterceptingFilterPattern.FilterChain">
+    <Position X="1.5" Y="3.75" Width="1.5" />
+    <AssociationLine Name="Filter" Type="DesignPatterns.Interfaces.IFilter" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.562" Y="3.75" />
+        <Point X="2.562" Y="3.312" />
+        <Point X="7.75" Y="3.312" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAQAAAIAACAAQBAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>InterceptingFilterPattern\FilterChain.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Target" />
+      <Property Name="Filter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.InterceptingFilterPattern.FilterManager">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQBAAAAAAAAAAAABAIAAAAAAAAA=</HashCode>
+      <FileName>InterceptingFilterPattern\FilterManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FilterChain" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.InterceptingFilterPattern.InterceptingFilterPatternDemo">
+    <Position X="7.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>InterceptingFilterPattern\InterceptingFilterPatternDemo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ClientFilter" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DesignPatterns.InterceptingFilterPattern.Target">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InterceptingFilterPattern\Target.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignPatterns.Interfaces.IFilter">
+    <Position X="7.75" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFilter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DesignPatterns.FilterPattern.AndCriteria">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FilterPattern\AndCriteria.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ICriteria" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.FilterPattern.CriteriaFemale">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FilterPattern\CriteriaFemale.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ICriteria" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.FilterPattern.CriteriaMale">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FilterPattern\CriteriaMale.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ICriteria" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.FilterPattern.CriteriaSingle">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FilterPattern\CriteriaSingle.cs</FileName>
+      <NewMemberFileName>FilterPattern\CriteriaMale.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ICriteria" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.FilterPattern.OrCriteria">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FilterPattern\OrCriteria.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ICriteria" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns.FilterPattern.Person">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAEAAAAAAAAAAAAAAAAgAAAAAAEAAQAAAAAAAAABAA=</HashCode>
+      <FileName>FilterPattern\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns.FilterPattern.FilterPatternDemo">
+    <Position X="7.5" Y="5" Width="1.75" />
+    <AssociationLine Name="OrCriteria" Type="DesignPatterns.FilterPattern.OrCriteria">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.275" Y="0.07" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="AndCriteria" Type="DesignPatterns.FilterPattern.AndCriteria" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="5.674" />
+        <Point X="6.333" Y="5.674" Type="JumpStart" />
+        <Point X="6.167" Y="5.674" Type="JumpEnd" />
+        <Point X="1.969" Y="5.674" />
+        <Point X="1.969" Y="4.44" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AIAAAAABEACABAAAAAAIAAAIAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>FilterPattern\FilterPatternDemo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CriteriaFemale" />
+      <Property Name="CriteriaSingle" />
+      <Property Name="OrCriteria" />
+      <Property Name="AndCriteria" />
+      <Property Name="Person" />
+    </ShowAsAssociation>
+  </Class>
+  <Interface Name="DesignPatterns.Interfaces.ICriteria">
+    <Position X="1.25" Y="0.5" Width="9.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICriteria.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

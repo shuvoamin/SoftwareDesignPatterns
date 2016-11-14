@@ -1,0 +1,7 @@
+﻿namespace DesignPatterns.Interfaces
+{
+    public interface IMediaPlayer
+    {
+        void Play(string audioType, string fileName);
+    }
+}
