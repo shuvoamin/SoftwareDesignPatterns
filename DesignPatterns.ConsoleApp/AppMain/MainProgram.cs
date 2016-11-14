@@ -1,6 +1,4 @@
 ﻿#region Namespaces
-using System;
-using System.Diagnostics;
 using DesignPatterns.AbstractFactoryPattern;
 using DesignPatterns.AdapterPattern;
 using DesignPatterns.BridgePattern;
@@ -15,6 +13,7 @@ using DesignPatterns.DecoratorPattern;
 using DesignPatterns.FacadePattern;
 using DesignPatterns.FactoryPattern;
 using DesignPatterns.FilterPattern;
+using DesignPatterns.FlyweightPattern;
 using DesignPatterns.FrontControllerPattern;
 using DesignPatterns.InterceptingFilterPattern;
 using DesignPatterns.InterpreterPattern;
@@ -32,6 +31,8 @@ using DesignPatterns.StrategyPattern;
 using DesignPatterns.TemplatePattern;
 using DesignPatterns.TransferObjectPattern;
 using DesignPatterns.VisitorPattern;
+using System;
+using System.Diagnostics;
 #endregion
 
 namespace DesignPatterns.ConsoleApp.AppMain
@@ -88,15 +89,8 @@ namespace DesignPatterns.ConsoleApp.AppMain
             Trace.WriteLine("========== FACADE PATTERN RESULT ===========" + Environment.NewLine);
             FacadePatternDemo.Output();
 
-            #region SeeOutput => DesignPatterns.FlyweightPattern.FlyweightPatternOutput.txt
-            //the original implementation of this pattern done by Java HashMap which supports null keys
-            //and adding duplicate keys. C# doesn't support this feature.
-            //Assuming all the codes for this pattern are right see the output in text file located its code folder.
-
-            //TODO: C# dictionary cannot add a null key and cannot assign a duplicate key => need to fix
-            //Trace.WriteLine("========== FLYWEIGHT PATTERN RESULT ===========" + Environment.NewLine);
-            //FlyweightPatternDemo.Output(); 
-            #endregion
+            Trace.WriteLine("========== FLYWEIGHT PATTERN RESULT ===========" + Environment.NewLine);
+            FlyweightPatternDemo.Output();
 
             Trace.WriteLine("========== PROXY PATTERN RESULT ===========" + Environment.NewLine);
             ProxyPatternDemo.Output();
@@ -161,7 +155,7 @@ namespace DesignPatterns.ConsoleApp.AppMain
             Trace.WriteLine("========== TRANSFER OBJECT PATTERN RESULT ===========" + Environment.NewLine);
             TransferObjectPatternDemo.Output();
 
-            Trace.WriteLine("=================== ROGRAM ENDS HERE ==================="); 
+            Trace.WriteLine("=================== ROGRAM ENDS HERE ===================");
             #endregion
 
             Trace.Unindent();

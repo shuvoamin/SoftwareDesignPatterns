@@ -1,14 +1,11 @@
 ﻿using DesignPatterns.Interfaces;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace DesignPatterns.FlyweightPattern
 {
     public class ShapeFactoryFlyweight
     {
-        private static readonly Dictionary<string, IShape> CircleMap = new Dictionary<string, IShape>();
-
         public CircleFlyweight CircleFlyweight
         {
             get
@@ -19,14 +16,8 @@ namespace DesignPatterns.FlyweightPattern
 
         public static IShape GetCircle(string color)
         {
-            var circle = (CircleFlyweight)CircleMap[color];
-
-            if (circle == null)
-            {
-                circle = new CircleFlyweight(color);
-                CircleMap.Add(color, circle);
-                Trace.WriteLine("Creating cricle of color : " + color);
-            }
+            var circle = new CircleFlyweight(color);
+            Trace.WriteLine("Creating cricle of color : " + color);
 
             return circle;
         }
